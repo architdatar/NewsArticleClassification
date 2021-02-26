@@ -4,10 +4,12 @@
 #instal packages if you did not use them before. Ignore this step if you have these packages installed. 
 install.packages("quanteda")
 install.packages("readtext")
+install.packages("stringr")
 
 #load the library
 library(quanteda)
 library(readtext)
+library(stringr)
 
 #read in the file using the readtext package
 data <- readtext("data_to_group.csv", text_field = "title")
