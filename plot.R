@@ -1,17 +1,3 @@
----
-title: "EDA Report"
-author: "Bobby Lumpkin"
-date: 
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Text Preprocessing
-
-```{r preprocessing}
 ####################
 #text preprocessing#
 ####################
@@ -26,7 +12,7 @@ library(readtext)
 library(stringr)
 
 #read in the file using the readtext package
-data <- readtext("data_to_group.csv", text_field = "title")
+data <- readtext("E:\\osu\\machine_learning\\NewsArticleClassification\\data_to_group.csv", text_field = "title")
 
 #clean text
 data[["text"]] <-  stringr::str_replace_all(data[["text"]],"[^a-zA-Z\\s]", " ")
@@ -69,11 +55,10 @@ titles_dataframe <- convert(titles_dfm, to = "data.frame", docid_field = "doc_id
 
 #add the document-level variables to the data frame
 ready_to_use <- merge(x = titles_dataframe, y = data, by = "doc_id", all = TRUE)
-```
 
 ## Exploring the Data
 
-```{r initial look}
+#{r initial look}
 # remove the non-binary data from original data set (what existed before pre-processing)
 original_cols <- colnames(data)
 drop_cols <- original_cols[!(original_cols %in% c('doc_id', 'related'))]
@@ -92,7 +77,7 @@ table(ready_to_use_NoOriginalData$related)
 table(ready_to_use_NoOriginalData$related) / nrow(ready_to_use)
 
 #Below, we look to see what proportion of "related" articles have a given word in their title, what proportion of "non-related" articles have a word in their title, and the words with largest absolute difference between those two groups. These words might be most useful as features.
-```{r examining predictors}
+#{r examining predictors}
 ## proportion of related articles that include words in title
 related_cases <- ready_to_use_NoOriginalData[ready_to_use_NoOriginalData$related == 1, ][,-1]
 related_cases <- related_cases[ , which(colnames(related_cases) != 'related')]
@@ -112,7 +97,7 @@ abs_diff_means <- abs(related_cases_means - non_related_cases_means)
 
 ## Round and sort the differences
 sorted_diffs <- round(sort(abs_diff_means, decreasing = TRUE), digits = 4)
-sorted_diffs[1:10]
+sorted_diffs[1:50]
 
 ##Plot section by Haihang Wu
 # difference between related case and non relative case
@@ -126,7 +111,7 @@ plot(sorted_diffs, xlab = "", ylab = "related-unrelated",
 main = "Absolute Difference in average percentage")
 abline(h=0, lty=2)
 
-#We will consider the top 50 predictors in absolute difference value for the following analysis; we draw box plot to visualize it
+##We will consider the top 50 predictors in absolute difference value for the following analysis; we draw box plot to visualize it
 #top 1-5 variable that has positive effect in related
 par(mfrow = c(1,5))
 boxplot(trump ~ related, main = "trump", data = ready_to_use_NoOriginalData)
