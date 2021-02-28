@@ -1,0 +1,8 @@
+This directory contains files for scraping the news article data from the web. This is not intended to be reporoducible unless the user 
+has and can use Scrapy. The only relevant files are the foxnews.py where the function is listed. 
+In order to reproduce this properly, please download scrapy, generate a spider and and use the foxnews.py file.  
+
+Notes:
+ID: 4265: the scraping is wrong because it is not a news article. It is a live update tracker, which has now been discontinued.
+For wsj.com, i am not able to scrape. The Xpath selector works on the website, but not on the downloaded respose. Anyways, it is just 4 articles, so i think we can ignore them. 
+ 

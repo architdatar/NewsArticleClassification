@@ -2,9 +2,9 @@
 #text preprocessing#
 ####################
 #instal packages if you did not use them before. Ignore this step if you have these packages installed. 
-install.packages("quanteda")
-install.packages("readtext")
-install.packages("stringr")
+#install.packages("quanteda")
+#install.packages("readtext")
+#install.packages("stringr")
 
 #load the library
 library(quanteda)
