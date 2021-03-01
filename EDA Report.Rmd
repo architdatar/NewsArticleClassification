@@ -14,13 +14,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Introduction
 
-Our project focuses on classification of news articles covering the White House's delivery of news related to covid-19. We begin with a sample of about 8000 articles from ten mainstream media outlets which were selected using a keyword search. All of these articles are related to covid-19 and the White House in some way; however, not all are focused on White House covid briefings, which is the desired focus of our research. 
+Our project focuses on classification of news articles covering the White House's delivery of news related to covid-19. We begin with a sample of about 8000+ articles from ten mainstream media outlets which were selected using a keyword search. All of these articles are related to covid-19 and the White House in some way; however, not all are focused on White House covid briefings, which is the desired focus of our research. 
 1022 of the articles in our sample have been classified by hand into:   
 0 = "not related to White House briefings about covid-19" or   
 1 = "related to White House briefings about covid-19"   
 (Note: these articles were randomly selected from the larger sample, so they should be representative of the full sample of articles.)
 
-Our goal will be to use this sample to build a classifier for the remaining articles. We will do this using the counts of various words that appear in the articles' text; in this exploratory data analysis, we will examine which words may be the most useful as predictors.  
+Our goal will be to use this sample to build a classifier for the remaining articles. We will do this using the counts of various words that appear in the articles' text; in this exploratory data analysis, we will examine which words may be the most useful as predictors. 
+
+After all the news articles are classified, we will next classify the relavant articles into multiple categories based on the content, such as threat of covid-19, organizational response, self-congratualation, criticizing the government, etc. We will also conduct sentiment analysis to analyze the tone of the news articles. These two steps will not be covered in the exploratory data analysis as our dataset is not clean yet. 
 
 ## Text Preprocessing
 
