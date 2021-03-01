@@ -116,6 +116,7 @@ head(sorted_diffs, 10)
 # difference between related case and non relative case
 diff_means <- related_cases_means - non_related_cases_means
 round(sort(diff_means, decreasing = TRUE), digits = 4)
+head(round(sort(diff_means, decreasing = TRUE), digits = 4), 10)
 # visualize the differences
 plot(sort(diff_means, decreasing = TRUE), xlab = "", ylab = "related-unrelated",
 main = "Difference in average percentage")
@@ -128,37 +129,37 @@ abline(h=0, lty=2)
 #top 1-5 variable that has positive effect in related
 par(mfrow = c(1,5))
 boxplot(trump ~ related, main = "trump", data = ready_to_use_NoOriginalData)
-boxplot(coronavirus ~ related, main = "coronavirus", data = ready_to_use_NoOriginalData)
-boxplot(respons ~ related, main = "respons", data = ready_to_use_NoOriginalData)
-boxplot(fauci ~ related, main = "fauci", data = ready_to_use_NoOriginalData)
-boxplot(check ~ related, main = "check", data = ready_to_use_NoOriginalData)
+boxplot(presid  ~ related, main = "presid", data = ready_to_use_NoOriginalData)
+boxplot(hous ~ related, main = "hous", data = ready_to_use_NoOriginalData)
+boxplot(white ~ related, main = "white", data = ready_to_use_NoOriginalData)
+boxplot(american ~ related, main = "american", data = ready_to_use_NoOriginalData)
 
 dev.new()
 #top 5-10 variable that has positive effect in related; smallest difference value is 0.0238
 par(mfrow = c(1,5))
-boxplot(white ~ related, main = "white", data = ready_to_use_NoOriginalData)
-boxplot(hous ~ related, main = "hous", data = ready_to_use_NoOriginalData)
-boxplot(brief ~ related, main = "brief", data = ready_to_use_NoOriginalData)
-boxplot(fact ~ related, main = "fact", data = ready_to_use_NoOriginalData)
-boxplot(dr ~ related, main = "dr", data = ready_to_use_NoOriginalData)
+boxplot(us ~ related, main = "us", data = ready_to_use_NoOriginalData)
+boxplot(fauci ~ related, main = "fauci", data = ready_to_use_NoOriginalData)
+boxplot(test ~ related, main = "test", data = ready_to_use_NoOriginalData)
+boxplot(said ~ related, main = "said", data = ready_to_use_NoOriginalData)
+boxplot(administr ~ related, main = "administr", data = ready_to_use_NoOriginalData)
 
 dev.new()
 #top 1-5 variable that has negative effect in related;
 par(mfrow = c(1,5))
 boxplot(state ~ related, main = "state", data = ready_to_use_NoOriginalData)
+boxplot(counti ~ related, main = "counti", data = ready_to_use_NoOriginalData)
+boxplot(citi ~ related, main = "citi", data = ready_to_use_NoOriginalData)
+boxplot(order ~ related, main = "order", data = ready_to_use_NoOriginalData)
 boxplot(case ~ related, main = "case", data = ready_to_use_NoOriginalData)
-boxplot(quarantin ~ related, main = "quarantin ", data = ready_to_use_NoOriginalData)
-boxplot(close ~ related, main = "close ", data = ready_to_use_NoOriginalData)
-boxplot(home ~ related, main = "home ", data = ready_to_use_NoOriginalData)
 
 dev.new()
 #top 5-10 variable that has negative effect in related; smallest difference value is -0.0199
 par(mfrow = c(1,5))
-boxplot(senat ~ related, main = "senate ", data = ready_to_use_NoOriginalData)
-boxplot(covid ~ related, main = "covid ", data = ready_to_use_NoOriginalData)
-boxplot(around ~ related, main = "around ", data = ready_to_use_NoOriginalData)
-boxplot(cuomo ~ related, main = "cuomo ", data = ready_to_use_NoOriginalData)
-boxplot(south ~ related, main = "south ", data = ready_to_use_NoOriginalData)
+boxplot(new ~ related, main = "new", data = ready_to_use_NoOriginalData)
+boxplot(gov ~ related, main = "gov", data = ready_to_use_NoOriginalData)
+boxplot(home ~ related, main = "home", data = ready_to_use_NoOriginalData)
+boxplot(cavuto ~ related, main = "cavuto", data = ready_to_use_NoOriginalData)
+boxplot(polic ~ related, main = "polic", data = ready_to_use_NoOriginalData)
 
 ```
 
