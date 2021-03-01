@@ -171,35 +171,35 @@ boxplot(polic ~ related, main = "polic", data = ready_to_use_NoOriginalData)
 influential_variables <- names(sorted_diffs)[1:20]
 
 dev.new()
-par(mfrow = c(1,3), cex=0.8, mar=c(1,1,0.5,0.5) )
+par(mfrow = c(1,3), cex=0.8, mar=c(3,3,0.5,0.5) )
 
 #Strong positive
 boxplot(trump ~ related, main = "trump", data = ready_to_use_NoOriginalData)
-boxplot(coronavirus ~ related, main = "coronavirus", data = ready_to_use_NoOriginalData)
-boxplot(respons ~ related, main = "respons", data = ready_to_use_NoOriginalData)
-boxplot(fauci ~ related, main = "fauci", data = ready_to_use_NoOriginalData)
-boxplot(check ~ related, main = "check", data = ready_to_use_NoOriginalData)
+boxplot(coronavirus ~ related, main = "presid", data = ready_to_use_NoOriginalData)
+boxplot(respons ~ related, main = "hous", data = ready_to_use_NoOriginalData)
+boxplot(fauci ~ related, main = "white", data = ready_to_use_NoOriginalData)
+boxplot(check ~ related, main = "american", data = ready_to_use_NoOriginalData)
 
 #Mild positive.
-boxplot(white ~ related, main = "white", data = ready_to_use_NoOriginalData)
-boxplot(hous ~ related, main = "hous", data = ready_to_use_NoOriginalData)
-boxplot(brief ~ related, main = "brief", data = ready_to_use_NoOriginalData)
-boxplot(fact ~ related, main = "fact", data = ready_to_use_NoOriginalData)
-boxplot(dr ~ related, main = "dr", data = ready_to_use_NoOriginalData)
+boxplot(white ~ related, main = "us", data = ready_to_use_NoOriginalData)
+boxplot(hous ~ related, main = "fauci", data = ready_to_use_NoOriginalData)
+boxplot(brief ~ related, main = "test", data = ready_to_use_NoOriginalData)
+boxplot(fact ~ related, main = "said", data = ready_to_use_NoOriginalData)
+boxplot(dr ~ related, main = "administr", data = ready_to_use_NoOriginalData)
 
 #mild negative
 boxplot(state ~ related, main = "state", data = ready_to_use_NoOriginalData)
-boxplot(case ~ related, main = "case", data = ready_to_use_NoOriginalData)
-boxplot(quarantin ~ related, main = "quarantin ", data = ready_to_use_NoOriginalData)
-boxplot(close ~ related, main = "close ", data = ready_to_use_NoOriginalData)
-boxplot(home ~ related, main = "home ", data = ready_to_use_NoOriginalData)
+boxplot(case ~ related, main = "counti", data = ready_to_use_NoOriginalData)
+boxplot(quarantin ~ related, main = "citi", data = ready_to_use_NoOriginalData)
+boxplot(close ~ related, main = "order", data = ready_to_use_NoOriginalData)
+boxplot(home ~ related, main = "case", data = ready_to_use_NoOriginalData)
 
 #Strong negative.
-boxplot(senat ~ related, main = "senate ", data = ready_to_use_NoOriginalData)
-boxplot(covid ~ related, main = "covid ", data = ready_to_use_NoOriginalData)
-boxplot(around ~ related, main = "around ", data = ready_to_use_NoOriginalData)
-boxplot(cuomo ~ related, main = "cuomo ", data = ready_to_use_NoOriginalData)
-boxplot(south ~ related, main = "south ", data = ready_to_use_NoOriginalData)
+boxplot(senat ~ related, main = "new", data = ready_to_use_NoOriginalData)
+boxplot(covid ~ related, main = "gov", data = ready_to_use_NoOriginalData)
+boxplot(around ~ related, main = "home", data = ready_to_use_NoOriginalData)
+boxplot(cuomo ~ related, main = "cavuto", data = ready_to_use_NoOriginalData)
+boxplot(south ~ related, main = "polic", data = ready_to_use_NoOriginalData)
 ```
 \
 From the foregoing plots, we  can see that most variables are taking values between 0 and 1. Most of them don't show appreciable differenes between the means of the two groups. 
@@ -208,13 +208,17 @@ This might be because we are just using words from the title, which might too sm
 
 ```{r PCA, fig.show="hold", out.width=0.5}
 #pr <- prcomp(ready_to_use_NoOriginalData[, influential_variables], center=TRUE, #scale.=TRUE)
-pr <- prcomp(ready_to_use_NoOriginalData[, names(sorted_diffs)[1:50]], center=TRUE, scale.=TRUE)
+pr <- prcomp(ready_to_use_NoOriginalData[, names(sorted_diffs)[1:50]], center=TRUE, scale.=TRUE, rank=5)
 pr$sdev
-
+pr$sdev^2 / sum(pr$sdev^2) ## To show the percetntages
+pr$rotation
 dev.new()
-par(mfrow = c(1,3), cex=0.8, mar=c(1,1,0.5,0.5) )
-plot(pr$x[,1], pr$x[,2])
+
+par(mfrow = c(1,3), cex=0.8, mar=c(4,4,0.5,0.5) )
+
+plot(pr$x[,1], pr$x[,2], xlab="PC-1", ylab="PC-2")
 ```
 
-From the PCA, we can see that the variances are almost equally distributed among all principal components, and at least the first 50 components cannot be ignored. 
-It is hard to draw conclusions about what each of the components represent. 
+From the PCA, we can see that the variances for the first 5 components represent > 50% of the data, but those from the other components cannot be neglected. \
+Also, it is, in general, hard to draw inferences about the first few components from the words as features. The first component, however, reprensents the sum of the features associated with all the words, while the second component represents the differenes in the features associated with America-specific words such as "trump", "presid", "hous", "white", "fauci" and more general words like "state", "citi", "coronavirus", "virus", "public".   
+
