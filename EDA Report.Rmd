@@ -293,23 +293,32 @@ boxplot(south ~ related, main = "polic", data = ready_to_use_NoOriginalData)
 
 ```{r PCA, fig.show="hold", out.width=0.5}
 #pr <- prcomp(ready_to_use_NoOriginalData[, influential_variables], center=TRUE, #scale.=TRUE)
-pr <- prcomp(ready_to_use_NoOriginalData[, names(sorted_diffs)[1:50]], center=TRUE, scale.=TRUE, rank=5)
-pr$sdev
-pr$sdev^2 / sum(pr$sdev^2) ## To show the percetntages
-pr$rotation
+pr <- prcomp(ready_to_use_NoOriginalData[, names(sorted_diffs)[1:50]], center=TRUE, scale.=TRUE)
+#pr$sdev
+pr$sdev[1:5]^2 / sum(pr$sdev^2) ## To show the percentages
+pr$rotation[, 1:2]
 
 ```
 
 Plot the first vs. second principal component scores:
 ```{R}
+par(mfrow = c(1,1), cex=0.8, mar=c(4,4,0.5,0.5) )
 
-par(mfrow = c(1,3), cex=0.8, mar=c(4,4,0.5,0.5) )
+related_indices <- (ready_to_use_NoOriginalData["related"]==1)
 
-plot(pr$x[,1], pr$x[,2], xlab="PC-1", ylab="PC-2")
+#plot(pr$x[,1], pr$x[,2], xlab="PC-1", ylab="PC-2")
+plot(pr$x[related_indices, 1], pr$x[related_indices,2], xlab="PC-1", ylab="PC-2", col="red", pch=1)
+points(pr$x[!related_indices,1], pr$x[!related_indices,2], col="blue", pch=1)
+legend(-2,-10, legend=c("Related", "Unrelated"), col=c("red", "blue"), pch=1)
+
 ```
 
-From the PCA, we can see that the variances for the first 5 components represent > 50% of the data, but those from the other components cannot be neglected. 
-Also, it is, in general, hard to draw inferences about the first few components from the words as features. The first component, however, reprensents the sum of the features associated with all the words, while the second component represents the differenes in the features associated with America-specific words such as "trump", "presid", "hous", "white", "fauci" and more general words like "state", "citi", "coronavirus", "virus", and "public".   
+From the PCA, we can see that the variances for the first 5 components represent > 50% of the data, but those from the other components cannot be neglected. \
+
+Also, it is, in general, hard to draw inferences about the first few components from the words as features. The first component, however, reprensents the sum of the features associated with all the words, while the second component represents the differenes in the features associated with America-specific words such as "trump", "presid", "hous", "white", "fauci" and more general words like "state", "citi", "coronavirus", "virus", and "public". 
+\
+By visualizing the data along the 1st and 2nd components, we can see that the related points seem to be at a higher value of the 2nd component. This makes sense since the the second component seems to represent the differences between the values for related and unrelated words. There seems to be a great deal of skew in the data, especially in the first component. 
+Regardless, it does seem that the related and unrelated articles are at least somewhat different based on the features we have used, indicating that they have at least some predictive power. 
 
 ## Conclusions
 
