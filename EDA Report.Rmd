@@ -1,17 +1,39 @@
 ---
-title: "EDA Report"
-author: "Bobby Lumpkin"
-date: 
-output: html_document
+title: 'News Article Classification: EDA Report'
+author: "Lauren Contard, Archit Datar, Bobby Lumpkin, Yue Li, Haihang Wu"
+date: "3/1/2021"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
+
+## Introduction
+
+Our project focuses on classification of news articles covering the White House's delivery of news related to covid-19. We begin with a sample of about 8000+ articles from ten mainstream media outlets which were selected using a keyword search. All of these articles are related to covid-19 and the White House in some way; however, not all are focused on White House covid briefings, which is the desired focus of our research. 
+1022 of the articles in our sample have been classified by hand into:   
+0 = "not related to White House briefings about covid-19" or   
+1 = "related to White House briefings about covid-19"   
+(Note: these articles were randomly selected from the larger sample, so they should be representative of the full sample of articles.)
+
+Our goal will be to use this sample to build a classifier for the remaining articles. We will do this using the counts of various words that appear in the articles' text; in this exploratory data analysis, we will examine which words may be the most useful as predictors. 
+
+After all the news articles are classified, we will next classify the relavant articles into multiple categories based on the content, such as threat of covid-19, organizational response, self-congratualation, criticizing the government, etc. We will also conduct sentiment analysis to analyze the tone of the news articles. These two steps will not be covered in the exploratory data analysis as our dataset is not clean yet. 
 
 ## Text Preprocessing
 
-```{r preprocessing}
+We began by processing the text of the 1022 classified articles using the "quanteda" package. In this step we:  
+-created tokens for all words that appear  
+-removed stop words such as "a", "the", etc.  
+-stemmed the tokens, e.g. converting "learning" and "learned" to "learn"  
+-filtered out words that appear in less than 2.5% and more than 97.5% of articles, as these words may be less useful for prediction
+
+
+```{r preprocessing, include=FALSE}
 ####################
 #text preprocessing#
 ####################
@@ -55,10 +77,16 @@ wh_dfm <- dfm(wh_tokens)
 
 #trim the text with dfm_trim. filter out words that appear less than 2.5% and more than 97.5% because these words may be less useful for prediction.
 wh_dfm_trim <- dfm_trim(wh_dfm, min_docfreq = 0.025, max_docfreq = 0.975, docfreq_type = "prop")
+```
 
+The head of the  document-feature matrix is below:
+
+```{r}
 #take a look at the dfm.
 head(dfm_sort(wh_dfm_trim, decreasing =TRUE, margin = "both"), n = 10, nf = 10)
+```
 
+```{r}
 #create tf-idf (term-frequency-inverse-ducument-frequency), which is often used as a weighting factor in search for important words to a document in a collection or corpus. (https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 #you can skip this step for now.
 titles_tfidf <- dfm_tfidf(wh_dfm_trim)
@@ -72,23 +100,36 @@ ready_to_use <- merge(x = wh_dataframe, y = data, by = "doc_id", all = TRUE)
 
 ## Exploring the Data
 
+We now have a data frame with the counts of each tokenized word. 15,267 words were included; the first 50 words are shown here as examples:
+
 ```{r initial look}
 # remove the non-binary data from original data set (what existed before pre-processing)
 drop_cols <- c("text.y", "V1", "id.y", "title", "url", "seendate", "socialimage", "domain.y", "language", "sourcecountry", "Index", "Article_text")
 ready_to_use_NoOriginalData <- ready_to_use[ , !(names(ready_to_use) %in% drop_cols)]
 
 # Check the data dimension
-dim(ready_to_use_NoOriginalData)
+#dim(ready_to_use_NoOriginalData)
 
 # See some of the variable names
 names(ready_to_use_NoOriginalData)[0:50]
+```
 
+We can now compare the distribution of words in the relevant and irrelevant articles. The distribution of the response is:
+```{R}
 # Distribution of the response
 table(ready_to_use_NoOriginalData$related)
 
 # Sample proportion
 table(ready_to_use_NoOriginalData$related) / nrow(ready_to_use)
+```
 
+i.e., about 61.1% of the articles focused on White House briefings, and 38.9% did not (based on human classification).  
+
+Below, we look to see how frequently a given word appears in related articles, vs. how frequently in non-related articles. We can then examine the words with the largest difference between those two groups. These words might be most useful as features.
+
+View the mean frequency of a word's appearance in related articles, for a sample of 10 words:
+
+```{R}
 #Below, we look to see what proportion of "related" articles have a given word in their title, what proportion of "non-related" articles have a word in their title, and the words with largest absolute difference between those two groups. These words might be most useful as features.
 ##```{r examining predictors}
 ## proportion of related articles that include words in title
@@ -97,72 +138,111 @@ related_cases <- related_cases[ , which(colnames(related_cases) != 'related')]
 
 related_cases_means <- colMeans(related_cases)
 related_cases_means[1:10]
+```
 
+And the same for non-related articles: 
+
+```{r}
 ## proportion of non-related articles that include words in title
 non_related_cases <- ready_to_use_NoOriginalData[ready_to_use_NoOriginalData$related == 0, ][,-1]
 non_related_cases <- non_related_cases[ , which(colnames(non_related_cases) != 'related')]
 
 non_related_cases_means <- colMeans(non_related_cases)
 non_related_cases_means[1:10]
+```
 
+```{R include=FALSE}
 ## Absolute difference between them
 abs_diff_means <- abs(related_cases_means - non_related_cases_means)
 
 ## Round and sort the differences
 sorted_diffs <- round(sort(abs_diff_means, decreasing = TRUE), digits = 4)
 head(sorted_diffs, 10)
+```
 
-##Plot section by Haihang Wu
+## Plotting Data
+
+The 10 largest differences (related cases - non-related cases) between these frequencies are below:
+
+```{r}
 # difference between related case and non relative case
 diff_means <- related_cases_means - non_related_cases_means
-round(sort(diff_means, decreasing = TRUE), digits = 4)
-# visualize the differences
-plot(sort(diff_means, decreasing = TRUE), xlab = "", ylab = "related-unrelated",
-main = "Difference in average percentage")
-abline(h=0, lty=2)
-plot(sorted_diffs, xlab = "", ylab = "related-unrelated",
-main = "Absolute Difference in average percentage")
-abline(h=0, lty=2)
+#round(sort(diff_means, decreasing = TRUE), digits = 4)
+head(round(sort(diff_means, decreasing = TRUE), digits = 4), 10)
+```
 
+These are the words that appear to be most strongly associated with related articles. We can visualize the distribution of raw and absolute differences in frequencies over all words:
+
+```{R}
+# visualize the differences
+plot(sort(diff_means, decreasing = TRUE), xlab = "", ylab = "Related - Unrelated",
+main = "Difference in average frequency")
+abline(h=0, lty=2)
+plot(sorted_diffs, xlab = "", ylab = "Related - Unrelated",
+main = "Absolute Difference in average frequency")
+abline(h=0, lty=2)
+```
+
+We will consider the top 50 predictors in absolute difference value for the following analysis.
+We will visualize the differences in these predictors with box plots.  
+
+The 5 variables with the strongest positive difference (i.e., more frequent in "related" than "non-related"):
+
+```{r}
 #We will consider the top 50 predictors in absolute difference value for the following analysis; we draw box plot to visualize it
 #top 1-5 variable that has positive effect in related
 par(mfrow = c(1,5))
 boxplot(trump ~ related, main = "trump", data = ready_to_use_NoOriginalData)
-boxplot(coronavirus ~ related, main = "coronavirus", data = ready_to_use_NoOriginalData)
-boxplot(respons ~ related, main = "respons", data = ready_to_use_NoOriginalData)
-boxplot(fauci ~ related, main = "fauci", data = ready_to_use_NoOriginalData)
-boxplot(check ~ related, main = "check", data = ready_to_use_NoOriginalData)
+boxplot(presid  ~ related, main = "presid", data = ready_to_use_NoOriginalData)
+boxplot(hous ~ related, main = "hous", data = ready_to_use_NoOriginalData)
+boxplot(white ~ related, main = "white", data = ready_to_use_NoOriginalData)
+boxplot(american ~ related, main = "american", data = ready_to_use_NoOriginalData)
+```
 
-dev.new()
+The variables with the next 5 strongest positive differences:
+```{r echo=FALSE}
+par(mfrow = c(1,5))
 #top 5-10 variable that has positive effect in related; smallest difference value is 0.0238
 par(mfrow = c(1,5))
-boxplot(white ~ related, main = "white", data = ready_to_use_NoOriginalData)
-boxplot(hous ~ related, main = "hous", data = ready_to_use_NoOriginalData)
-boxplot(brief ~ related, main = "brief", data = ready_to_use_NoOriginalData)
-boxplot(fact ~ related, main = "fact", data = ready_to_use_NoOriginalData)
-boxplot(dr ~ related, main = "dr", data = ready_to_use_NoOriginalData)
+boxplot(us ~ related, main = "us", data = ready_to_use_NoOriginalData)
+boxplot(fauci ~ related, main = "fauci", data = ready_to_use_NoOriginalData)
+boxplot(test ~ related, main = "test", data = ready_to_use_NoOriginalData)
+boxplot(said ~ related, main = "said", data = ready_to_use_NoOriginalData)
+boxplot(administr ~ related, main = "administr", data = ready_to_use_NoOriginalData)
+```
 
-dev.new()
+The 5 variables with the strongest negative differences (i.e., more frequent in "non-related" than "related":
+
+```{r echo=FALSE}
 #top 1-5 variable that has negative effect in related;
 par(mfrow = c(1,5))
 boxplot(state ~ related, main = "state", data = ready_to_use_NoOriginalData)
+boxplot(counti ~ related, main = "counti", data = ready_to_use_NoOriginalData)
+boxplot(citi ~ related, main = "citi", data = ready_to_use_NoOriginalData)
+boxplot(order ~ related, main = "order", data = ready_to_use_NoOriginalData)
 boxplot(case ~ related, main = "case", data = ready_to_use_NoOriginalData)
-boxplot(quarantin ~ related, main = "quarantin ", data = ready_to_use_NoOriginalData)
-boxplot(close ~ related, main = "close ", data = ready_to_use_NoOriginalData)
-boxplot(home ~ related, main = "home ", data = ready_to_use_NoOriginalData)
-
-dev.new()
-#top 5-10 variable that has negative effect in related; smallest difference value is -0.0199
-par(mfrow = c(1,5))
-boxplot(senat ~ related, main = "senate ", data = ready_to_use_NoOriginalData)
-boxplot(covid ~ related, main = "covid ", data = ready_to_use_NoOriginalData)
-boxplot(around ~ related, main = "around ", data = ready_to_use_NoOriginalData)
-boxplot(cuomo ~ related, main = "cuomo ", data = ready_to_use_NoOriginalData)
-boxplot(south ~ related, main = "south ", data = ready_to_use_NoOriginalData)
-
 ```
 
-```{r PCA}
+And the variables with the next 5 strongest negative differences:
+```{r echo=FALSE}
+#top 5-10 variable that has negative effect in related; smallest difference value is -0.0199
+par(mfrow = c(1,5))
+boxplot(new ~ related, main = "new", data = ready_to_use_NoOriginalData)
+boxplot(gov ~ related, main = "gov", data = ready_to_use_NoOriginalData)
+boxplot(home ~ related, main = "home", data = ready_to_use_NoOriginalData)
+boxplot(cavuto ~ related, main = "cavuto", data = ready_to_use_NoOriginalData)
+boxplot(polic ~ related, main = "polic", data = ready_to_use_NoOriginalData)
+```
+
+In general, it seems that all of these words have heavily right-skewed distributions. In other words, any given word does not appear in most articles, but appears many times in a few articles. This is to be expected, but may need to be taken into account if we attempt to use classification methods that require assumptions on the distribution of the predictors. 
+
+Further, we can see that the differences in distributions appear to be larger for the positive effects. There are more words that clearly appear more frequently in related articles, than there are words that clearly appear more frequently in non-related articles. This makes sense, as the related articles are, by definition, all about the same topic, while the non-related articles may be about many different topics that happen to mention certain covid-related keywords. Thus, we expect less variation among the related articles. This suggests that the predictors with positive differences may end up being the most useful in classification.  
+
+## Principal Component Analysis
+
+We also perform a principal component analysis to examine which are the most useful variables for classification. 
+
+```{r}
 ###Archit's changes.
 ##Just replotting the box plots here to visualize the previous plots. Seemed to be some problem and i wasn't able to visualize all of them. 
 
@@ -170,50 +250,77 @@ boxplot(south ~ related, main = "south ", data = ready_to_use_NoOriginalData)
 influential_variables <- names(sorted_diffs)[1:20]
 
 dev.new()
-par(mfrow = c(1,3), cex=0.8, mar=c(1,1,0.5,0.5) )
+par(mfrow = c(1,3), cex=0.8, mar=c(3,3,0.5,0.5) )
+```
 
+
+```{r eval=FALSE, include=FALSE}
+#from Lauren: not including these plots since these are no longer the most influential variables
 #Strong positive
 boxplot(trump ~ related, main = "trump", data = ready_to_use_NoOriginalData)
-boxplot(coronavirus ~ related, main = "coronavirus", data = ready_to_use_NoOriginalData)
-boxplot(respons ~ related, main = "respons", data = ready_to_use_NoOriginalData)
-boxplot(fauci ~ related, main = "fauci", data = ready_to_use_NoOriginalData)
-boxplot(check ~ related, main = "check", data = ready_to_use_NoOriginalData)
+boxplot(coronavirus ~ related, main = "presid", data = ready_to_use_NoOriginalData)
+boxplot(respons ~ related, main = "hous", data = ready_to_use_NoOriginalData)
+boxplot(fauci ~ related, main = "white", data = ready_to_use_NoOriginalData)
+boxplot(check ~ related, main = "american", data = ready_to_use_NoOriginalData)
 
 #Mild positive.
-boxplot(white ~ related, main = "white", data = ready_to_use_NoOriginalData)
-boxplot(hous ~ related, main = "hous", data = ready_to_use_NoOriginalData)
-boxplot(brief ~ related, main = "brief", data = ready_to_use_NoOriginalData)
-boxplot(fact ~ related, main = "fact", data = ready_to_use_NoOriginalData)
-boxplot(dr ~ related, main = "dr", data = ready_to_use_NoOriginalData)
+boxplot(white ~ related, main = "us", data = ready_to_use_NoOriginalData)
+boxplot(hous ~ related, main = "fauci", data = ready_to_use_NoOriginalData)
+boxplot(brief ~ related, main = "test", data = ready_to_use_NoOriginalData)
+boxplot(fact ~ related, main = "said", data = ready_to_use_NoOriginalData)
+boxplot(dr ~ related, main = "administr", data = ready_to_use_NoOriginalData)
 
 #mild negative
 boxplot(state ~ related, main = "state", data = ready_to_use_NoOriginalData)
-boxplot(case ~ related, main = "case", data = ready_to_use_NoOriginalData)
-boxplot(quarantin ~ related, main = "quarantin ", data = ready_to_use_NoOriginalData)
-boxplot(close ~ related, main = "close ", data = ready_to_use_NoOriginalData)
-boxplot(home ~ related, main = "home ", data = ready_to_use_NoOriginalData)
+boxplot(case ~ related, main = "counti", data = ready_to_use_NoOriginalData)
+boxplot(quarantin ~ related, main = "citi", data = ready_to_use_NoOriginalData)
+boxplot(close ~ related, main = "order", data = ready_to_use_NoOriginalData)
+boxplot(home ~ related, main = "case", data = ready_to_use_NoOriginalData)
 
 #Strong negative.
-boxplot(senat ~ related, main = "senate ", data = ready_to_use_NoOriginalData)
-boxplot(covid ~ related, main = "covid ", data = ready_to_use_NoOriginalData)
-boxplot(around ~ related, main = "around ", data = ready_to_use_NoOriginalData)
-boxplot(cuomo ~ related, main = "cuomo ", data = ready_to_use_NoOriginalData)
-boxplot(south ~ related, main = "south ", data = ready_to_use_NoOriginalData)
-```
-\
-From the foregoing plots, we  can see that most variables are taking values between 0 and 1. Most of them don't show appreciable differenes between the means of the two groups. 
+boxplot(senat ~ related, main = "new", data = ready_to_use_NoOriginalData)
+boxplot(covid ~ related, main = "gov", data = ready_to_use_NoOriginalData)
+boxplot(around ~ related, main = "home", data = ready_to_use_NoOriginalData)
+boxplot(cuomo ~ related, main = "cavuto", data = ready_to_use_NoOriginalData)
+boxplot(south ~ related, main = "polic", data = ready_to_use_NoOriginalData)
 
-This might be because we are just using words from the title, which might too small a text for sentiment analysis. \
+#From the foregoing plots, we  can see that most variables are taking values between 0 and 1. Most of them don't show appreciable differenes between the means of the two groups. 
+
+#This might be because we are just using words from the title, which might too small a text for sentiment analysis. 
+```
+
+
 
 ```{r PCA, fig.show="hold", out.width=0.5}
 #pr <- prcomp(ready_to_use_NoOriginalData[, influential_variables], center=TRUE, #scale.=TRUE)
 pr <- prcomp(ready_to_use_NoOriginalData[, names(sorted_diffs)[1:50]], center=TRUE, scale.=TRUE)
-pr$sdev
+#pr$sdev
+pr$sdev[1:5]^2 / sum(pr$sdev^2) ## To show the percentages
+pr$rotation[, 1:2]
 
-dev.new()
-par(mfrow = c(1,3), cex=0.8, mar=c(1,1,0.5,0.5) )
-plot(pr$x[,1], pr$x[,2])
 ```
 
-From the PCA, we can see that the variances are almost equally distributed among all principal components, and at least the first 50 components cannot be ignored. 
-It is hard to draw conclusions about what each of the components represent. 
+Plot the first vs. second principal component scores:
+```{R}
+par(mfrow = c(1,1), cex=0.8, mar=c(4,4,0.5,0.5) )
+
+related_indices <- (ready_to_use_NoOriginalData["related"]==1)
+
+#plot(pr$x[,1], pr$x[,2], xlab="PC-1", ylab="PC-2")
+plot(pr$x[related_indices, 1], pr$x[related_indices,2], xlab="PC-1", ylab="PC-2", col="red", pch=1)
+points(pr$x[!related_indices,1], pr$x[!related_indices,2], col="blue", pch=1)
+legend(-2,-10, legend=c("Related", "Unrelated"), col=c("red", "blue"), pch=1)
+
+```
+
+From the PCA, we can see that the variances for the first 5 components represent > 50% of the data, but those from the other components cannot be neglected. \
+
+Also, it is, in general, hard to draw inferences about the first few components from the words as features. The first component, however, reprensents the sum of the features associated with all the words, while the second component represents the differenes in the features associated with America-specific words such as "trump", "presid", "hous", "white", "fauci" and more general words like "state", "citi", "coronavirus", "virus", and "public". 
+\
+By visualizing the data along the 1st and 2nd components, we can see that the related points seem to be at a higher value of the 2nd component. This makes sense since the the second component seems to represent the differences between the values for related and unrelated words. There seems to be a great deal of skew in the data, especially in the first component. 
+Regardless, it does seem that the related and unrelated articles are at least somewhat different based on the features we have used, indicating that they have at least some predictive power. 
+
+## Conclusions
+
+Overall, our exploratory data analysis has identified which words are likely to be the most useful in predicting whether an article in our sample is related to White House covid-19 briefings. We can see that there are a number of words that appear more frequently in related articles, and a smaller number of words that appear more frequently in non-related articles. These give us a good starting point for what to focus on in building our classifier. 
+
