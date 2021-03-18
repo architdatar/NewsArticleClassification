@@ -1,0 +1,44 @@
+with Tonya Riley 
+  The Trump campaign’s most recent lawsuit targeting mail voting in New Jersey could end up driving voters to cast ballots on insecure in-person voting machines that cybersecurity officials have been trying to retire since 2016. 
+  The campaign sued yesterday to try to halt an order by Gov. Phil Murphy (D) to automatically send mail ballots to all registered voters — a system Trump and other White House officials have claimed without evidence will lead to widespread fraud. 
+  The  lawsuit  claims Murphy’s plan creates “opportunities for ineligible voters to cast ballots” and “undermines the public’s confidence in the integrity of elections." It also claims the “order is less about protecting the health of New Jerseyans and more about protecting the electoral prospects of the [Democratic] Party” and that the state legislature, rather than Murphy, should be in charge of such plans. 
+  Democrats have pushed back aggressively against similar lawsuits in California and Nevada, warning that restraining mail voting could force people to stay home or risk their health by voting in person. 
+  But the stakes are even higher in New Jersey because  about 80 percent  of in-person voting there takes place on machines that don’t include a paper trail   and that cybersecurity experts say dramatically raise the danger vote totals could be hacked undetected by Russia or another adversary.  Those machines, called Direct Recording Electronic systems, or DREs, are still used in only a handful of states, and New Jersey is among the states where they’re most prevalent. 
+  Experts say this highlights how the president’s attacks on mail voting  —   which he claims are aimed at protecting November’s election  —  could actually make it less safe and secure .
+  “DREs can be hacked,” Penny Venetis, director of Rutgers University Law School’s International Human Rights Clinic, which has brought election security cases in the state, told me. “Vote by mail is a safe, effective and auditable way to vote. There’s an automatic paper trail, and study after study has shown there’s very little fraud.” 
+  Murphy pledged to fight the lawsuit. He accused the Trump campaign during a news conference yesterday of “full-throated propaganda” and working to delegitimize the election rather than working with states to ensure it’s conducted safely.  
+  “ We will defend our rights vigorously, and we will not back down, ” he said. “So, as they say, ‘Bring it on.’ ”
+  The Republican National Committee sued over a similar order by California Gov. Gavin Newsom (D) and also argued he'd exceeded his authority. But the RNC  stepped back  f rom the lawsuit after the state legislature passed a law that effectively endorsed the governor's order. 
+  But the campaign brought a  separate suit  in Nevada even though the plan to directly mail ballots to voters there was created by legislation. 
+  After months slamming mail voting across the board, Trump has  reined in his criticism  in recent weeks, especially in states where he’s in a close electoral fight with Democratic presidential nominee Joe Biden. That includes Florida, where the president and first lady Melania Trump  voted by mail  themselves recently, as well as Arizona, North Carolina and Wisconsin. 
+  The Trump campaign has even started running ads urging his supporters to vote by mail in  Florida,  and state Republican parties are  making similar appeals  elsewhere. 
+  Here’s a flier from the Ohio Republican Party spotted by BuzzFeed reporter Henry J. Gomez:
+  Yet Trump has also  strongly opposed  giving states funding to help them expand mail voting safely, and his postmaster general, Louis DeJoy, implemented numerous cost-saving measures – many of which are  temporarily on ice  – that threatened to prevent millions of ballots from arriving on time. 
+  Trump has also continued to savage mail voting in other states,  arguing recently  it may force a “redo” of the election. 
+  “It will end up being a rigged election or they will never come out with an outcome,” he said. “They’ll have to do it again, and nobody wants that.”
+  But there's no clear connection between the prevalence of mail voting and the likelihood of fraud, which studies show is extremely low. 
+  A  Washington Post analysis  found possible voter fraud cases in states that vote primarily by mail accounted for just 0.0025 percent of ballots in 2016 and 2018  — or about one out of every 39,000. 
+  Trump calls that system “universal mail voting,” although states that run elections that way still retain in-person voting options. In addition to New Jersey, California, Nevada, Vermont and the District of Columbia have all adopted such systems for November’s election. Five other states voted almost entirely by mail before the pandemic, including Utah which votes reliably Republican in presidential contests. 
+  Indeed, Chris Krebs, the Department of Homeland Security’s top cybersecurity official, recently pointed to the expansion of mail voting in New Jersey as a change that should give voters more confidence in election results. Krebs made the comments before Murphy announced his latest plans. 
+  “Because of covid, they've decided to adopt a more mail-in or absentee ballot approach … [creating] auditability that enables us to roll back the tape and determine what happened and conduct meaningful post-election audits,” Krebs told reporters in a call this month.
+  Krebs’s office has been pushing states to replace paperless voting machines since soon after the 2016 election. About 28 percent of voters used those machines to cast ballots in 2016. About 8 percent will in 2020, although that percentage could be lower because of the mail voting surge. 
+  The social media giant recently launched its Voter Information Center more than two months after announcing the project. It also scaled back an initial voter registration drive shortly after Trump campaign officials  publicly denounced the project  for allegedly helping Biden,  according to emails  obtained by the Tech Transparency Project, a left-leaning nonprofit tech watchdog. 
+  State officials also ran into problems trying to get Facebook to help promote information about mail voting during the drive.  The company denied a request from the Illinois State Board of Elections to include specific information about mail-in voting in a July registration drive, citing unspecified  “ feedback. ”    
+  Facebook denies that it made any changes to the plan, and it says it is committed to providing useful information about voting. 
+  “ We are running the largest voting information campaign in American history and are using the reach of our full platform to ensure people have reliable information about how to cast a ballot, where to vote, and why it’s essential to register, ”  Facebook spokesman Kevin McAlister said.  “ We have made no changes to this plan and any suggestion otherwise is pure fabrication by Facebook's paid critics .” 
+  The aim is to gather sensitive intelligence about key military and energy technologies, the FBI alert says, CyberScoop’s  Shannon Vavra reports . The victims worked for defense contractors in the United States and Europe.  
+  The hacking campaign appears to be similar to another North Korea-linked effort against Israeli defense employees, Shannon reports. The campaign also targeted media companies, analysts at the cybersecurity firm FireEye said. 
+  Vulnerabilities in the app, Aura, could have allowed hackers to infer a student's coronavirus test status, TechCrunch's  Zack Whittaker reports . Hackers could also have found names, addresses and dates of birth from the app's database, a researcher found. 
+  Researchers say the app is an example of the dangers of rushing out  coronavirus -tracing technology without enough vetting for security and privacy issues. 
+  The vulnerability could easily have been caught during a security review, Will Strafach, a security researcher and chief executive at Guardian Firewall, told TechCrunch.  
+  Albion has since launched a security review of the app, TechCrunch confirmed. 
+  A spokesman called the claims “malicious slander,”  Reuters reports . Officials in Taipei accused China of attempting to hack at least 10 government agencies and about 6,000 officials to steal data.
+  More hacking news:
+  The man who built a spyware empire says it’s time to come out of the shadows (Technology Review) 
+  The Pandemic is Pushing the Pentagon Toward Classified Telework (Nextgov) 
+  Bolton: Russia, China 'undoubtedly' interfering in 2020 U.S. elections - CyberScoop (CyberScoop) 
+  Dragos Inc's Lesley Carhart made us nostalgic for convention swag:
+  At least we still have online shopping?
+  Tired yet?
+  Watch TikTok's head of U.S. operations dispute White House allegations the app is a national security threat:
+ 

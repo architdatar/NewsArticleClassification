@@ -1,0 +1,50 @@
+with Tonya Riley
+  Airbnb was expected to be the  hottest tech IPO  of the year. Instead, the coronavirus pandemic has upended its business.  
+  The  Wall Street Journal reported  last night that Airbnb’s recent $1 billion funding round came with stringent terms. The company is paying more than 10 percent interest on the new funding. The terms “ show the distress the home-sharing company is under due to the coronavirus pandemic,” the Journal's Jean Eaglesham and Kirsten Grind write. 
+  The infusion of capital comes as the company's planned IPO may be “in limbo because of stock market volatility and uncertainty caused by the virus,” Erin Griffith  reports in the New York Times.  
+  Airbnb is one of several travel-related companies suffering especially deeply during the coronavirus pandemic, when many would-be American and international travelers have been told to stay at home.  It's also under fire from expected guests who say its refund process is too complicated after they were forced to cancel their plans.  
+  Many customers  told CNBC’s Salvador Rodriguez  the company was making them jump through too many hoops to get their money back. The company asked some guests  to provide proof they are restricted from traveling, and others fell outside the original travel-date window for refunds.
+  “Airbnb needs to rest this problem before it becomes a larger and more expensive problem for them to solve,” Henry Harteveldt, a travel industry analyst at Atmosphere Research Group, told Salvador.  
+  It's an ironic position for the start-up that launched at the precipice of the 2008 financial crisis that is now facing another economic slowdown at a key moment. And Airbnb is under intense pressure to show it can maintain its position as a Silicon Valley powerhouse.  
+  An additional $1 billion in the bank could help. Airbnb chief executive Brian Chesky says the money will allow the company to be in a strong strategic position when travel rebounds. He says the company will evolve to address the ways travel may change in the virus's aftermath. 
+  “We’ll see a new flexibility in how people live and work, which means they won’t have to be tethered to one location,” Chesky  said in a news release. “And with an emerging interest in travel that’s closer to home, our customers will look to nearby places to visit, and for local experiences to take part in.”
+  The company has been aggressively working to preserve its relationships with customers, spokesman Ben Breit told me.   
+  “Our community support team has been working  around-the-clock  against this global crisis to help both hosts and guests throughout a situation that has been challenging for the entire industry,” Breit said. “We activated our Extenuating Circumstances policy to provide guests with full refunds or credit because we believe this is the responsible thing to do given the guidance of governments and health experts .” 
+  Airbnb's promise to offer customers who booked between March 14 and April 14 a 100 percent refund puts it out ahead of other travel booking services' refund policies,  such as VRBO . But as the CNBC report underscores, disbursing those refunds has come with significant challenges. 
+  Airbnb is also under pressure to support hosts  who have seen a loss of income  due to cancellations related to the pandemic. 
+  The company has committed to pay those who will no longer host guests at their properties $250 million to cover 25 percent of the fees they would normally charge.  The company also lobbied to ensure that hosts would be eligible for unemployment benefits in the recent federal stimulus package. 
+  However, my colleague Tony Romm has  reported  that states may not be equipped to disburse those benefits to gig economy workers, including Airbnb hosts, immediately. 
+  BITS: More than half of the misinformation about the  coronavirus  that has been rated as false or misleading by fact checkers remains on Twitter without any warning label to users,  my colleague Craig Timberg reports . The findings, based on a  study released Tuesday night  by Oxford University researchers, underscore how Twitter trails other tech platforms in flagging or removing debunked content.  
+  The researchers studied 225 pieces of content that independent fact checkers had debunked between January and March. They found that 59 percent of it remained on Twitter, 27 percent remained on YouTube and 24 percent remained on Facebook.
+  “It’s surprising that so many of the things that have been proven to be false are still living on social media,” co-author Philip N. Howard, director of the Oxford Internet Institute, told Craig.
+  Many of the false claims were about the actions of governments or other international authorities, such as the United Nations or World Health Organization. Politicians, celebrities and other political figures were the source of about 20 percent of the false claims, but they generated 69 percent of the total “engagement,” a measurement of the reach of the posts. 
+  The report cited President Trump and Brazilian President Jair Bolsonaro as politicians who have made documented false statements about the pandemic. All three platforms in March  removed some misinformation  from Bolsonaro that violated their policies against harmful content.
+  Correction: A previous version of this newsletter misstated the percentage of engagement that celebrities and other political figures' posts generated.  
+  NIBBLES: Twitter and Square chief executive Jack Dorsey is donating $1 billion in equity of the from Square to covid-19 relief efforts, he announced yesterday . The fund represents more than a quarter of Dorsey ’ s wealth.
+  After the pandemic is contained, Dorsey said, the funds will shift toward girls’ education and universal basic income, the idea of giving all citizens monthly payments for living expenses, which is popular in Silicon Valley. 
+  Dorsey also tweeted a link to a Google doc that will track where the money goes. 
+  Dorsey opted to pull shares from Square because he owns more stock in it than in Twitter, he said. Investors have criticized Dorsey for splitting  his attention between  the two companies.
+  The new charitable venture will be set up as an LLC, similar to Facebook founder and CEO Mark Zuckerberg’s Chan Zuckerberg Initiative. The setup would allow Dorsey to also engage in lobbying and for-profit investments. 
+  BYTES: Sens. Edward J. Markey (D-Mass.) and Richard Blumenthal (D-Conn.) are warning that Google ’ s new project to map Americans ’  movements during the coronavirus pandemic could inadvertently violate users ’  privacy. They argue that even with safeguards, such a project could curtail civil liberties.  
+  “The potential consequences of misusing or inappropriately accessing individuals’ personal information are particularly serious when location data is involved,” the lawmakers  wrote in a letter to Google chief executive Sundar Pichai.  “An individual’s location data can reveal other sensitive information, such as a place of employment, religious affiliation, or political preferences.”
+  The Democrats want to know how else the company might use the data in the project and how it will evaluate concerns from public officials and privacy experts.
+  Google says its reports   will use location data  in “an aggregated and anonymized form.” 
+  “We launched the COVID-19 Community Mobility Reports to help public health officials respond to this pandemic, while adhering to stringent privacy protocols and protecting people’s privacy.” Google spokeswoman Julie McAlister wrote in a statement. “As we’ve said, no personally identifiable information, such as an individual’s location, contacts or movement, will be made available at any point.” 
+  – Amazon’s self-publishing arm gives white supremacists booted from other publishing platforms a way to reach mainstream audiences,  Ava Kofman, Francis Tseng and Moira Weigel report for Pro Publica .  
+  More than two dozen former Amazon employees suggest that Amazon’s safe haven for questionable content is a matter of design, Pro Publica reports. While Amazon’s Kindle Direct Publishing has taken down hundreds of works of Holocaust denial and some white nationalist books under public pressure, several employees tell Pro Publica that the content review process still focuses “more on illegal or indecent content than on hateful, derogatory or defamatory speech.”
+  (Amazon CEO Jeff Bezos owns The Washington Post.)
+  “We invest significant time and resources to ensure our guidelines are followed, and remove products that do not adhere to our guidelines,” Amazon told Pro Publica in a statement. 
+  — Technology news from the private sector: 
+  Instagram Draws Surge in Offers of Coronavirus Masks With Potential Risks (Wall Street Journal) 
+  These are the trade-offs we make when we depend on billionaires to save us (Recode) 
+  Amazon Will Give Partial Pay To Employees It Sends Home With Fevers During The Coronavirus Pandemic (BuzzFeed News) 
+  Amazon to suspend delivery service competing with UPS, FedEx (Reuters) 
+  — The White House  announced several new partners  for its COVID-19 High Performance Computing Consortium this week, including chipmaker Nvidia.  Other consortium partners include Microsoft and Google Cloud.
+  — More technology news from the public sector: 
+  Zoom's legal perils mount as Democrats call for FTC probe (Politico) 
+  Trump blames internet companies, including Amazon, for Postal Service struggles (CNBC) 
+  — Tech news generating buzz around the Web: 
+  How to Look Good on Camera, According to Tom Ford (The New York Times) 
+  As hospitals enforce strict rules, parents are using FaceTime to see their newborns (CNN) 
+  Coronavirus parody songs about washing your hands and social distancing are everywhere,  my colleague Travis M. Andrews reports . (Erin Patrick O ’ Connor/The Washington Post)
+ 

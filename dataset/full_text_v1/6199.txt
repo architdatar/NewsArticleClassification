@@ -1,0 +1,52 @@
+with Tonya Riley
+  This time, the massive Twitter hack yesterday was seemingly just a petty scam to raise bitcoin — at least based on what's known so far. But next time, it could be far more serious. 
+  The unknown hackers held the Twittersphere in thrall last night as they seized control of high-profile accounts and sent phony tweets from Joe Biden, Barack Obama and a who’s who of top companies and business and entertainment leaders. It took Twitter hours of work and an unprecedented shutdown of all verified accounts to halt the operation,  as Rachel Lerman, Cat Zakrzewski and I report .
+  U.S. adversaries that gained that sort of power could sow mass chaos on Election Day by tweeting out phony information about voter fraud or polling locations shut down by the  coronavirus  or terrorist attacks.  And because the breach targeted Twitter controls, over which campaigns are powerless, they might have no power to stop the stream of phony tweets from flowing. 
+  If Twitter once again shut down verified accounts' ability to tweet while it investigated a breach, that would also cut off a key avenue for campaigns, government officials and law enforcement to correct misinformation. 
+  Such an attack could be particularly disastrous during a close election if people don't vote because of the confusion.  
+  “Russia’s most dangerous play is how do you inflict the maximum amount of chaos on Election Day,” Clint Watts, a distinguished research fellow at the Foreign Policy Research Institute who tracks Russian influence operations, told me. “They want to further erode confidence in democracy, and this is emblematic of a way they can do that.” 
+  Rachel Tobac, chief executive of SocialProof Security, called the breach very concerning. “ We are extremely lucky that these attackers are monetarily motivated and not sowing mass chaos all over the world ,” she said. 
+  Other prominent victims of the breach included the Uber and Apple corporate accounts, Microsoft co-founder  Bill Gates , Tesla founder  Elon Musk , musician  Kanye West  and Amazon founder  Jeff Bezos . (Bezos also owns The Washington Post.) Those accounts all posted tweets instructing people to send cryptocurrency to the same bitcoin address over the course of about 90 minutes. 
+  The bitcoin wallet the tweets pointed to appeared to receive more than $115,000. 
+  It also provides a window into the long list of possible attacks the Biden and Trump campaigns need to be planning for as November approaches. 
+  In the case of an Election Day version of the Twitter breach, campaigns should be gaming out how to correct misinformation through traditional media and through other social media that isn’t compromised, Mick Baccio, a security adviser at Splunk, told me. Baccio ran cybersecurity for former South Bend, Ind., mayor Pete Buttigieg’s presidential primary campaign but left shortly before the Iowa caucuses. 
+  “You have to plan for all these horrible scenarios and you have to have the principals in the room to figure out, ‘What will you do if this happens? What’s the incident response?’”  he said. 
+  Campaigns should also try to establish strong relationships in advance with the people they’ll need in those situations, such as Twitter’s cybersecurity executives, Baccio said. 
+  “You have to know what’s inside your scope and what’s not and having contacts at those places is invaluable,” he said. 
+  Watts compared the breach to a 2013 hack of the Associated Press’s Twitter account that the Syrian Electronic Army  claimed credit for . The hacking group, whose members are partisans of embattled Syrian President Bashar al-Assad, sent multiple tweets claiming  the White House had been bombed and that President Barack Obama was injured. They caused chaos online and briefly tanked the stock market, causing a  temporary loss  of $136 billion in the S&P 500. 
+  That was just one Twitter account whose tweets were quickly refuted by other news agencies — including by reporters at the White House who could verify everything was fine. Things could be far more complicated if multiple accounts were tweeting false information that couldn’t be so easily refuted. 
+  More recently, Twitter founder Jack Dorsey’s account was  hacked  and tweeted a string of obscenities, threats and racial slurs in 2019. 
+  If they were able to access the accounts’ direct messages, they might have stolen information they could leak later to embarrass the victims or to sow chaos during the 2020 election or another major event, Theresa Payton, chief executive of the cybersecurity company Fortalice Solutions and a former White House technology official, told me.
+  It's also possible the hackers stole information from accounts that they didn't use as part of the bitcoin scam that they could later leak or sell to someone with political motivations. For example, President Trump has among the most closely watched Twitter accounts in the world but his account wasn't used in the scheme. 
+  “ We could be looking at the potential for a huge hacking and dumping campaign ,” Payton said.
+  Twitter described the breach as a “coordinated social engineering attack” aimed at its employees. It said it was “looking into what other malicious activity they may have conducted or information they may have accessed.”
+  Dorsey also promised to share more information as soon as the company completes its investigation. 
+  The company's brief accounting suggested the hackers conned Twitter employees into unwittingly giving up information that provided the access. But Vice's Joseph Cox  spoke with people  who claimed to be responsible for the breach who said they paid a Twitter employee for help gaining access. 
+  Twitter is also investigating whether an employee might have hijacked the accounts directly and then passed the access along to the hackers, Cox reports. 
+  One prominent theory,  outlined by Vice’s Cox , is that hackers gained access to an internal panel that Twitter employees use to interact with user accounts and were using that access to post their bitcoin scheme to prominent accounts. 
+  In many cases, the account owners or Twitter were able to quickly delete the scam tweets, suggesting that the hacker hadn’t locked them out of the accounts entirely. 
+  The Twitter hack also sent shock waves through the cybersecurity community. Google's Shane Huntley drew the lesson that even cybersecurity savvy folks can be conned by phishing attacks. 
+  Electronic Frontier Foundation Cybersecurity Director Eva Galperin made an argument for more fully encrypting direct messages to protect them against being stolen.
+  The hackers’ seeming profit was pretty paltry, the Daily Beast’s Adam Ranwsley noted:
+  The authorization allowed the agency to launch a wide range of hacks without White House approval and specifically named Russia, China, Iran and North Korea as likely targets, Zach Dorfman, Kim Zetter, Jenna McLaughlin and Sean D. Naylor  report for Yahoo News .    
+  The agency has carried out at least a dozen covert hacking operations since then , including hacking and dumping files from Iran and Russia, former officials told Yahoo. 
+  The new authorities also allowed the agency to more easily conduct covert cyberoperations against banks, media organizations and charities suspected of working with adversary governments.   
+  The White House also expanded authorities for U.S. Cyber Command to launch offensive hacking operations in 2018. That helped enable operations against a Russian troll farm during the 2018 midterm elections and against an Iranian military unit in retaliation for shooting down a U.S. drone. 
+  Secretary of State Mike Pompeo accused the Huawei employees of providing  “ material support ”  to the Chinese Communist Party  at a news conference . 
+  The action also applies to several other Chinese companies the United States has sanctioned for allegedly aiding human rights abuses. The move is the latest escalation in the United States’ war against Huawei, which it has accused of aiding Chinese government spying. 
+  “Telecommunications companies around the world should consider themselves on notice, ”  Pompeo  said .  “ If they are doing business with Huawei, they are doing business with human rights abusers. ”
+  Pompeo also praised the United Kingdom ’ s  decision  to phase out Huawei ’ s equipment from its 5G telecom networks.  
+  “This isn ’ t about commercial interests, this is about protecting the information, ”  Pompeo said.  “ I think in fact the tide has turned there and you ’ ll see this continue in [other] countries .” 
+  The secretary of state said he’s  “ confident ”  foreign countries  “ would do their best to have an impact ”  on the 2020 election, during a  virtual event  hosted by the Hill,  Maggie Miller reports . 
+  “ Foreign efforts to interfere in American elections is something we constantly must contend with, and we’ll contend with that here, ”  Pompeo said. 
+  Pompeo believes the U.S. government will be able to knock back those efforts, he stressed. 
+  “Whether it’s Chinese interference, Iranian interference, Russian interference, or North Korean interference, any country, or even  nonstate  actors who now have capabilities to try to meddle in our elections, know that this administration takes seriously its responsibility to make sure every American’s vote is counted, counted properly, and that foreign influence is minimized,” he said. 
+  The new position was a key recommendation of the  Cyberspace Solarium Commission . That recommendation has wide support among cybersecurity hawks in Congress, but the White House opposes it. And some Republicans expressed concern during the hearing it could increase bureaucracy rather than reduce it. 
+  Here’s  more from the Hill’s Maggie Miller .
+  The videos included several hours worth of footage of the Iranian government-linked hacking group trying to steal data from members of the U.S. and Greek navies, according to a  blog post  this morning from IBM's X-Force threat intelligence division. 
+  The hacking group, which researchers have named Charming Kitten Phosphorus, was earlier blamed for hacking a U.S. presidential campaign that  Reuters identified  as the Trump campaign. 
+  More news in hacks, breaches and disinformation:
+  Chinese state hackers target Hong Kong Catholic Church ( ZDNet) 
+  Deepfake used to attack activist couple shows new disinformation frontier (Reuters) 
+  It ’ s been a long news cycle.
+ 

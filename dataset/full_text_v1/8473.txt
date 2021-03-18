@@ -1,0 +1,32 @@
+The Trump administration's announcement Sunday of an   left critical questions about the potential COVID-19 treatment unanswered.
+  Which patients will benefit? When should doctors administer the plasma? What is the correct dosage? And perhaps most crucial: Does it even work?
+  
+  Only randomized clinical trials, which compare a treatment to a placebo and are considered the gold standard of medical evidence, can provide answers. Now that the Food and Drug Administration has given the antibody-rich plasma emergency use authorization, or EUA, will patients be motivated to participate in such trials, in which they might not receive the real plasma?
+  "Investigators have had challenges enrolling patients to begin with, and this announcement will make it even harder, if not impossible," said Dr. Howard Koh, a professor at the Harvard T.H. Chan School of Public Health who was assistant secretary of health and human services for health in the administration of President Barack Obama.
+  "It's a disservice, actually," Koh added.
+  In a livestreamed interview with the Journal of the American Medical Association, Dr. Paul Offit, director of the Vaccine Education Center at Children's Hospital of Philadelphia, said Monday: "The FDA's job is to license and, in this case, approve products that have shown to work and have shown to be safe. It's likely that plasma, for the most part, has been shown to be safe. But you have to show that it works. If you look at the data, they haven't proven that it works."
+  Convalescent plasma is the antibody-rich blood product taken from patients who have recovered from COVID-19. In theory, infusing a sick patient with the antibodies would boost the person's immune system to fight off the virus.
+   that convalescent plasma for COVID-19 is generally safe. And while other studies have hinted that the treatment shows promise, they aren't definitive answers about whether it's effective.
+  "Without  , we will not know if convalescent plasma works," Gregg Gonsalves, an assistant professor of epidemiology at Yale School of Medicine, wrote in an email. "That's why we do trials, to keep from fooling ourselves."
+  Even the FDA's guidance for the authorization acknowledged that more clinical trials are needed to determine whether convalescent plasma is effective, and it went on to say that the treatment shouldn't be considered a new standard of care for the disease.
+  "Given that the clinical evidence supporting this EUA was not obtained from prospective, well-controlled randomized clinical trials (RCTs), additional RCTs are needed. Convalescent plasma should not be considered a new standard of care for the treatment of patients with COVID-19," said the guidance, which was obtained by NBC News.
+  However, during  , President Donald Trump and the FDA's commissioner, Dr. Stephen Hahn, struck a different tone, saying the treatment has been shown to reduce mortality by 35 percent.
+  The statistic comes from a   of convalescent plasma from the Mayo Clinic. It was published online on the preprint server medRxiv and has not undergone peer review.
+  Among a subset of patients, those who received plasma with a higher level of COVID-19 antibodies were about a third less likely to have died within seven days, compared with those who received plasma with a lower level.
+  The study did not compare patients who received plasma to a control group who received a placebo.
+  Still, Dr. Michael Joyner of the Mayo Clinic, who is leading the nation's expanded access program, which has allowed more than 70,000 COVID-19 patients to receive convalescent plasma, said the findings "certainly meet the threshold" for an emergency use authorization.
+  The FDA grants EUAs only during  , and it allows a temporary use of unapproved medical products. Outside public health emergencies, medical products must go through the standard FDA approval process.
+  With an EUA for convalescent plasma, Joyner said, the Mayo Clinic's program will move to the FDA, and federal regulators will oversee how it is distributed.
+  While it's expected that the EUA will cut down on paperwork physicians need to fill out to get the plasma for patients, it doesn't necessarily mean plasma will be widely available or easily accessible.
+  First, the treatment relies on donors. Second, the EUA guidance for physicians says the plasma must contain "high antibody titers," meaning high concentrations of COVID-19 antibodies. Not all plasma donors have high antibody titers.
+  It's unclear what might happen with plasma that's donated with lower titers. Again, only randomized clinical trials would be able to answer that question.
+  Dr. Todd Rice, an associate professor of medicine at Vanderbilt University Medical Center in Nashville, Tennessee, was chosen to lead a federally funded, large-scale, randomized, controlled trial of convalescent plasma in patients hospitalized with COVID-19.
+  
+  "We have found that people who have more severe symptoms tend to have higher concentrations" of antibodies, Rice said. He said the trial, which is expected to enroll up to 1,000 patients, is expected to continue despite the EUA. But it's unclear whether efficacy data for plasma as a treatment will be available before a vaccine is approved.
+  "The fact is that our way out of this pandemic is with the  ," Rice said. "The sooner we get a vaccine, the better off all of us are going to be."
+  But Sunday's news conference also sparked worry among scientists about political pressure on the FDA to rush the authorization of a vaccine.
+  "What you saw yesterday was the FDA being bullied by the president of the United States into approving something they didn't want to approve earlier because he wanted them to do that," Offit said.
+  Koh said: "We have to demand the highest level of rigorous science to guide these decisions. The health of a world is at stake."
+  
+  Erika Edwards is a health and medical news writer and reporter for NBC News and "TODAY."
+ 
