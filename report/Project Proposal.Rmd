@@ -1,0 +1,15 @@
+---
+title: "Project Proposal"
+author: "Bobby Lumpkin"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Part 4: Methodology
+
+In this section, we'll outline some of the methods we plan to use tackle the various goals of our project. 
+
+### Text-Categorization With Multi-label Learning
