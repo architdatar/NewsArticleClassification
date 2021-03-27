@@ -13,3 +13,5 @@ knitr::opts_chunk$set(echo = TRUE)
 In this section, we'll outline some of the methods we plan to use tackle the various goals of our project. 
 
 ### Text-Categorization With Multi-label Learning
+
+The task of text-categorization falls naturally into the realm of multi-label learning, since, each document may belong to several predefined categories. As an example, paragraphs that can be assigned to the category of "threats/impacts" might also fall appropriately into the category of "responses/actions".
