@@ -1,0 +1,67 @@
+Wyatt Earp, the gunslinger who helped tame the American West, once said, "fast is fine but accuracy is final." The same thing could be said about testing  for COVID-19.  Back in March, the Food and Drug Administration took the unprecedented step of allowing COVID antibody tests to flood the market without review. The tests were billed as a critical tool to assess where   the virus had spread and who might have immunity. But in the government's rush to get more people tested quickly, it may have missed the mark. Over the course of a three-month investigation, 60 Minutes has learned that federal officials knew many of the antibody tests were seriously flawed but continued to allow them to be sold anyway. Now, as Coronavirus surges in parts of the country, that government failure is complicating efforts to know the reach of the Coronavirus.
+  Laredo, Texas is a border town on the banks of the Rio Grande River, population 270,000. It was founded in the 1700's as its own country. This spring, as it prepared to fight Covid, Laredo found itself alone on the frontier, again.
+  Robert Castañeda: Everybody was looking for supplies. Everybody was having challenges. 
+  Robert Castañeda, a Laredo resident, owns two emergency clinics in town. He was desperately trying to find kits to test his patients for Covid-19. 
+  Robert Castañeda: It was maddening, to be honest with you. You go through your normal chain of distributors. Then you start hitting a wall with them. And they tell you that, you know, "We're out." We talked to the local health department. And I spoke to the state health department. I even reached out to FEMA, talked to the FDA. All your avenues of trying to get testing supplies were exhausted. 
+  He says he went to his Congressman's office for guidance and remarkably, in the waiting room, met a stranger who offered to connect him to a broker with access to antibody tests.   Sharyn Alfonsi: You must have thought, sitting in that office, and the guy says to you, "Hey, I might be able to help you out." "This is terrific luck."
+  Robert Castañeda: Yes, there was a silver lining to that meeting. Exactly right.
+  Sharyn Alfonsi: And so tell me about the deal that was placed in front of you about buying this. 
+  Robert Castañeda: There was a minimum buy. And that minimum buy was 20,000 kits. So that off the bat was half a million dollars to bring them into the city.
+  Sharyn Alfonsi: Was there a lotta guidance at that point, at the state level or the federal level, for procuring? 
+  Robert Castañeda: No. Actually, there was none.
+  In March, many communities were competing against each other, and the federal government, to find COVID tests. The Trump administration was under fire. 
+  President Trump at March 6 press conference: Anybody that needs a test, gets a test. They're there. They have the tests. And the tests are beautiful.
+  But that was not true. Because of missteps a month earlier at both the Centers for Disease Control and the Food and Drug Administration, diagnostic tests, which can tell if a person is currently infected with the coronavirus, were in short supply. 
+  The promise of a new serology, or antibody blood test, that could determine if a person had been exposed to COVID-19 and developed "protective" antibodies was being heralded as the next best thing: a "game-changer" that could get Americans back to work.  
+  On March 16, in an attempt to get those tests to the public, the FDA took an unusual step. It announced it would allow antibody tests into the U.S. market without FDA review or formal clearance. 
+  Almost immediately, more than 100 companies offering antibody tests flooded the market. They came from every corner of the world, and none of them were FDA tested.   Back in Laredo, Robert Castaneda agreed to the broker's deal and bought 20,000 antibody tests from a Chinese manufacturer, Anhui DeepBlue. He agreed to share them with the city of Laredo where Coronavirus cases were spiking.  
+  Drive-through testing sites were readied around Laredo. The Chinese test kits arrived on March 30, with the fanfare usually reserved for a winning high school football team in Texas. 
+  Dr. Hector Gonzalez: We were elated-- very happy because now we were going to be able to test.
+  Dr. Hector Gonzalez was the Director of Health in Laredo for nearly two decades. The city wanted to start testing front line responders as soon as possible. But first, Dr. Gonzalez, weeks away from his retirement, decided to test the accuracy of the antibody tests.   
+  Dr. Hector Gonzalez: It was supposed to be 95%. All the tests, especially serologies, have to be 95% or better. 
+  But Dr. Gonzalez found the tests results varied wildly. The tests didn't work well if the person had been recently exposed to the virus. The small sample he tested was only 20% accurate.
+  Sharyn Alfonsi: At any point, you're doing these tests, and you're getting back these lousy numbers that the tests don't work. Do you look at each other and go, "Are we crazy? Surely this thing had to work better than this?"
+  Dr. Hector Gonzalez: Yes, we said, "Are we-- did we do this right?" and went back through our steps and we were confident that we did things correctly. 
+  Sharyn Alfonsi: What strikes me about this is that here you are in Laredo, Texas, and you figure it out, but there was no kind of test happening at a federal level. Shouldn't there have been?
+  Dr. Hector Gonzalez: Absolutely. But the FDA had never checked them. 
+  Anhui DeepBlue did not respond to our request for comment. But Laredo officials had reported the bad tests to the feds who came to town to start an investigation and seize all 20,000 tests.
+  Sharyn Alfonsi: And you're out a half million dollars?   Robert Castañeda: We are.    Sharyn Alfonsi: That hurts.   Robert Castañeda: It does. It does. The one thing that makes it a little bit easier to swallow is the fact that we tried to do something good for our community. 
+  Sharyn Alfonsi: Did you feel duped?
+  Dr. Hector Gonzalez: Yes, but more disappointed because we had such high hopes to test. We were ready to do public drive-through testing. And now we couldn't. We were on hold.
+  Meanwhile, hundreds of thousands of other antibody tests that the FDA also never reviewed continued to be mailed to businesses, clinics and hospitals where they were used to test patients, first line responders, and healthcare workers. 
+  Dr. Alex Marson is an immunology researcher at the University of California, San Francisco. We spoke with him remotely.
+  Dr. Alex Marson: I got a text message from a good friend of mine here in the Bay Area, and she showed me pictures of her testing herself on a antibody test that had showed up at her own house. That made me realize that the availability of tests was actually preceding the availability of reliable information on the performance characteristics of these tests.  
+  So in early March, Dr. Marson and Dr. Patrick Hsu, an assistant professor of bioengineering at UC Berkeley, assembled a team of 50 scientists to do what the FDA had not... test the antibody tests.    
+  Dr. Alex Marson: We had to gather tests from around the world. We had to set up a lab with rigorous safety standards and ethical standards. 
+  Dr. Patrick Hsu: We carefully curated a set of blood from positive people, who had tested viral positive, and had been seen in San Francisco hospitals, and negative blood samples, that were taken from well before the COVID-19 outbreak. 
+  Dr. Alex Marson: So all of this was unfolding extremely rapidly.
+  A month later the team published preliminary results on antibody tests from a dozen different companies.
+  Sharyn Alfonsi: Did you feel the tests delivered as advertised?
+  Dr. Alex Marson: We saw a range, saw that some were closer to what we hoped for and others were farther off.
+  Some were way off .  The tests are much less accurate when used on a person who was recently exposed to the virus. 20 days after exposure, the tests get better but none are perfect. All but one test delivered so-called false-positives, meaning they mistakenly signaled antibodies in people who did not have them . 
+  Dr. Alex Marson: We want to have a test that will tell us, you know, with some reliability, "Have we been infected?" And ideally, "Can we go back into society and be safe?" The truth is we don't yet have that information. The test cannot provide that assurance.
+  Dr. Marson says anyone with a positive antibody test should have a second or third test to confirm it. And even then the results should be viewed cautiously because scientists still don't know what antibody levels are required to give immunity or how long it lasts.  
+  Sharyn Alfonsi: I think a lot of people think if they get this antibody test and they test positive that they are going to have a shield that allows them to enter into the workforce, to go to the grocery store without their mask on. Is that what a positive antibody test means? 
+  Dr. Alex Marson: I think we cannot safely say that to people yet. We need more scientific data to tell people exactly the characteristics of what protection will look like if at all.
+  Others were also raising red flags about antibody tests. On March 26, problems with the tests in Spain were made public. A week later, Britain tossed out $20 million worth of antibody tests because of false results. And days later, the World Health Organization issued more warnings about the test. But the White House continued to sell the idea of antibody tests.
+  President Trump at April 17 Briefing: …and support our efforts to get Americans back to work by showing us who might have developed the wonderful, beautiful immunity.
+  And the FDA? It still did not change its open-door policy. We asked the FDA why, and they said the decisions were made with a "careful balancing of risks and benefits."
+  Dr. Margaret Hamburg was the FDA Commissioner for six years during the Obama administration. 
+  Sharyn Alfonsi: We know that a lot of the European countries were having problems with these antibody tests before we opened up the market. Should we have known that?   Dr. Margaret Hamburg: I don't think that we took advantage of that to the degree that we could have and should have.
+  Sharyn Alfonsi: We know on March 16th the FDA kind of opened up the market for antibody testing without review. Was that a mistake?
+  Dr. Margaret Hamburg: I do think that was a mistake because it led to a marketplace that was full of antibody tests of very variable quality, and certainly could not be trusted in terms of their accuracy.
+  It took 50 days for the FDA to reverse its course on antibody tests. In May, the agency required developers to apply for emergency authorization and submit data to show their tests worked. But by then it was too late.
+  Rep. Raja Krishnamoorthi: Fraudulent tests flooded the market. Hundreds and hundreds of tests taken by hundreds of thousands, if not millions of people.  
+  Democratic Congressman Raja Krishnamoorthi of Illinois is investigating who directed the FDA's hands-off approach. 
+  Rep. Raja Krishnamoorthi: The FDA was not policing this market. They adopted what's called a self-validation and voluntary compliance system. 
+  Sharyn Alfonsi: What does that mean, self-validation?
+  Rep. Raja Krishnamoorthi: Well, basically they were asking companies to validate that their tests worked. And guess what? Every company said they did. 
+  Then in late May, nearly three months after the wave of unregulated antibody tests came to the U.S., the FDA started pulling tests off the market. 50 so far. Including the Anhui DeepBlue test that was sold to Laredo.    Customs agents and Homeland Security investigators now have the difficult task of trying to stop all the banned tests from entering the country. But the flawed antibody tests are still being used and the bad data collected from them is guiding critical decisions about when to reopen communities.   
+  Rep. Raja Krishnamoorthi: We've never seen anything like this in terms of a policy which is basically an anything goes, Wild West type of approach to regulating a healthcare market. We just haven't seen that.
+  Sharyn Alfonsi: I'm sure they would say, "we cut through the red tape. We had to get anything to the market as fast as we could, these are unprecedented times." What's wrong with that argument?
+  Rep. Raja Krishnamoorthi: When you open the floodgates to virtually any product being sold by anybody, well, guess what? Schiesters, scam artists, and people who are preying on unsuspecting consumers enter the fray.
+  The burden of keeping all those outlaws at bay fell to communities like Laredo, and Dr. Hector Gonzalez. 
+  Sharyn Alfonsi: If you had not taken that step, if you had not tested these, what could the impact have been to this community?
+  Dr. Hector Gonzalez: Oh, devastating. We wouldn't have a true indicator of the level of infection. The public deserves for us to give them something that's valid.
+  Produced by Oriana Zill de Granados and Emily Gordon. Broadcast associate, Sheena Samu. Edited by Craig Crawford. 
+ 

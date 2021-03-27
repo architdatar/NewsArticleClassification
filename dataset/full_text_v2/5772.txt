@@ -1,0 +1,8 @@
+Jacob Ward
+  A new report from cybersecurity firm  Jumbo Privacy  claims that Care19, a contact-tracing app created to track the spread of coronavirus in North Dakota, is sending user data to third-party services, including location service Foursquare.
+  FAQs about the app published  on North Dakota’s official site  say that "information is 100% anonymous,” and that “the application does not have any information that is tied to an individual person.”
+  Jumbo disagrees.
+  "They share the IDFA with Foursquare, which means it’s not anonymous,” said Jumbo Privacy CEO Pierre Valade. "It’s a unique ID tied to your phone.” 
+  North Dakota is one of a few states, including South Dakota and Utah, that have built their own contact-tracing apps.
+  Foursquare said in a statement that while it receives Care19 data, it does not use it in any way and promptly discards it. ProudCrowd did not immediately return a request for comment.
+ 

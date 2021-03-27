@@ -28,3 +28,12 @@ Feb 25, 2021 <br>
 	d.	PCA (Archit: by Sunday morning/Sunday afternoon) <br>
 	e.	Report (Lauren: by Sunday night) <br>
 
+March 26, 2021 <br>
+
+Part 1: Yue <br>
+Part 2: Yue <br>
+Part 3: Lauren (EDA for step-1 classification) & Haihang (brief EDA for step-2 classification) <br>
+Part 4: Bobby & Archit <br>
+Features from NLP (ie., tfidf): Yue <br>
+Check on Wednesday. <br>
+
