@@ -1,0 +1,326 @@
+ANNOUNCER:  "This Week With George Stephanopoulos" starts right now.
+  JONATHAN KARL, ABC NEWS CHIEF WHITE HOUSE CORRESPONDENT:  National emergency.
+  (BEGIN VIDEO CLIP)
+  DONALD TRUMP, PRESIDENT OF THE UNITED STATES:  No resource will be spared.
+  (END VIDEO CLIP)
+  KARL: After downplaying the crisis, President Trump announces a plan to combat the coronavirus.
+  (BEGIN VIDEO CLIP)
+  TRUMP:  I'm urging every state to set up emergency operations centers, effective immediately.
+  (END VIDEO CLIP)
+  KARL:  Amid continued frustration over the lack of available testing.
+  (BEGIN VIDEO CLIP)
+  TRUMP:  Testing has been going very smooth.
+  DR. ANTHONY FAUCI, NIAID DIRECTOR:  The system is not really geared to what we need right now. That is a failing.
+  (END VIDEO CLIP)
+  KARL:  The growing outbreak is hammering the economy, canceling major events and closing schools.
+  (BEGIN VIDEO CLIP)
+  GOV. GRETCHEN WHITMER (D-MI):  This will be a tough time for our parents and educators.
+  BILL DE BLASIO (D), MAYOR OF NEW YORK:  The last 24 hours have been very, very sobering.
+  (END VIDEO CLIP)
+  KARL:  This morning, we will break it all down, the president's response, the economic fallout, and the latest efforts to control the pandemic.
+  Our guests, the nation's top expert on infectious diseases, Dr. Anthony Fauci, and Treasury Secretary Steven Mnuchin, the point man on the administration's economic response.
+  Plus, the powerhouse roundtable on the political fallout.
+  ANNOUNCER:  From ABC News, it's "This Week."
+  Here now, Chief White House Correspondent Jonathan Karl.
+  KARL:  Good morning, and welcome to "This Week." We want to get right to the latest developments on the coronavirus pandemic. There are now over 156,000 cases confirmed across the globe and more than 5,800 deaths. Spain is now in lockdown. France and Israel are closing restaurants and other nonessential businesses. And here at home, the numbers continue to climb. Take a look at this map from last week.
+  And now there are more than 2,900 known cases in 49 states and Washington, D.C. That's every state except West Virginia. At least 59 deaths have been reported.
+  Our fight against an invisible enemy has turned life in America upside down, mass gatherings put on hold. Almost 26 million students are out of school. And more and more of us are working from home.
+  As our nation faces this crisis, our goal each day is to provide you with reliable information, to separate rumor from fact, to understand the true scope of this pandemic and what we should do to protect ourselves, our families, our neighbors. But to be blunt, your ability to make informed decisions is impaired when we hear things like this:
+  (BEGIN VIDEO CLIP):
+  LARRY KUDLOW, DIRECTOR, NATIONAL ECONOMIC COUNCIL:  We have contained this, I won't say airtight, but pretty close to airtight.
+  TRUMP:  When you have 15 people, and the 15 within a couple of days is going to be down to close to zero, that's a pretty good job we've done. This is a flu. This is like a flu. Anybody that needs a test gets a test. If an American is coming back or anybody's coming back, we're testing. We have a tremendous testing setup, where people coming in have to be tested.(END VIDEO CLIP)
+  KARL:  Each of those statements were either highly misleading or flatly wrong. And further misinformation in a prime-time Oval Office address this week caused more confusion. This is a time we need to be able to trust the information coming from the federal government, and when any inaccurate information impairs our ability to understand what is happening and to do what is needed to halt the spread of this disease. This is not a matter of political spin. This is now a matter of life and death,  health  and sickness. This morning, we will try to get more clarity. Our first guest joins me now, Dr. Anthony Fauci. Dr. Fauci, thank you for being here.
+  DR. ANTHONY FAUCI, DIRECTOR, NATIONAL INSTITUTE OF ALLERGY AND INFECTIOUS DISEASES:  Good to be with you.
+  KARL:  Now, you have said that there are going to be more coronavirus cases. And you've talked about flattening the curve. We've all seen the graph.
+  FAUCI:  Right.
+  KARL:  Let's take another look at the graph now, trying to slow the spread of the disease. But one thing that that graph is missing is numbers.
+  FAUCI:  Right.
+  KARL:  And I know you don't have precise numbers. But can you try to help us understand, when will life get back to normal? When -- how long does this last?
+  FAUCI:  You know, it's going to be a matter of, you know, several weeks to a few months, for sure.
+  If you look at the dynamics of how outbreak curves go, you just need to take a look at  China  and take a look at South Korea right now. With China, they went to their peak, and they are coming down right now.
+  There were, just a day or so ago, 11 new cases in China, which is minuscule compared to where it was.
+  Korea is starting to flatten and maybe come down a little. If you look at that bracket, all of that was a couple of months, a month-and-a-half for China, and about the same.
+  Although you can't predict accurately, the way you interfere with that, and not only diminish the peak of the curve, but even perhaps the duration depends on the effectiveness in which you do the kinds of controls that we've been talking about, the containment and the mitigation.
+  KARL:  So do we think that Korea, do we think China are through this largely? Is it largely over?
+  FAUCI:  You know, it's over for now and hopefully for good. But the one thing that we have to keep an eye on, Jon, is that China really dramatically did what we call social distancing. They just shut down the country. As they start getting back to normal personal interaction, I hope we don't see the second blip, but it's possible.
+  So we're looking, you know, favorably at the fact that China is coming down. But we also want to look carefully to see what happens when they resume normal life. And that's one of the things that we're interested in. Hopefully, it will stay down, but it possibly could come back up.
+  KARL:  That flattened curve suggests that by flattening the curve, by doing all the mitigation, it actually lasts longer.
+  FAUCI:  Right.
+  KARL:  And it looks like roughly -- I mean, is it the same number of people ultimately get infected?
+  FAUCI:  No, no, not at all, as a matter of fact. The way the curve is shown on the graph you showed, it might look like the area under the curve is the same. That would be misleading, Jon. It really is -- the peak is less and the numbers total would be less.
+  KARL:  So you are probably the most trusted person on this. Do you -- are you confident that the federal government is doing everything that needs to be done right now to contain this?
+  FAUCI:  You know, right now, Jon, yes, absolutely. And the fact is what I like to see is when people look at what we're doing and say, ‘you're overreacting.’ For me, the dynamics and the history of outbreaks is you are never where you think you are with the -- if you think you're in-line with the outbreak, you're already three weeks behind. So you've got to be almost overreacting a bit to keep up with it.
+  KARL:  The New York Times had a story this weekend about the worst-case scenarios, and some projections that were, they said, presented at the CDC about a month ago. Let's take a look at these:  160 million to 214 million people infected in the United States; 2.4 million to 21 million people hospitalized, 200,000 deaths, perhaps as much as 1.7 million deaths.
+  First of all, what do you make of those?
+  FAUCI:  So whenever people model, they take a model, which that's exactly what that is, a model, a model is only as good as the assumptions you put into the model.
+  KARL:  Right.
+  FAUCI:  So when you do a model, you say, "What happens if it's the lowest, it's here. And what happens if it's the highest?”
+  The worst-case scenario is either you do nothing or your mitigation and containments don't succeed. So although that's possible, it is unlikely if we do the kinds of things that we're -- we're essentially outlining right now.
+  KARL:  So help me out, what is the range of possibility here? How many people do you think -- based on what we're doing, based on what you know and your expertise on this, what are we talking about?
+  FAUCI:  I don't think it's going to be that worse because I think what we're doing is going to have an effect. And -- and, for example, the president's decision to essentially have a major blocking of travel from China, that already had an effect of not seeding the way, in Europe -- Italy didn't do that. And my -- I feel so bad because I have so many friends there. They're getting hit hard.
+  What we're doing now with the other travel restrictions -- so you block infections from coming in. And then within is when you have containment and mitigation. And that's the reason why the kinds of things we're doing that may seem like an overreaction will keep us away from that worst-case scenario.
+  KARL:  So are we prepared for whatever you think the worst-case scenario would be? Is our health care system -- I mean, I saw Seema Verma this week say that there are about 13,000 respirators...
+  FAUCI:  Right.
+  KARL:  ... in stockpile. Thirteen thousand, when we're looking at possibly...
+  FAUCI:  No, ventilators -- ventilators.
+  KARL:  I'm sorry, ventilators.
+  FAUCI:  OK.
+  KARL:  That doesn't sound -- that doesn't sound like anywhere near enough. Are we prepared?
+  FAUCI:  Yeah, that may not be enough if we have a situation where we really have a lot of cases. But -- but, Jon, let's make sure -- people need to understand that things will get worse before they get better. What we're trying to do is to make sure they don't get to the worst-case scenario. That's what we need to do.
+  KARL:  And -- and look at the way life is starting to stop here. But we see different localities doing different things. Some cities are banning -- are banning gatherings over 250, some 500.
+  What -- what should be done? Should we be seeing restaurants shut down like we're seeing happening in Israel and Spain right now? Should -- should we basically be in a shutdown mode?
+  FAUCI:  You know, what we should be doing is absolutely making it much, much different, not business as usual. You've got to just down chill down. Some areas of the country, particularly the areas where it's clear, you're having a lot of community spread, may be more vigorous in shutting things down.
+  Right now, people are taking things on their own, no matter how you -- you say 50 people is the limit, and then people say, "No, no, we don't want anybody. We're just going to shut down things."
+  KARL:  And the number doesn't matter, does it? What matters is how densely packed people are.
+  FAUCI:  Exactly. Exactly. So what we've really got to do is we've got to, as much as possible -- but we don't want to lose sight of the fact that, when you're doing that interpersonal interaction that you're trying to calm down -- and whatever word you want -- chill, slow down-- we've got to make sure that the vulnerable ones are the ones we protect, the vulnerable, the elderly and those with underlying conditions.
+  Those are the people that, if you say, "Should you, kind of, stay in your house, not go to a movie, not go to a restaurant," for the most part, maybe, most people shouldn't do that. But the ones who really shouldn't do that are the vulnerable ones.
+  KARL:  Or those living with the vulnerable, right?
+  FAUCI:  Well, yeah, exactly.
+  KARL:  So what about travel restrictions? Are we going to see domestic travel restrictions?
+  I mean, we know we have hot spots. We have Washington State. We have parts of California in the north. Should there be travel restrictions?
+  FAUCI:  You know, when we sit around with the task force, we talk about every possibility. Travel restrictions within the country have not been seriously discussed. I mean, they've been discussed, but not seriously discussed.
+  I don't see that right now or in the immediate future. But remember, we are very open-minded about whatever it takes to preserve the health of the American public.
+  KARL:  So, not in consideration now, but possible.
+  One final question to you on this question of social distancing. Let's take a look at the press conference in the Rose Garden on Friday. We saw, the president’s been noted shaking hands with many of the executives. We also saw you -- there you are, touching the microphone and then touching your face.
+  Just, OK, tell me --
+  FAUCI:  There were two things there, Jon. I'm working on getting the boss to do this.
+  KARL:  Yes.
+  FAUCI:  I may not be successful, but we're working on it.
+  You know, sometimes there are things you have to do. If I didn't put the microphone down, you would have seen the microphone in front of my face like that.
+  (CROSSTALK)
+  KARL:  Well what are you doing to protect yourself?
+  FAUCI:  I'm practicing as much social distancing as I possibly can. I don't go out. I just don't go. I mean, I have a job -- that's a 19-hour a day job. I have no interest in going to the movies, to restaurants, or to getting on a plane.
+  KARL:  All right. Dr. Anthony Fauci, thank you for being here. Thank you for the work you're doing. We appreciate it.
+  FAUCI:  Good to be with you.
+  KARL:  Coming up, the coronavirus isn't just a public health threat, it's also threat to the health of our economy. Treasury Secretary Steven Mnuchin is next.
+  (COMMERCIAL BREAK)
+  (BEGIN VIDEO CLIP)
+  QUESTION: You spoke with Steven Mnuchin more than 20 times or so in the last day or so. Did you speak to the president at all through the course of the negotiations?
+  REP. NANCY PELOSI (D-CA): No. No.
+  QUESTION: Why not?
+  PELOSI: Why not?
+  QUESTION: Yes. He's the one who signs this into law.
+  PELOSI: Well, there was no need for that.
+  Mitch McConnell and I spoke. He said Steve Mnuchin carries the ball. So I negotiated with him.
+  (END VIDEO CLIP)
+  JONATHAN KARL, ABC NEWS CHIEF WHITE HOUSE CORRESPONDENT: That was Speaker Nancy Pelosi on her relationship with Treasury Secretary Steven Mnuchin.
+  As doctors and scientists lead the health effort to fight the pandemic, Mnuchin and Pelosi are running point on the government intervention to shore up the economy.
+  The economic repercussions are global. The stock market officially entered bear market territory this week. The Dow Jones Industrial average losing more than 20 percent of its value. Secretary of the Treasury Steven Mnuchin joins me right now.
+  Thank you for being here. We appreciate it.
+  STEVEN MNUCHIN, TREASURY SECRETARY: Thank you. Good to be here with you.
+  KARL: So Gary Cohn, of course, somebody you know well, the president's former top economic advisor, said that he feels we are now in a recession. Is he right?
+  MNUCHIN: I don't think so. But I think the real issue is not the economic situation today. The real issue is what economic tools are we going to use to make sure we get through this. This is a unique situation. We have a situation where travel has been ground to a halt. We're clearly going to have a slowdown. We're addressing issues for small and medium-sized businesses. And later in the year, obviously the economic activity will pick up as we confront this virus.
+  KARL: The president was again on Friday touting stock market gains, because the market bounced back, actually quite a bit, on Friday. But we're still in a bear market.
+  Is it -- is it kind of odd to hear the president talking about how great the stock market's doing when we're -- we are, by any definition, in a bear market?
+  MNUCHIN: Well, the president is focused on the stock market because it's just one indication of the economy that gives people confidence. And I think what you saw is the stock market reacted very positively to the bipartisan bill, to also the fact that we're ramping up testing dramatically and the fact that we have all these big companies coming in and helping us in a public-private partnership. I think everybody reacting very well to it.
+  KARL: The market, and not just the market, also reacted severely negatively to the Oval Office address.
+  Can you help me understand what happened there? I mean the president said several things. He said that cargo would be banned coming in from Europe. He said -- he did -- he failed to mention that American citizens would not be subject to the ban. He said that insurance companies were going to cover all costs associated with treatment of the coronavirus.
+  These were all false statements.
+  How, in a -- in an Oval Office address, do statements about the president's own proposals end up being wrong?
+  MNUCHIN:  Well, let me just first comment on your reaction to the stock market. Because the stock market is going to go up; it's going to go down. We can't focus on, every day, the move.
+  As it relates to the Oval Office address, the president was very clear. He wanted to address a very important point, which was he made the move to shut down travel to that so that he could shut down more cases coming in. He wanted to reassure the American public
+  I don't think, in an Oval Office address, you're going to address every single issue as you're discussing it. And I think, you know, we saw people --
+  KARL:  How does he get things wrong about his own proposal?
+  MNUCHIN: I don't -- I don't think he got things wrong at all.
+  KARL:  I mean, cargo's not banned.
+  MNUCHIN:  And we were very clear that people misinterpreted the comments on cargo and we immediately put out a statement to clarify that. So the president said this is similar to China and China cargo is not banned.
+  KARL:  What caused this turn in the president? Clearly he was not taking the pandemic very seriously early on and now, with these measures, he appears to be taking it very seriously. What -- what caused that change in the president's approach?
+  MNUCHIN:  I think the president has been listening to the medical professionals from day one. And as Dr. Fauci just said, the situation is evolving. We clearly saw a situation where the caseloads in other countries were increasing, a large, vast majority, I think it was like 75 percent of the cases we had were a result of incoming travelers. And the president made very decisive decisions quickly.
+  And I think if you look what we've done, and not only what we've done, but let me be clear, the president has instructed me, we will use whatever tools we have and whatever tools we don't have, we will go to Congress on a bipartisan basis and get more tools. The speaker and I are already in conversations about airlines, which is critical to us, hotels, cruise ships, more SBA lending, more liquidity, some type of stimulus.
+  So as I've been saying, I think we're in the second inning of nine innings and we will use whatever tools we need to make sure the economy and hardworking Americans get through this.
+  KARL: One of the things the president mentioned was this idea of Google putting a website that facilitates testing. Let's take a listen to what he said.
+  (BEGIN VIDEO CLIP)
+  DONALD TRUMP, PRESIDENT OF THE UNITED STATES:  Google is helping to develop a website. It's going to be very quickly done, unlike websites of the past, to determine whether a test is warranted and to facilitate testing at a nearby, convenient location.
+  (END VIDEO CLIP)
+  KARL:  That sounded really promising, but the company developing the website, which shares a parent company with Google, put out a statement shortly after that saying, we are developing a tool to help triage individuals for COVID-19 testing. Verily, that's the company, is in the early stages of development and planning to roll out testing in the Bay Area with the hope of expanding more broadly over time.
+  And information is so important to be accurate, this made it sound like we were about to all nationally be able to go on Google and do this. And this is not even developed in a pilot program yet.
+  MNUCHIN:  Again, Google has made commitments to us. They've been incredibly helpful. I want to thank Google and all the tech companies.
+  I mean, let's focus -- this is all of corporate America, small and medium-sized businesses, coming together. And as I've said, the president is bringing in all the companies to make sure whatever resources we need, industry is working with government.
+  KARL:  When do you think that -- that website is going to be up and running for everybody to be able to --
+  MNUCHIN:  I really don't know.
+  KARL:  Yes.
+  MNUCHIN:  Again, I'm sure it's as quickly as possible.
+  But what I'd rather focus on is, when is more money coming to the American public? What's much more important is, we need to focus on the airline industries. This is an unprecedented situation. There's lots of workers, hotels, other travel industries.
+  The president is going to use all the tools in our tool box and we will work with Congress on a bipartisan basis.
+  And this bill was very important in getting workers money in their pockets. People who have to be home being quarantined.
+  KARL:  Twenty conversations with Nancy Pelosi in a day. That may -- that may be a record, certainly for the member of -- of the Trump administration.
+  But you -- so the next steps do you think will be assistance for these industries that are more directly affected, travel, hotel, restaurants, small businesses?
+  MNUCHIN:  Absolutely. And by the way, people have been commenting on 20. It may have been 80.
+  (LAUGHTER)
+  KARL:  OK.
+  MNUCHIN:  So we were -- we were constantly in touch, updating the bill and making changes. And, yes, our focus is especially small and medium-sized businesses that are really hit hard in specific industries. Again, this is going to be a process with working with congress.
+  KARL:  So the president has been, again, blasting Jay Powell, the Fed chairman, calling him things like -- for his actions, "pathetic," "slow-moving," "putting us at a decided economic and physiological disadvantage."
+  So -- so the Federal Reserve pumped $1.5 trillion into the financial system, an announcement that Powell just made -- made last week.
+  Interest rates are at historic lows, biggest rate cut, he announced before that, since the financial crisis.
+  What -- what more should Jay Powell be doing? What's the president talking about?
+  MNUCHIN:  Well, I think, as you know, as a matter of policy, I speak to Jay Powell now almost every single day.
+  So it would be inappropriate for me to make comments on specific policies that he's considering and he may do.
+  But I can assure you he and I are in discussions every day. They have certain tools. We have certain tools. Certain tools were taken away that I'm going to go back to Congress and ask for. And, again, we are fully coordinated.
+  KARL:  Do you share this assessment of the president, though, pathetic, slow-moving, putting us at a disadvantage?
+  MNUCHIN:  Again, I think, as you know, I'm not going to make comments on that. It would be inappropriate for me, as Treasury secretary.
+  KARL:  I understand.
+  So the president has also said -- suggested again on Friday that he could fire Powell if he wanted to, or he could remove him as Fed chairman, put him in another position in the Fed.
+  Is that right? That's not the reading that most people have of the law.
+  MNUCHIN:  Well, let me be clear
+  I'm the -- I'm the Treasury secretary. I'm not the general counsel. So I'm not aware of what advice the president has been given.
+  But, again, what I want to focus on is, there is an economic situation, and the American public should know that the president, the vice president, the entire Cabinet is going to be focused on what economic things we need to do.
+  We have tools. Tools we don't have, I think you've seen. We're going to work together in a bipartisan way to make sure we protect business and individuals that are impacted.
+  And let me just comment. You know, in South Korea, 200,000 people who had flu-like symptoms were tested; 96 percent of them did not have the coronavirus.
+  So, the actions that the medical professionals have recommended and the president has implemented hopefully will make a dramatic difference in the spread of this.
+  KARL:  All right, Secretary Mnuchin, thank you for being here. Appreciate it.
+  MNUCHIN:  Thank you.
+  KARL:  Up next:  If you have been in a grocery store the last couple of days, chances are you have seen empty store shelves, just one indicator of how Americans are reacting to our new reality.
+  So, what comes next? And how can we best prepare?
+  Our experts, Dr. Jennifer Ashton, Tom Bossert, and Rebecca Jarvis, weigh in next
+  (COMMERCIAL BREAK)
+  KARL:  We'll be right back with our chief medical correspondent Dr. Jen Ashton, former Homeland Security Adviser Tom Bossert, and ABC News Chief Business Correspondent Rebecca Jarvis.
+  (COMMERCIAL BREAK)
+  (BEGIN VIDEO CLIP)
+  GOV. ANDREW CUOMO, (D) NEW YORK:  The closing of schools is a very difficult decision. A lot of children are receiving breakfast and lunch at school. Then if the kids are home, what do the parents do? If the parents are home, who is going to be working in my hospitals, which is the critical system in all of this.
+  (END VIDEO CLIP)
+  KARL:  Governor Andrew Cuomo there making the case against mass school closures in New York as more cities and states protectively cancel classes to prevent the spread of coronavirus.
+  Joining me now to try to make sense of it all, former Homeland Security Adviser and ABC News contributor Tom Bossert, ABC News Chief Medical Correspondent Dr. Jennifer Ashton, and ABC News Chief Business Correspondent Rebecca Jarvis.
+  Dr. Jen, just to pick up right what we heard from Governor Cuomo there making a case, and he went on even more than what you heard there about the downside of closing schools, and yet we see so many other school districts closing down. What is the right approach here?
+  DR. JENNIFER ASHTON, ABC NEWS CHIEF MEDICAL CORRESPONDENT:  You know, that is a complex question, Jon. He's right to consider all those other factors. When you hear things like school closures, or people asked to work from home, not everyone has the capacity to do that. There's a domino effect with the operationalization of that kind of response that-- that is complicated and intricate.
+  What we do know is that it's not just about protecting school children. In -- the good news in this outbreak so far is that children tend to be relatively spared in terms of symptoms of coronavirus, but that doesn't mean that they can't go on and act as vectors of spread and spread to other people. So this is part of aggressive social distancing. It's hard to shut down communities and regions without closing schools, though, and that's really the problem here.
+  JONATHAN KARL, ABC NEWS CHIEF WHITE HOUSE CORRESPONDENT: So, Tom, the other thing we have seen just today is we've seen these images at airports, Chicago O'Hare and other airports, of long lines, people packed together, because they're doing some screening now --
+  TOM BOSSERT, ABC NEWS NATIONAL SECURITY ANALYST: Yes.
+  KARL: Of -- for symptoms of coronavirus. But, I mean, don't those lines create other problems?
+  BOSSERT: Absolutely. So let me address that school point really quickly.
+  KARL: Yes.
+  BOSSERT: There has been a lot of study and research going into this. So while I understand the mayor's point, let me be very clear, it's not about every city in this country, it's about cities that have enough cases to merit this decision.
+  KARL: Like New York City?
+  BOSSERT: New York City merits that decision. He must get past that. He has no data. This thing drives me crazy. There's data to suggest this recommendation. He has no data to support all of his anecdotal concerns about what could happen and what couldn't happen. We know how many kids get school lunches. We know how many parents have kids in the health care system. And we can regulate that data. We can answer his questions. But he, in the meantime, while he makes these assumptions, is wasting time.
+  I think he's been doing a very nice job leading New York through this process. I don't think it's too late. I think the mayor deserves a lot of credit. But I would urge him, and not to get caught into this eight-week delay discussion with the CDC, to take steps, to notice people, to get them planning so that he can close that school system down. If in two weeks he was wrong --
+  KARL: It's the largest in the country.
+  BOSSERT: If in two weeks he was wrong, he can reassess. Buy yourself more options. If you wait two weeks and regret it, you don't have any options. So open (INAUDIBLE).
+  KARL: And the lines at the airports?
+  BOSSERT: Lines at the airports, you know, I was -- I -- if I were recommending these actions to the president, I would have say, you're going to get a limited health value out of these closures to Europe and you're going to have a massive economic consequence. The whole trick to what we're trying to pull off here is to increase the safety to people's lives and the -- and the -- and decrease the pressure on our hospitals without wrecking our economy.
+  And at this stage, given all the exceptions to those travel restrictions, I think that we've -- we're probably blocking more people from those countries than we are virus.
+  KARL: So, Rebecca, I want to get to the markets with you and whether or not we're in a recession. We heard the Treasury Secretary say that he does not believe we're in a recession and we're going to recover soon.
+  But first the practical question. These supermarkets, these empty grocery shelves, there are challenges to the supply chain, what -- when -- when do those -- how long does that last?
+  REBECCA JARVIS, ABC NEWS CHIEF BUSINESS CORRESPONDENT: Well, frankly, it lasts as long as the grocers stay open and also as the long as the length of this crisis, the actual health impact of this crisis lasts.
+  But I want to be clear, I've spoken to a number of vendors and grocers and the supplies exist, it's just getting the supplies into the grocers, into the retailers at this point in time. And they are having to completely change the way that they do business. Rather than going from factories to distribution centers then to stores, stores are now saying, bring it directly from the factory to us. Rather than getting two shipments a week, they are saying we need trucks on the road every single day bringing us updated supplies. They are also limiting the amount of supplies that people can purchase at this time.
+  And, I have to say, there were a lot of retailers that have online presence. If you can purchase it online and pick it up in store, they are recommending doing that. That will allow for greater social distancing so you are not part of that rush in the grocery store itself, John.
+  KARL: And, do you -- what was your take on Mnuchin saying that he does not think we're in a recession?
+  JARVIS: Well, there's no doubt that there is a giant gaping hole in the economy right now. You can't cancel Disneyland and the NBA and March Madness and every other business shutting down, at least for the time being, without a substantial economic blow.
+  And Mark Zandi at Moody's Analytics, the chief economist there, estimates that this will eat into, at a minimum, GDP, $120 billion.
+  There's also the ripple effect and the effects that we still don't know. We don't know how long the disease will be here. We don't know how the consumer will respond. And, frankly, we don't really know what the long-term government response to this is and what kind of full stimulus package might be put together. Those are all unknowns that will lead to a greater or a lesser economic challenge for the country.
+  And one other additional aspect I would add to this. I covered the great recession. I was here throughout. The economy, we didn't know that we were in a recession until a year after. It wasn't official that we were in that recession until a year after it had started.
+  JONATHAN KARL, ABC NEWS ANCHOR:  So, Dr. Ashton, the other question is whether or not the medical system is prepared for all of this?
+  DR. JENNIFER ASHTON, ABC CHIEF MEDICAL CORRESPONDENT:  Right.
+  KARL:  What -- what is your sense? I mean, are they prepared for the onslaught that appears to be coming?
+  ASHTON:  We don't know what the U.S. crisis surge capacity is in this country, Jon. It has never been tested to the magnitude of the range of worst-case scenarios that you discussed with Dr. Anthony Fauci.
+  So, I can tell you that as of Friday, with the authorization that the president gave for hospitals to enact their emergency preparedness plan, right now, every hospital, particularly in those cities that are experiencing high numbers of coronavirus cases, they are activating their disaster plans, which to be clear has to do with supplies, space, systems and staff.
+  And when you talk about staff, just one part of that, you're talking about looking at things like bringing in retired nurses, respiratory therapists, physicians, actually recruiting some volunteers from the community. When you talk about space, you're going to see looking at hotels, or schools that are closed, or convention centers, community centers in case they need to house large numbersof patients. We have never implemented a response along that level.
+  And so, right now, that is the concern and that is precisely why when you hear aggressive social distancing measures and steps like Tom was referring to, that is so critical. If our hospitals get tested to that extent, we have to remember, people are still having heart attacks. People are still having strokes. People are still having accidents. Those people still need care.
+  And when you start to see an implementation of what we call a reverse triage where stable patients are discharged or moved to other facilities, that's a serious situation that we have no idea how it's going to unfold.
+  KARL:  All right, Dr. Ashton, Rebecca Jarvis and Tom Bossert, thank you all very much. We’ll be talking more in the days ahead.
+  Up next, the world has been turned upside-down by the coronavirus pandemic. And the presidential race is no exception. The powerhouse roundtable is next.
+  (COMMERCIAL BREAK)
+  (BEGIN VIDEO CLIP)
+  SEN. BERNIE SANDERS (I-VT), PRESIDENTIAL CANDIDATE:  While our campaign has won the ideological debate, we are losing the debate over electability. I cannot tell you how many people our campaign has spoken to, who have said and I quote, I like what your campaign stands for, I agree with what your campaign stands for, but I’m going to vote for Joe Biden because I think Joe is the best candidate to defeat  Donald Trump .
+  (END VIDEO CLIP)
+  KARL:  A rare admission by a presidential candidate.
+  Senator Bernie Sanders there speaking on Wednesday after another poor showing on Tuesday night.
+  So, is this primary race a done deal for Joe Biden?
+  We asked FiveThirtyEight's Nate Silver, do you buy that?
+  (BEGIN VIDEOTAPE)
+  NATE SILVER, FIVETHIRTYEIGHT:  Remember just one month ago when Bernie Sanders was the Democratic frontrunner? Well, it was obviously too soon to count Joe Biden out.  So by the same token, isn’t it a little soon to count Bernie out now? Well, not necessarily.
+  About half of states have already voted, and Democrats have made it very clear that they prefer Biden to Sanders.
+  Consider that Biden won literally every county in Michigan, a state that Sanders won four years ago. In the past two weeks, Biden also won Texas, he won Maine, he won Massachusetts – he’ll probably win Washington state once all votes are counted there. These are all places where Sanders was expected to do well.
+  Could Bernie still turn it around? Honestly, probably not.
+  He’s currently down by more than 20 points in national polls. And he's down in polls of all 4 of the states set to vote on Tuesday – including Florida, where he’s behind by more than 40 points.
+  But more importantly, even if Sanders did make some sort of miraculous comeback… it would probably be too little, too late.
+  He’s trailing Biden by about 150 delegates, according to FiveThirtyEight’s estimates, and that’s expected to balloon to 350 delegates after Tuesday night’s contests.
+  Plus, the biggest story in the news right now –coronavirus – seems to be working to Biden’s benefit.
+  In a recent poll, Democrats preferred Biden by 25 points on who they trust to handle a national crisis. And with both candidates cancelling big rallies and essentially stopping, ampaigning, there's not much opportunity to build momentum.
+  So, yes, I buy that the primary is basically over. If you want to get into semantics – whether Sanders has a 5 or .5 or .05 percent chance - then sure, we can debate that. But this is not one of those times when there’s a lot of doubt about the outcome.
+  (END VIDEOTAPE)
+  KARL:  Let's get right to the 2020 race now with our powerhouse roundtable, ABC News political director Rick Klein, Associated Press Washington bureau chief Julie Pace, our newest ABC News contributor -- that's great news -- Jonah Goldberg, editor in chief of The Dispatch, and former North Dakota Senator and ABC News contributor Heidi Heitkamp.
+  So, Rick, this is such a strange situation. We have a debate that is happening tonight, not in front of a crowd out in Arizona, as planned, but in a studio here in Washington, a CNN studio.
+  What do you expect to see in this debate? And to the question Nate raises here, I mean, is this primary over?
+  RICK KLEIN, ABC NEWS POLITICAL DIRECTOR:  Well, society has ground to a halt at the very moment that the Democratic primary appears to be essentially over.
+  And that makes the strangest situation imaginable. Bernie Sanders is soldiering on. And a lot of his supporters and his team has been talking about tonight's debate as a defining moment, finally that one-on-one matchup.
+  But people's heads are not wrapped around politics at this moment. And he needs such a dramatic change in the storyline politically, it's unfathomable what could even happen at a debate to change that and to change the trajectory going into Tuesday night.
+  So, for Joe Biden, it's really do no harm. And it is just -- it happens in this really strange moment. I just can't imagine people's minds being -- thinking about the Democratic primary at this -- at this time and space.
+  KARL:  What's your read on Sanders?
+  I mean, you have covered him, you have known him for a long time. What's he going to do going into this thing?
+  JULIE PACE, ABC NEWS CONTRIBUTOR:  I think Bernie Sanders is going to try to do two things.
+  I think, one, he's going to talk about the exact same policy proposals that he has been talking about for years. Bernie Sanders is a candidate who has a cause. He believes in Medicare for all. He believes in an overhaul of economic and political systems in this country.
+  And he sees this as perhaps his last, biggest stage to make that case. I also think he's going to try to push Joe Biden a little bit. I don't think it's going to be as tough and as personally critical as some of those debates with Hillary Clinton at this stage in the 2016 race.
+  But he does believe that Joe Biden is on the wrong side of a couple of key issues, including things like the Iraq War vote from the early 2000s. I think the big challenge for Sanders right...
+  KARL:  Does he bring that up? Does he go into that?
+  PACE:  I think he might.
+  And I think the challenge for Sanders right now is that, that is not where the American people are. I mean, we are focused on a major public health and economic crisis right now. And he's going to be hearkening back to issues that I think are just going to sound a little irrelevant to a lot of people.
+  KARL:  But, Jonah, it was -- it was interesting.
+  The president did his hastily arranged Oval Office address, which, by any measure, did not go well.
+  And then Joe Biden, previously scheduled, the next day had his own address, not in an Oval Office, but on his approach, what he would be doing with coronavirus.
+  The contrast was -- it was pretty stark.
+  JONAH GOLDBERG, EDITOR IN CHIEF, THE DISPATCH:  Yes.
+  Look, first of all, for the debate, the one piece of advice I have is, they should both take their surgical masks off before they start talking.
+  (LAUGHTER)
+  GOLDBERG:  Yes.
+  No, look, the Wednesday night address, I think, by any objective measure, was the worst nationally televised presidential debate address in American history.
+  The only one that comes close would be Jimmy Carter's malaise speech.
+  And if had -- if President Trump had done what he did in that news conference on Friday, with the so -- those proposals, that tone, he would have been in much better shape.
+  Biden, I think his strategy vis-a-vis Trump is the same strategy he has vis-a-vis Sanders, is, do no harm, don't mess up, be reassuring. And that will just reinforce his advantages against Trump going forward. It'll will reinforce his advantages against Sanders going forward.
+  What he doesn't need now is a gaffe that turns the issue back to his sort of unpredictability. And as long as he can avoid that, I think he's in pretty good shape.
+  KARL:  But this is so strange, because we have four states, big states that are voting on Tuesday--Florida, Ohio, Arizona, Illinois.
+  I mean, primary day, we see long lines. We see people packed into precincts, schools, wherever voting is taking place.
+  I mean, how is this -- what is this going to look like?
+  HEIDI HEITKAMP, ABC NEWS CONTRIBUTOR:  Number one, I think, functionally, the primary season’s over.
+  And so Florida, no matter what, is going to come in big. I think Ohio is going to come in big for Biden. And so we really are now at that space where the inevitable is there.
+  I -- I think one point that we need to make here is Biden has another challenge tonight, and that's to unify the Democratic Party behind him. And so depending upon how he treats Bernie -- we're talking a lot about how Bernie treats Joe, but how is Joe going to treat Bernie, and how is he going to reach out to those people who are disaffected.
+  A lot of people are saying why have the debate in the middle of this economic and public health crisis. You're having this debate tonight because if you didn't the Bernie supporters would be absolutely apoplectic...
+  KARL:   Biden would have been OK not doing it.
+  HEITKAMP:  Right. Right, but the Bernie supporters want this debate. They want to have that national stage. It's going to be, I think, a real challenge for Joe Biden to unify the party tonight.
+  GOLDBERG:  Ratings might be good because of self-quarantine, though.
+  PACE:  I do think Biden -- I do think Biden and his campaign are acutely aware of that challenge, that one of his missions tonight is to go up there, to say to Bernie supporters or even to supporters of Elizabeth Warren who are still waiting to see where they're going to go that there's room for him -- or for them in his campaign. And he very notably on Friday came in support of Elizabeth Warren's bankruptcy plan, something he had not supported previously. And I think you're going to see similar overtures like that in the debate tonight.
+  KLEIN:  And the Biden's team calculation is that Sanders can't get too aggressive, and that would be a big mistake on his part -- and Biden recognize this is the moment to try to coalesce the party, to try to be a little bit bigger and try to show not only Democrats but the American people this is how a president would react to something like this.
+  KARL:  And Sanders seems to be signaling that he's not going to be very aggressive. He's going to -- he wants the steer the issues now, it seems.
+  KLEIN:  It sounds like he...
+  KARL:  I mean, it wasn't a concession, it wasn't an endorsement when he came out and he spoke on Wednesday, but he didn't seem like he was ready to fight it out with Biden.
+  KLEIN:  It's not just pulling punches, he's telegraphing the punches. He's saying, look, I want to ask Joe Biden these questions. It almost sounds like he wants to conduct a job interview with Joe Biden and to maybe move him a little bit to the left, get some policy concessions and signal overall that the Democrats' singular focus needs to be defeating Donald Trump. That's a big difference from four years ago at this same stage in the race.
+  HEITKAMP:  And it may be that Bernie wants to move his supporters with him, and so he has to have that debate with Biden and get Biden to basically say the right things so then Bernie can be the guy out there working for Joe Biden.
+  Because I think Bernie is absolutely honest when he says, anyone but Trump, and I'm going to work my heart out. But he's got to a pretty independent base. And he's got to speak to that base. And in order to have the tools to do that, the ammunition to do that, he's going to have to get Biden to come a little bit his way.
+  It's kind of ironic, because you always say, OK, once you sew up the nomination of the Democratic Party, you move to the center, now it seems like you see him moving a little bit to the left to bring that coalition together.
+  KARL:  But it's all so odd we're having this conversation while this pandemic is playing out. And look -- I want to put this graphic up of all the sports that have canceled their events. I mean, it's every major sport -- there you see the NBA, March Madness is done, hockey, spring training is canceled, Major League Soccer, the Masters postponed, all of this everywhere ground to a halt.
+  Let me just play one athlete's effort to try to make sense of all of this. This is Giancarlo Stanton of the New York Yankees -- oh, it's a graphic, I'm sorry, I'm going to read what he said:  "It's unfortunate, but I think it's the proper measure we need to take now given the situation the country's in and the world's in. It's important to know that some things are bigger than baseball, bigger than sports at this moment."
+  KLEIN:  It's a reminder that sports is society that society is a reflection of-- reflected in sports. And the concern, from what I've talked to people around sports, the concern wasn't just that athletes themselves could come down, or even fans, the images that potentially could come out of mass infections out of baseball stadiums, of people getting actively sick, those would have been extremely disturbing. And given the circumstances, it seems inevitable, but I don't know how you can overstate what this means. To have this utter shutdown of all sports in the middle of March Madness, in the middle of spring training, in the middle of the Masters, all of these things that we're used to seeing it shatters any sense of normalcy we might feel.
+  PACE:  And I do think this is the question that now faces these campaigns, both the Democratic campaigns, but also President Trump. Trump obviously relishes in the rallies that he has already been having for his re-election campaign. How do you gather hundreds, thousands of people into a room right now for a political campaign? And what advice do you give voters on Tuesday who are going to be packing into elementary school gyms or church basements to vote? How you just logistically run a campaign right now is really complicated. And I don't think anybody on either side of the aisle has an answer at this point.
+  KARL:  We haven't seen this in our lifetime. 9/11 we saw obviously a shutdown of all the airplanes came down -- you know, stopped, we saw that, but the baseball games continued. President Bush famously going out and throwing the first pitch.
+  GOLDBERG:  And also, just on the economic side of it, when you cancel a season it's not like next season you'll play twice as many games, right. So this is truly lost economic activity in a way -- it's not just delayed economic activity. And that's going to have real knock-on effects, you know, going out both politically and just economically in terms of people's lives.
+  JONATHAN KARL, ABC NEWS ANCHOR: So, Senator, you just came in from North Dakota, correct, for -- for -- to do this. I -- I talked to my friends in South Dakota --
+  HEIDI HEITKAMP (D), ABC NEWS CONTRIBUTOR, FORMER NORTH DAKOTA SENATOR: Which -- which, by the way, I read your tweets.
+  KARL: Yes. Yes.
+  HEITKAMP: North Dakota is the better --
+  KARL: I will (INAUDIBLE) that debate another time.
+  HEITKAMP: I'm just saying. I'm just saying. We'll have to --
+  KARL: I --
+  GOLDBERG: When does the war begin?
+  HEITKAMP: We'll have to -- we'll have to reserve that discussion for later.
+  KARL: Yes. Yes.
+  But -- but, you know, I mean talking to -- to my friends back there, many of them think that basically we've lost our minds and we're overreacting to all this.
+  HEITKAMP: Yes.
+  KARL: What -- what was -- what was your sense back home? Do people -- how -- how are they assessing this?
+  HEITKAMP: I -- I -- I think there's some of that. But then, as the president comes to this debate with a greater sense of -- not about politics or economics, but public health, I think he's going to bring the middle of the country along.
+  You know, I had a friend who said, oh, I think this is crazy. I -- I sent her Newt Gingrich's comment. He's sitting in Italy watching this whole thing happen. Obviously, that kind of reinforcement from people from trusted folks will go a long way in explaining --
+  KARL: Yes.
+  HEITKAMP: You do not want to be Italy. And if we're going to avoid being Italy, we're going to have to bend this curve much quicker than what Italy did.
+  KARL: And Gingrich is saying this is --
+  HEITKAMP: Yes, this is serious.
+  KARL: This is --
+  HEITKAMP: Take it seriously. And we need to take all precautions to make sure that this doesn't happen in our country.
+  And I think, so often in America now the -- the really unfortunate thing is, we only believe when somebody who's speaking it is somebody we believe. And so when -- when the more you have conservatives coming out, you know, even Ted Cruz, you know, retweeting AOC's tweet helps to build that understanding that people have in my part of my country and your part of the country.
+  KARL: And the president's tone, I mean, and substance, tone, everything, I mean for whatever you want to say about the Oval Office address, he was taking it seriously in a way that he did not the day before.
+  JULIE PACE, WASHINGTON BUREAU CHIEF, ASSOCIATED PRESS: Something has clearly changed. And I think that the president is realizing that, one, this is a major public health and economic issue. And, two, it's a problem that's not going to go away. This is not something where we are looking at the end of next week and then we can move on and get back to life as normal. We can look, you know, to two weeks down the road.
+  He is going to be dealing with this potentially for the rest of this year, for the rest of his final year of this -- of this term and he has to recalibrate his own presidency. If not, he's probably going to suffer political consequences.
+  HEITKAMP: I think that one of his challenges -- he -- we went into this quarter thinking maybe if we got 2 percent economic growth that was going to be a good thing. All the predictions were something less than two. Now we're in recession and he's going to have to find some way to explain that to the American public. And -- and I think that he understands the intersection between a public health crisis and an economic crisis on which he's building his entire campaign.
+  KARL: I mean it may be the defining moment of his presidency.
+  HEITKAMP: Yes.
+  KARL: Unfortunately, we are all out of time. A quick programming note, "20/20" will have a special hour on the Covid-19 pandemic tomorrow night, 10:00 Eastern, right here on ABC News.
+  And I want to leave you here this morning with the sights and sounds of Europe on lockdown. That's Spain, the empty streets filled with applause to thank hospital workers. And in Italy, there you hear it, an opera singer serenades from his balcony. And neighbors across the country, you can go and see videos of this up and down Italy, people separated but coming together in solidarity and in song.
+  So, on that note, have a good Sunday.
+  (COMMERCIAL BREAK)
+ 

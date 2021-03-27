@@ -1,0 +1,58 @@
+MILWAUKEE – In June 2019, a  team of scientists  and editors launched an online server where medical researchers could submit articles. The team's goal was to help the medical community more quickly share research findings and learn from one another. 
+  By the end of the year, the team received about 75 submissions per week.
+  Then COVID-19 appeared. 
+  Now, nearly that many submissions come in each day.
+  "I'm thrilled, I'm really thrilled!" said Harlan Krumholz, one of the founders of the server, medRxiv (pronounced "med archive"). "It's really speeding the ability for scientists to be able to communicate with each other and understand what each other is doing."
+  Just as everyday life has been affected by COVID-19, science itself has changed.
+  Scientists have had to learn how to produce meaningful information for a world clamoring for speedy results. 
+  A month after the first cases of COVID-19 were reported, researchers determined the entire genome of the new virus and shared their results online.
+  Coronavirus Watch newsletter: Get daily updates in your inbox 
+  In March, oxygen and ventilators were the only treatment options for patients hospitalized with COVID-19. Physicians have added convalescent plasma, remdesivir and dexamethasone to their arsenal.
+  This speed and openness is not typical of scientific research and required fundamental changes in the work scientists do. 
+  "Science immediately reorganized itself in a purposeful way to address a global threat," James Bradner, president of the Institutes for BioMedical Research at Novartis, said in a webinar hosted by Chemical & Engineering News.
+  In most cases, scientists welcome the changes and are proud of what has been accomplished in such a short time.
+  "You had a biomedical research establishment that was, and continues to be, hobbled by underfunding," said Arturo Casadevall, a professor at the Johns Hopkins Bloomberg School of Public Health. Yet in light of the COVID-19 crisis, there has been "a tremendous generation of knowledge very rapidly."
+  Casadevall is one of the research leaders for a nationwide  convalescent   plasma trial. 
+  These efforts must be pursued with caution and thoughtfulness – a challenge when the world is desperate for results.
+  Pilar Ossorio, a professor of law and bioethics at the University of Wisconsin-Madison, worries there is so much pressure to produce positive results that conditions are ripe for cutting corners. She noted that in an emergency when people are suffering, there can be resistance to having control groups that don't get an experimental treatment in a study.
+  "But it doesn't work scientifically," Ossorio said. "It doesn't produce good enough data that you can actually have any confidence that the test intervention is safe or effective."
+  Any failure to maintain scientific rigor can have lasting repercussions, including how the public views science. Earlier in the pandemic,  poorly designed  clinical trials using hydroxychloroquine as a COVID-19 treatment contributed to  controversies  over the  effectiveness  of the medicine. 
+  Maintaining research standards is an ethical mandate, according to Ossorio. 
+  If a poorly designed trial creates more uncertainty, "you've imposed burdens and risks on people" without necessarily producing "anything of any social value."
+  Devin Nunes' winery, yacht clubs, a resort in West Virginia owned by its governor: Here's who got PPP loans 
+  Science is largely a methodical and iterative process. It's slow. The process of going from a hypothesis to consensus can take years. 
+  But a pandemic doesn't wait years for the first treatments to come out.
+  One solution that has revealed itself: Share information openly and find ways to innovate. 
+  Online preprint servers such as medRxiv have emerged as one tool in getting information out fast. Researchers can submit studies directly to online archives, cutting out processes such as peer review that typically precede publication of studies.
+  Since December, more than 5,000 manuscripts related to COVID-19 research have been submitted to medRxiv and another preprint server, bioRxiv. Online archives are where the first genetic sequence of SARS-CoV-2, the virus that causes the disease,  and data for the dexamethasone clinical trial were posted.
+  "I don't know what we would have done without preprints," Casadevall said.
+  Critics of preprints emphasize the importance of peer review in catching bad studies and protecting patients.
+  Krumholz noted that medRxiv editors curate submissions, checking for studies that ought to be peer-reviewed or that could cause medical harm. 
+  Research companies are sharing more information and resources, normally taboo in a field rife with competition.
+  To the "surprise and delight" of David Liu, a professor of chemistry at Harvard University, one company agreed to share clinical trial candidates with his lab for testing.
+  "I hope that choice to cooperate rather than compete becomes part of our legacy," Liu said in the Chemical & Engineering News webinar.
+  The pressures of the COVID-19 pandemic have led some researchers running clinical trials to change traditional protocols. Some of those changes may become standard procedures.
+  "We have this real brick-and-mortar view of how clinical research had to happen, and I think COVID has really challenged that," said Betsy Nugent, the director of clinical trials development for the University of Wisconsin School of Medicine and Public Health and UW Health. 
+  Telemedicine, for example, could help people living in remote areas participate in trials.
+  "In some ways, I hope this will stay because it gives us an access point to many, many more patients," Nugent said.
+  Some scientists have pivoted their research to join the fight against COVID-19, even if their new work isn't directly related to finding medicines and treatments. 
+  Song Gao, an assistant professor of geographic information science at UW-Madison, was among the first to study and map how people's mobility changed during the COVID-19 pandemic.
+  Other scientists haven't just pivoted, they've found ways to support COVID-19 research that don't even match their specific expertise. 
+  Before the pandemic, Michael Joyner, an anesthesiologist who leads the Mayo Clinic's efforts in the nationwide plasma trial, studied the physiology of marathoners. Casadevall studied fungal diseases.
+  "I think all of us as scientists, don't always recognize the expertise that we do have," said Alison Buttenheim, an associate professor of nursing and health policy at the University of Pennsylvania. 
+  Some scientists' role in the COVID-19 crisis isn't in the lab or clinic but in the world of social media and education.
+  In March, Buttenheim and Malia Jones, an epidemiologist at UW-Madison, launched "Dear Pandemic," a social media group that communicates the latest COVID-19 research.
+  The group is run by a volunteer team of 10 self-styled "nerdy girls" who use public health training and scientific literacy to counter the effects of speedy research and what the World Health Organization has called an "infodemic."
+  "We work really hard in our tone and in the selection of stories and in our coverage to help make those nuanced and complicated answers intelligible," Buttenheim said. 
+  Coronavirus updates: Brazil President Bolsonaro tests positive; US drops out of WHO; Novavax, Regeneron say drugs almost ready 
+  Just as COVID-19 will leave deep marks in society, science will look different even after the immediate threat of the pandemic has passed.
+  Tools such as preprint servers and remote trials will almost surely become more common, and science communication and contact tracing may be more highly valued.
+  Some expect more widespread appreciation – and funding – for science research.
+  Nugent said many UW Health patients "have been asking how they can help, how they can participate," and this increased engagement could lead to more participation in medical research. 
+  Ossorio is concerned that trust in science will degrade if opportunities are wasted and misinformation continues.
+  Underlying all the possibilities scientists see, the prevailing hope is that the scientific community will learn from this pandemic, and everyone who looked to science for answers will learn as well.
+  "The world is just going to be different," Jones said, "Getting to the point where there's hopefully a vaccine that's effective is going to take enough time that I think science will change."
+  Jordan Nutting is a mass media fellow with the American Association for the Advancement of Science writing about science at the Milwaukee Journal Sentinel. 
+  'Far beyond garden-variety narcissism': Book by Trump's niece paints him as habitual liar, inept businessman 
+  Jeffrey Epstein: Deutsche Bank to pay $150 million for dealings with Epstein, foreign banks 
+ 

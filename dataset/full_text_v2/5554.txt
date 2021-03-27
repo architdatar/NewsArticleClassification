@@ -1,0 +1,5 @@
+Reuters
+  South Korea is trialing a new QR code system to better track and trace visitors to high-risk locations including nightclubs, restaurants and churches. 
+  The decision to use the system follows authorities concern after struggling to trace a number of people who had visited nightclubs and bars at the center of a virus outbreak in the capital Seoul  last month . The outbreak centered on a number of LGBTQ venues and, as homosexuality is still taboo in the east Asian nation, entries to the handwritten visitor logs were often found to be false or incomplete. 
+  Starting June 10, visitors to these high-risk locations will be required to use their phone to generate a one-time, personalized QR code that is scanned at the door. The information will be logged in a database for four weeks before being automatically deleted, according to South Korea's Ministry of Health. 
+ 

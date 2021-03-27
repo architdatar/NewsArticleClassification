@@ -1,0 +1,56 @@
+with Tonya Riley
+  Countries around the world are getting tougher on privacy regulation. And Facebook is moving to steer the debate so the rules are written on its terms.  
+  The social network today  released its latest white paper , a 29-page document calling current privacy practices and laws “insufficient.” The company says the paper is intended to spark greater debate about how the tech industry can inform people about its use of their data  —  and move beyond convoluted privacy policies or notifications about cookies that pop up so frequently they make people’s eyes glaze over.  
+  “I think we can all agree that obviously policies are probably not the best way of communicating about privacy,” said Rob Sherman, Facebook’s deputy chief privacy officer, told me in an interview.“But also there's little consensus on how to do that.”
+  The company lays out in the paper some of the tensions it sees for businesses and regulators on privacy issues. On the one hand the company gets criticism that these policies are too long, Sherman says, but it's also trying to ensure it's making all the disclosures required to under a complex web of international laws and regulations. 
+  The paper calls for greater collaboration between regulators and companies to develop and test new ways for people to learn more about the use of their data by the giant social media platform, which has been criticized – especially  surrounding  Cambridge Analytica and the 2016 election –  when third parties improperly obtained data of Facebook users without their knowledge . 
+  The company was required to make major changes to its business in the year since it  reached a historic $5 billion settlement  with the Federal Trade Commission to end a privacy investigation. Now Facebook is hoping its forced education in improving privacy can be useful to policy advocates and regulators. 
+  “Hopefully some of that is useful to policymakers as they're making decisions about how to regulate privacy,” Sherman said. “Our goal is not to try to write a law that would regulate us. There are other people that will do that. We want to certainly be a part of the discussion and give our perspective on what we think makes sense and how it would work in practice and in our environment.”
+  Given its spotty track record on privacy, the company is facing an uphill battle in rebuilding relationships with regulators and consumer advocates. But Sherman says Facebook has aggressively invested and hired privacy experts over the last year, adding every new product the company builds now goes through a comprehensive privacy review. 
+  “Culturally it ’ s become very clear across Facebook that privacy is something that is essentially important for business,” Sherman told me. “If people don ’ t trust us to safeguard their data, they won ’ t feel comfortable using our services.”  
+  Facebook's report arrives as countries around the world, including Australia, are cracking down on data collection. California  began enforcing its new state privacy law  earlier this month, which could reinvigorate the privacy debate in the United States. 
+  This isn't the first time that Facebook released a white paper. The company  published one earlier this year  on content moderation, another contentious issue in Washington.
+  Facebook was planning to release the paper before the  coronavirus  pandemic intensified when privacy issues were a greater focus on the presidential campaign trail and on Capitol Hill. But now the debate is shifting, especially as data plays a critical role in the coronavirus response and people are spending more time using online services while staying at home. 
+  One recent bipartisan privacy proposal,  which my colleague Tony Romm detailed , aimed to ensure new digital tools meant to combat the coronavirus don’t come at the expense of user privacy.
+  Sherman says the pandemic is testing some of the company's transparency and privacy work, especially as the platform seeks ways to use its data for the coronavirus response. The social network has had to communicate with users about some of its new covid-19 tools, such as providing aggregated data about its users to public health officials about the virus’s spread. The company is also working with Carnegie Mellon researchers  to gather  covid-19 symptom data. 
+  “There’s also a really core responsibility that comes along with that, both to use data responsibly and also to communicate effectively with people about how their data is being used,” Sherman said. 
+  Engineers at Google made changes that intentionally drive users to YouTube, which it owns, over other streaming services,  the Wall Street Journal reports. 
+  In searches for the same video that appeared on different platforms, Google ’ s homepage carousel showed YouTube results first 95 percent of the time, WSJ found. In comparison, a Facebook Watch version of the same videos showed up first just 5 percent of the time.
+  Google spokeswoman Lara Levin denied Google search gives preference to YouTube or any other video service.  
+  Allegations it prioritizes its own business over competitors could add to the heavy antitrust scrutiny the company is already under. 
+  Google ’ s chief executive Sundar Pichai  is set to testify  later this month alongside the chief executives of Amazon, Facebook and Apple at a House Judiciary Committee hearing about competition in the tech industry.
+  The “ Find Something New ” ad campaign also encourages employers to move away from degree-based requirements to focus on skills,  Josh Wingrove and Jennifer Jacobs at Bloomberg report . 
+  The Ad Council is sponsoring the initiative, which builds off ongoing work by the White House  American Workforce Policy Advisory Board, which counts Apple chief executive Tim Cook and IBM Chairman Ginni Rometty as members.  Twenty private-sector organizations, including Home Depot and Lockheed Martin, backed the campaign. 
+  “Now, as a result of covid, people need to, unfortunately, in some cases learn a completely new skill, but that is also an opportunity to be put on a new trajectory,” said Ivanka Trump, senior aide to the president, at a virtual roundtable about the initiative.
+  “We believe that, with the right tools, people have the power to change their lives and the lives of their families for the better,” Cook said during the webinar.  
+  But the campaign has already received criticism for being insensitive to the millions of workers who have lost their jobs during the pandemic,  Hamza Shaban reports . 
+  Sen. Ron Wyden (D-Ore.) called the ad campaign “insulting.”
+  Other tech companies have turned to reskilling programs to avoid layoffs. Verizon announced a pledge to prepare 500,000 lower-wage and minority workers for new jobs with job-skills training by 2030,  CNN reports . The company has already retained about 20,000 of its workers for new careers to avoid pandemic layoffs.
+  Major tech companies supported a lawsuit from Harvard University and the Massachusetts Institute of Technology, which challenged the administration ’ s proposal to bar international students from remaining in the United States if their colleges didn ’ t offer in-person classes. The administration ’ s reversal settles that lawsuit,  Nick Anderson and Susan Svrluga report .
+  Facebook, Google, Microsoft and 16 other technology  companies and trade associations backed the brief, which was filed by the U.S. Chamber of Commerce, that alleged the policy would harm U.S. businesses.  
+  Some celebrated the decision yesterday. TechNet, an industry trade group, praised the move:  
+  Kent Walker, senior vice president of global affairs at Google, praised the decision on Twitter:
+  Airbnb had a rough day on Twitter after  a user flagged  that the company was asking customers to send their favorite hosts “kindness cards” with an optional donation. 
+  The stunt was the perfect storm of Internet ire toward gig companies and landlords:
+  Others suggested that the billion-dollar company should handle its own goodwill toward hosts:
+  Rep. Stephen F. Lynch (D-Mass.), chairman of the House Oversight Subcommittee on National Security, sent letters to  Apple  and  Google  saying the companies are responsible for making consumers aware of potential security risks posed by the apps. 
+  Neither company requires developers to disclose in which countries their data is stored.  
+  Intelligence officials have warned that foreign applications could be compelled to share U.S. user data depending on local laws. Some lawmakers and officials have pointed to the concern in advocating for  restrictions on TikTok  and other Chinese apps. (TikTok says it does not store U.S. user data in China.) 
+  Lynch also asks the companies to provide details on any instances in which they removed an app for sharing personal data with a foreign government.  
+  It is the second state after California to sue the companies over their worker status,  Kate Conger and Daisuke Wakabayashi report .  
+  Like in California, Massachusetts Attorney General Maura Healey is asking the court to rule that the drivers are employees under state law and force the court to prevent the companies from denying drivers employee benefits.
+  “They have been playing this game for years,” Healey said in a video announcing the lawsuit.  “Uber and Lyft set the rates. They alone set the rules. Drivers are employees.”
+  The coronavirus pandemic, which has left many ride-share drivers with reduced work, has spurred growing demand for gig workers to provide their workers with benefits.
+  “Not only is it unfair and exploitative. It ’ s illegal,” she said.
+  Uber will contest the action in court, spokesman Matt Kallman told the New York Times. Lyft spokewoman Julie Woods said the lawsuit could lead to the elimination of more than 50,000 jobs.
+  More workforce news:
+  Shipt workers to strike over shift to opaque pay structure (The Hill) 
+  The president’s boast came after the United Kingdom reversed an earlier decision that would have allowed the Chinese firm to build less-sensitive parts of its 5G network.  
+  “ I did this myself, for the most part, ”  Trump said at a  news conference .  “ It ’ s a big security risk. I talked many countries out of using it. ”
+  The British government expects its 5G network to be totally Huawei-free by 2027 because it will be a lengthy and costly process for British companies to shed all their Huawei gear. The decision came after a U.S. ban on foreign firms selling computer chips made with U.S. equipment to Huawei. 
+  More Trump news:
+  White House reportedly orders hospitals to bypass CDC during COVID-19 data collection (The Verge) 
+  Myspace Wasn't a Simpler Time, We Were Just Teenagers (Vice) 
+  Covid Babysitting: When Virtual Camps and Sitter Dates Get Messy (Wall Street Journal) 
+  This new Apple commercial is maybe a little too real.
+ 

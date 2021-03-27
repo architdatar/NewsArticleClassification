@@ -1,0 +1,6 @@
+Jacob Ward
+  State unemployment offices  have been overwhelmed  by a sudden influx in applications, with millions of Americans suddenly out of work and seeking relief. 
+  So Joshua Browder, founder of DoNotPay, a service that helps people fight parking tickets and navigate small-claims court, has built an automated way to file.
+  Browder and his staff of seven studied the paperwork involved in applications in all 50 states and automated the process through a chatbot. Answer some questions and the system then mails a paper application into the state office for you, and issues you a tracking number.   
+  The service will also find out if you are eligible for paid sick leave, contractor benefits, or additional programs from the stimulus bill. It even automatically re-applies for you — in some states that’s necessary each week — to keep your benefits active.
+ 
