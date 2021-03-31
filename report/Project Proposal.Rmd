@@ -2,6 +2,7 @@
 title: "Project Proposal"
 author: "Bobby Lumpkin"
 output: html_document
+bibliography : project_proposal.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -14,4 +15,15 @@ In this section, we'll outline some of the methods we plan to use tackle the var
 
 ### Text-Categorization With Multi-label Learning
 
-The task of text-categorization falls naturally into the realm of multi-label learning, since, each document may belong to several predefined categories. As an example, paragraphs that can be assigned to the category of "threats/impacts" might also fall appropriately into the category of "responses/actions".
+One of the main goals of our project is to be able to perform text categorization on the level of paragraphs using selected features (tf-idf). The task of text-categorization falls naturally into the realm of multi-label learning, since, each document may belong to several predefined categories [@mlknn]. As an example, paragraphs that can be assigned to the category of "threats/impacts" might also fall appropriately into the category of "responses/actions". In the following sections, we'll provide an overview & introduction to the multi-lable learning paradigm, discuss benefits to utilizing MLL algorithms and present two such algorithms we plan to utilize: ML-KNN and BP-MLL.
+
+### Multi-Label Learning: Overview and Introduction
+
+In this section, we'll briefly discuss the framework for and benefits of multi-label learning. To start, we consider the question: "Why use MLL algorithms?". Given a multi-label discrimination problem involving $Q$ labels, the naive approach is to train a sequence of independent binary classifiers (one per category).However, this kind of method does not consider the correlations between the different labels of each instance and the expressive power of such a system can be weak [@mlknn; @bpmll].
+
+Before we discuss the ML-KNN and BP-MLL approaches, we need to define some preliminary concepts and terminology. Let $\mathcal{X}$ denote the domain of instances and $\mathcal{Y} = \{1, 2, ... , Q\}$ be the finite set of labels. We note that while our goal is ultimately to learn a function, $h: \mathcal{X} \mapsto 2 ^ {\mathcal{Y}}$ which optimizes some evaluation metric, it is often useful to learn a real-valued function of the form $f: \mathcal{X} \times \mathcal{Y} \mapsto \mathbb{R}$.
+
+
+
+# References
+
