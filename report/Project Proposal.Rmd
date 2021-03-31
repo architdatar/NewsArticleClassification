@@ -28,13 +28,25 @@ The multi-label classifier corresponding to $f$ can then be derived by $h(x_i) =
 ### ML-KNN: A Lazy Learning Approach to MLL
 We now give a brief overview of the methods presented in @mlknn. Again, we need to develop some notation. Given an instance $x$ and its label sel $Y \subseteq \mathcal{Y}$, let $\vec{y}_x$ be the category vector for $x$. Namely, the $\ell$-th component, $\vec{y}_x(\ell) (\ell \in \mathcal{Y})$ takes the value of $1$ if $\ell \in Y$ and $0$ otherwise. Furthermore, we define a membership counting vector $\vec{C}_x(\ell) = \sum_{a \in N(x)} \vec{y}_a(\ell)$, $\ell \in \mathcal{Y}$ (where $N(x)$ denotes the set of K nearest neighbors of $x$).
 
-We need two more definitions and then we can outline the procedure. The first, given a test instance $t$, let $H_1^{\ell}$ be the event that $t$ has label $l$ ($H_0^{\ell}$ the event that $t$ does not). And the second, let $E_j^{\ell}$ $(j \in \{0, 1, ... , K\})$ denote the event that there are exactly $j$ instances which have label $\ell$, among  the K nearest neighbors. Now, $\vec{y}_t$ is determined by approximating the Baye's Optimal Classifier. Namely, for $\ell \in \mathcal{Y}$: 
+We need two more definitions and then we can outline the procedure. The first, given a test instance $t$, let $H_1^{\ell}$ be the event that $t$ has label $l$ ($H_0^{\ell}$ the event that $t$ does not). And the second, let $E_j^{\ell}$ $(j \in \{0, 1, ... , K\})$ denote the event that there are exactly $j$ instances which have label $\ell$, among  the K nearest neighbors. Now, $\vec{y}_t$ is determined as follows. For $\ell \in \mathcal{Y}$: 
 
 \begin{align*}
   \vec{y}_t(\ell) &= \textrm{argmax}_{b \in \{0, 1\}} \mathbb{P}\left(H_b^{\ell} | E_{\vec{C}_t(\ell)}\right) \\
   &= \textrm{argmax}_{b \in \{0, 1\}} \frac{\mathbb{P}\left(H_b^{\ell}\right) \cdot \mathbb{P}\left(E_{\vec{C}_t(\ell)}^\ell | H_b^{\ell}\right)}{\mathbb{P}\left(E_{\vec{C}_t(\ell)}^{\ell}\right)} \\
-  &= \textrm{argmax}_{b \in \{0, 1\}}
+  &= \textrm{argmax}_{b \in \{0, 1\}} \mathbb{P}\left(H_b^{\ell}\right) \cdot \mathbb{P}\left(E_{\vec{C}_t(\ell)}^\ell | H_b^{\ell}\right)
 \end{align*}
+
+where the second equality follows due to Baye's rule. Furthermore, we define:
+
+$$
+  \vec{r}_t(\ell) = \mathbb{P}\left(H_1^{\ell} | E_{\vec{C}_t(\ell)}\right)
+$$
+
+So far, this is similar to the way in which we approximate the Baye's Optimal Classifier using the single label KNN algorithm. However, the approximation of $\mathbb{P}\left(H_b^{\ell}\right)$ and $\mathbb{P}\left(E_{\vec{C}_t(\ell)}^{\ell}\right)$ differs in key ways. In fact, we approximate these values using a bayesian modeling approach (details not discussed here). Next, we'll introduce a neural network approach to MLL.
+
+### BP-MLL (Back Prop for Multi-Label Learning)
+
+
 
 # References
 
