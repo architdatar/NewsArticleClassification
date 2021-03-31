@@ -17,13 +17,16 @@ In this section, we'll outline some of the methods we plan to use tackle the var
 
 One of the main goals of our project is to be able to perform text categorization on the level of paragraphs using selected features (tf-idf). The task of text-categorization falls naturally into the realm of multi-label learning, since, each document may belong to several predefined categories [@mlknn]. As an example, paragraphs that can be assigned to the category of "threats/impacts" might also fall appropriately into the category of "responses/actions". In the following sections, we'll provide an overview & introduction to the multi-lable learning paradigm, discuss benefits to utilizing MLL algorithms and present two such algorithms we plan to utilize: ML-KNN and BP-MLL.
 
-### Multi-Label Learning: Overview and Introduction
+### Multi-Label Learning: Advantages and an Introduction
 
 In this section, we'll briefly discuss the framework for and benefits of multi-label learning. To start, we consider the question: "Why use MLL algorithms?". Given a multi-label discrimination problem involving $Q$ labels, the naive approach is to train a sequence of independent binary classifiers (one per category).However, this kind of method does not consider the correlations between the different labels of each instance and the expressive power of such a system can be weak [@mlknn; @bpmll].
 
-Before we discuss the ML-KNN and BP-MLL approaches, we need to define some preliminary concepts and terminology. Let $\mathcal{X}$ denote the domain of instances and $\mathcal{Y} = \{1, 2, ... , Q\}$ be the finite set of labels. We note that while our goal is ultimately to learn a function, $h: \mathcal{X} \mapsto 2 ^ {\mathcal{Y}}$ which optimizes some evaluation metric, it is often useful to learn a real-valued function of the form $f: \mathcal{X} \times \mathcal{Y} \mapsto \mathbb{R}$.
+Next, let's begin to enter the world of multi-label learning (MLL). Before we discuss the ML-KNN and BP-MLL approaches, we need to define some preliminary concepts and terminology. Let $\mathcal{X}$ denote the domain of instances and $\mathcal{Y} = \{1, 2, ... , Q\}$ be the finite set of labels. We note that while our goal is ultimately to learn a function, $h: \mathcal{X} \mapsto 2 ^ {\mathcal{Y}}$ which optimizes some evaluation metric, it is often useful to rather focus on learning a real-valued function of the form $f: \mathcal{X} \times \mathcal{Y} \mapsto \mathbb{R}$ [@mlknn]. The intention is to learn $f$, such that, given an instance $x_i \in \mathcal{X}$, $f(x_i,y_1) > f(x_i, y_2)$ for any $y_1 \in Y_i$ and $y_2 \notin Y_i$. 
 
+The multi-label classifier corresponding to $f$ can then be derived by $h(x_i) = \{y \textrm{ } | \textrm{ }f(x_i, y) > t(x_i), \textrm{ } y \in \mathcal{Y}\}$ where $t(\cdot)$ is a threshold function. The threshold function is usually set to be the constant zero function, however other alternatives exist and we plan to potentially explore some of these as well. In the next two sections, we'll give brief introductions to two of the MLL algorithms we plan to utilize.
 
+### ML-KNN: A Lazy Learning Approach to MLL
+We now give a brief overview of the methods presented in @mlknn. Again, we need to develop some notation. Given an instance $x$ and its label sel $Y \subseteq \mathcal{Y}$, let $\vec{y}_x$ be the category vector for $x$. Namely, the $\ell$-th component, $\vec{y}_x(\ell) (\ell \in \mathcal{Y})$ takes the value of $1$ if $\ell \in Y$ and $0$ otherwise. Furthermore, we define a membership counting vector $\vec{C}_x(\ell) = \sum_{a \in N(x)} \vec{y}_a(\ell)$, $\ell \in \mathcal{Y}$ (where $N(x)$ denotes the set of K nearest neighbors of $x$).
 
 # References
 
