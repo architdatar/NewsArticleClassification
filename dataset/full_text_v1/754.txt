@@ -1,0 +1,29 @@
+The text messages have largely followed a pattern: The author claims to have a connection to someone working at a clinic or government agency — an aunt, a neighbor, a friend’s cousin — who has revealed unannounced plans for an impending lockdown or quarantine. They’re passing along a warning, telling recipients of the urgent need to stockpile food, gas, medicine or other necessities. They often contain pleas that they be forwarded to others.
+  And none of them are true.
+  The texts are sometimes laced with elements of truth, making their false conclusions seem plausible, especially as every passing hour seems to bring a dramatic shift to the way the coronavirus is  changing our everyday lives .
+  The latest such message spread on Sunday, prompting an announcement from the  National Security Council : “Text message rumors of a national #quarantine are FAKE,” it said in a tweet on Sunday, just before midnight. “There is no national lockdown.”
+  With the rapid spread of the coronavirus across the world, misinformation has followed suit. Other messages in recent weeks, reflecting the same pattern, have warned that New York City public transit would shut down last week (it’s still running), or that the entire Pacific Northwest would be quarantined last week (also not true). At least one message said that President Trump would declare a  national emergency  within three days — Mr. Trump declared the emergency on Friday, but that did not give him the power to impose a national quarantine.
+  The World Health Organization has  warned of an “infodemic”  and is trying to fight rumors and falsehoods on the internet about the coronavirus. Social media  companies like Facebook and Twitter  are racing to remove misinformation about the virus from their platforms, often unsuccessfully.
+  Text messages, however, can pose a particular problem, said  Graham Brookie , the director and managing editor of the Digital Forensic Research Lab at the Atlantic Council. He said text messages are usually a trusted medium, in part because the sender needs to know the recipient’s phone number. They cannot be as easily forwarded as messages on other social media, like WhatsApp messages or Facebook posts.
+  “It’s a little bit more intentional,” he said.
+  By sourcing information to a relative or friend of a friend, the messages appear to be conversational and accessible while maintaining a “facade of credibility,” he said.
+  The disinformation follows a familiar playbook used on other social media, old-fashioned chain letters and emails: asking the recipient to forward the message to others, Mr. Brookie said.
+  “It’s the latest version of that threat,” he said. “It’s not something that is new, but it is something that is effective.”
+  It’s not immediately clear who was responsible for the mass text messages on Sunday, or any of the others, according to Mr. Brookie, who was an adviser at the council until 2017. Text messages are hard to track, because data about them, kept by companies like AT&T or Verizon, is not necessarily accessible to the public, he said.
+  One of the few ways to track text messages is through crowdsourced reports on social media.
+  “We don’t know where they are coming from, which is one of the main vulnerabilities here,” Mr. Brookie said. “It could be anything from your everyday scammer to a hostile nation-state.”
+  At an afternoon news conference on Monday, Mr. Trump said while regional lockdowns or quarantines may be possible, he was not considering a similar nationwide measure. Asked if the rumors were part of a foreign disinformation campaign, Mr. Trump said he could not say, adding that the media had been “very fair.”
+  “It could be that you have some foreign groups that are playing games, but it doesn’t matter,” he said.
+  And not knowing where the messages are coming from also makes it harder to ascertain the goal of the messages. Because the messages are urging people to stockpile goods, the goal could be financial gain, Mr. Brookie said. Or it could be to stoke chaos and confusion across the country, he added.
+  Mr. Brookie said people receiving text messages about the coronavirus should verify the source of the message as well as the source’s source. He said people should check for biases in the message.
+  “Does something feel like it’s trying to scare you?” he said. “Is it claiming it has all the facts while others don’t? Is it jumping to conclusions that you haven’t seen in other places? Is it using rhetorical tools in order to persuade you of something?”
+  He added, “if it’s not pointing to the latest, verified science-based information, like coronavirus.gov, then absolutely think twice about it.”
+  The government also had the ability to text people directly through a warning system, if it chose to, he said.
+  “There’s no indication that that system has been used in response to the coronavirus,” he said.
+  Pay attention to what the official sources are telling you. “If it’s not coming from my mouth, don’t believe it,” Mayor Bill de Blasio said on Thursday, trying to calm rumors.
+  Public officials should play an active role in combating rumors and disinformation, he said.
+  Still, many have questioned how much official government channels can be trusted.
+  Mr. Trump has been  criticized for playing down  the outbreak in the early stages and repeatedly making assertions — including about the accessibility of tests — that were either overstated or inaccurate.
+  Over all, trust in institutions is down, Mr. Brookie said.
+  “We’re facing this challenge of disinformation about coronavirus already on a back foot because of diminished trust in our institutions,” he said.
+ 

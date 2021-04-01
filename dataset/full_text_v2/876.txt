@@ -1,0 +1,6 @@
+Kevin Collier
+  A bipartisan group of  five senators have written  to the heads of the U.S. government's primary offensive and defensive cybersecurity agencies, asking for assurances that hackers won't cripple health care facilities during the coronavirus pandemic.
+  "We write to raise our profound concerns that our country’s healthcare, public health, and research sectors are facing an unprecedented and perilous campaign of sophisticated hacking operations from state and criminal actors amid the coronavirus pandemic," the letter states. 
+  The letter was sent to CISA, the Department of Homeland Security's cybersecurity arm, and U.S. Cyber Command, which conducts offensive cyber operations on behalf of the U.S. military. CISA has already released  some specific measures  that IT staff can use to guard against hackers, like a list of about 2,500 coronavirus-themed domains that are likely malicious or scams. U.S. Cyber Command rarely makes much publicly known about its operations, but is tasked with defending critical infrastructure, which includes health care systems.
+  Last week, the State Department  issued  a "zero tolerance" warning against anyone attempting to hack allies' healthcare networks.
+ 

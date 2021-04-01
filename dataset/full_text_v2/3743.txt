@@ -1,0 +1,7 @@
+Reuters
+  As a new coronavirus spreads quickly around the world, U.S. health officials say they are "aggressively" assessing how long it can survive on surfaces to better understand the risk of transmission.
+  Based on what is known about similar coronaviruses, disease experts say the COVID-19 virus is mainly spread  through coughing or sneezing. Contact with fecal matter from an infected person may also transmit the virus.
+  The CDC says it may be possible for a person to become infected by touching a surface or object that has the virus on it and then touching their own mouth, nose or eyes.
+  An analysis of earlier studies of similar coronaviruses, including Severe Acute Respiratory Syndrome (SARS), published in the Journal of Hospital Infection, concluded that human coronaviruses can remain infectious on inanimate surfaces for up to nine days at room temperature.
+  However, they can quickly be rendered inactive using common disinfectants, and may also dissipate at higher temperatures, the authors wrote. It is not yet clear, however, whether the new coronavirus behaves in a similar way.
+ 

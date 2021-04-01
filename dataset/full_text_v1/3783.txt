@@ -1,0 +1,84 @@
+Speaking on a conference call with the governors of each state Monday, President Trump  reportedly  waved away concerns about the number of coronavirus tests that had been conducted over the course of the pandemic.
+  “I haven’t heard about testing in weeks,” he is reported to have said. “We’ve tested more now than any nation in the world. We’ve got these great tests and we’re coming out with a faster one this week. I haven’t heard about testing being a problem.”
+  On the surface, that claim is remarkable, given the ongoing public attention that’s been paid to the slow rollout of testing in the United States. What’s more remarkable is the context in which the comment was offered.
+  To evaluate a sample from an infected person, laboratories need both  kits  containing the necessary reagents for testing and laboratory capacity that can perform the subsequent test. Gov. Steve Bullock (D-Mont.) told Trump that his state was running out of the former and that, without an immediate supply of kits from the Centers for Disease Control and Prevention, “we wouldn’t be able to do testing in Montana.”
+  Why is that significant? Because test kits were, for weeks, the benchmark of success that Trump used to defend his administration’s handling of the outbreak.
+  There have been several phases to Trump’s public assurances about testing. In the first, he and his administration conflated the number of available kits with the number of tests that could be conducted, giving a false impression that testing was widely available. In the second, he criticized his predecessor’s administration for limiting the ability to conduct tests by forcing a reliance on government labs. In the third, he’s emphasized the number of tests being completed, particularly in the context of South Korea, whose broad testing regimen has been credited with keeping the number of cases in that country low.
+  Here’s how Trump’s rhetoric has compared with reality. For the total number of tests which have been completed, we’re using data compiled by the  COVID Tracking Project , the totals from which match publicly announced figures. Data  from the CDC  trails the public estimates.
+  Tests in the United States: 2,252 (7 tests per 1 million people. 12.4 percent positive rate.) 
+  Trump: “The testing has been amazing, actually. What they’ve been able to produce in such a short period of time. You had mentioned 4 million tests before — 4 million? …"
+  “Anybody that wants a test can get a test. That’s what the bottom line is. … Anybody right now and yesterday — anybody that needs a test gets a test. We — they’re there. They have the tests. And the tests are beautiful. Anybody that needs a test gets a test.” ( Visit to CDC headquarters in Atlanta ) 
+  This, of course, wasn’t true. In short order, Trump would scale back this promise, insisting that not everyone needs or should get a test.
+  Notice that Trump is referring to the 4 million available test kits as “tests,” leading to confusion over how pervasive testing could be.
+  Tests in the United States: 2,752 (8 tests per 1 million people. 15.9 percent positive rate.) 
+  (Retweet of Vice President Pence) 
+  One of the changes made in March was opening up testing to facilities beyond the federal government. This affected the capacity to actually conduct the tests and contributed to the slow increase in the number of tests being completed.
+  Tests in the United States: 5,054 (15 tests per 1 million people. 17 percent positive rate.) 
+  Trump: “When people need a test, they can get a test. When the professionals need a test, when they need tests for people, they can get the test. It’s gone really well.” ( Meeting with congressional Republicans ) 
+  This was not really true then nor is it necessarily true now. As Bullock’s comment makes clear, there remain chokepoints in getting tests completed.
+  Tests in the United States: 7,709 (23 tests per 1 million people. 14.8 percent positive rate.) 
+  Trump: “Testing and testing capabilities are expanding rapidly, day by day.” ( National address ) 
+  This was generally true, though the number of tests which had been completed remained modest.
+  Tests in the United States: 10,058 (31 tests per 1 million people. 14.1 percent positive rate.) 
+  Trump: “They have a million tests out now. They’re going to have — over the next few days, they’re going to have 4 million tests out. And, frankly, the testing has been going very smooth. If you go to the right agency, if you go to the right area, you get the test.” ( Bilateral meeting in Oval Office ) 
+  Again Trump conflates test kits with tests being ready to be performed. That same day, Trump campaign spokesman Kayleigh McEnany used Trump’s numbers to slam former vice president Joe Biden.
+  Biden was talking about completed tests, not test kits. The United States only hit the 1 million test mark this week. Despite her attack on Biden being misleading, Trump retweeted McEnany’s tweet.
+  Tests in the United States: 16,665 (51 tests per 1 million people. 12.4 percent positive rate.) 
+  Trump: “The FDA’s goal is to hopefully authorize their application within 24 hours — it’ll go very quickly; it’s going very quickly — which will bring, additionally, 1.4 million tests on board next week and 5 million within a month. … If you go back to the swine flu, it was nothing like this. They didn’t do testing like this. And actually, they lost approximately 14,000 people. And they didn’t do the testing. They started thinking about testing when it was far too late.” ( Daily briefing ) 
+  Trump’s criticism of the administration of President Barack Obama for not changing the system for conducting tests in the daily White House  coronavirus  briefing and on Twitter included an attack on Obama’s handling of an H1N1 virus outbreak in 2009. The spread of that virus and its death toll  pale  in comparison to the coronavirus at the center of the current pandemic.
+  Tests in the United States: 54,957 (167 tests per 1 million people. 10.7 percent positive rate.)  
+  Tests in South Korea: 286,716 (5,594 tests per 1 million people.) 
+  Trump: “Last night, the FDA announced groundbreaking new policies to further increase testing very substantially so. All states can now authorize tests developed and used within their borders, in addition to the FDA.” ( Daily briefing ) 
+  Two weeks ago, South Korea had completed more than five times as many tests as the United States according to data compiled by that country’s CDC.
+  Tests in the United States: 76,494 (233 tests per million people. 10.5 percent positive rate.) 
+  Tests in South Korea: 295,647 (5,768 tests per million people. 0.9 percent positive rate.) 
+  There are two bits of data worth tracking in addition to the total number of tests completed by the United States and South Korea. The first is the number of tests completed as a function of the population, which gives a sense of how widespread testing is in the country. The second is the number of positive tests.
+  You’ll notice moving forward that South Korea’s positive rate is far lower than the United States’ — in large part because the United States has prioritized testing those exhibiting symptoms and those seeking medical treatment.
+  Trump: “Nobody ever thought of these numbers. Nobody ever saw numbers like this, even with regard to testing. Normally, we wouldn’t be doing testing. And they decided to do it. Very, very hard to ramp up. Now we’re getting highly sophisticated tests, and it’s going very well. But nobody has ever heard of testing in the kind of quantities that you’re talking about. …"
+  “If you go back in years past, like even recently with the flu, nobody had tests before. They didn’t test the entire nation to see whether or not they had flu. They got the flu, they got better — hopefully, they got better — and that was it.” ( Daily briefing ) 
+  People do routinely get flu tests, of course. One of the ways doctors identified likely coronavirus cases before testing was widespread in the United States was to rule out the flu as a cause of common coronavirus symptoms.
+  Tests in the United States: 138,516 (422 tests per million people. 12.6 percent positive rate.) 
+  Tests in South Korea: 316,664 (6,178 tests per million people. 0.9 percent positive rate.) 
+  Trump: “We have now a great system and it’s almost fully in gear, but it’s able to test millions of people.” ( Daily briefing ) 
+  Referring to the system, Trump claims that millions of tests could be completed — a statement that’s true over the long-term. The impression one gets, though, might understandably be of a system prepared to conduct millions of tests immediately.
+  Tests in the United States: 182,583 (556 tests per million people. 13 percent positive rate.) 
+  Tests in South Korea: 327,509 (6,389 tests per million people. 1.4 percent positive rate.) 
+  Brett Giroir, assistant secretary for health: “So, from March 2nd to March 14th, we have put over 10 million laboratory tests into the U.S. commercial market, and we expect that, by March 28th, to be well over 27 million into the market.” ( Daily briefing ) 
+  Here, again, the administration is talking about the number of available kits and not the number of tests being completed. This pronouncement led to  news articles  about the expansion of the number of kits, which obviously doesn’t equate to completed tests.
+  Tests in the United States: 359,145 (1,094 tests per million people. 15.1 percent positive rate.) 
+  Tests in South Korea: 348,582 (6,800 tests per million people. 0.9 percent positive rate.) 
+  During a town hall on Fox News, Deborah Birx, a senior member of the White House coronavirus task force, noted that the United States would likely by the end of the day have completed about as many tests in eight days as South Korea had in total. That wasn’t quite right; it took until the following day.
+  Trump nonetheless seized upon the data point.
+  Trump: “I just heard the number for the first time from Deborah — that in a short period of time we’ve done more testing than South Korea. Now, you’re not going to read that in the newspapers because they don’t like to write things like that.” ( Fox News town hall ) 
+  By the end of the day, the United States had probably passed South Korea in the number of tests completed.
+  Tests in the United States: 472,767 (1,440 tests per million people. 15.2 percent positive rate.) 
+  Tests in South Korea: 357,896 (6,982 tests per million people. 1 percent positive rate.) 
+  Trump: “We do more in eight days than they do in eight weeks. And we go up, on a daily basis, exponentially.” ( Daily briefing ) 
+  Again, the “reporting” that led to that comparison came from Birx. The amount of testing being completed was, in fact, increasing about 30 percent a day at that point.
+  Tests in the United States: 579,589 (1,766 tests per million people. 15.5 percent positive rate.) 
+  Tests in South Korea: 364,942 (7,120 tests per million people. 1.5 percent positive rate.) 
+  Trump: “As we continue to gather more information and accelerate the testing — where we’re doing record numbers of tests now, far more than any other country has done. I told you yesterday: Eight days here — because you heard so much about South Korea. The media kept talking, ‘South Korea, South Korea.’ We have a great relationship with President Moon in South Korea. But when I hear so much about South Korea — so, in eight days — in eight days, we do more testing than they did in eight weeks.” ( Daily briefing ) 
+  “We’re testing — we’ve tested now more than anybody.” ( Fox News interview ) 
+  You can see again how Trump embraced that line about South Korea, later expanded out to reflect his belief that the United States had done more tests than anyone.
+  Notice, though, that the United States had still conducted far fewer tests as a function of population than South Korea and that the rate of positives remained far higher. Testing mostly obviously sick people is a different tack than the widespread containment testing being done by South Korea.
+  Tests in the United States: 686,727 (2,092 tests per million people. 15.9 percent positive rate.) 
+  Tests in South Korea: 376,961 (7,354 tests per million people. 0.8 percent positive rate.) 
+  Trump: “We’re now testing nearly 100,000 patients per day — more than anybody in the world — and we have now, as of even a couple of weeks ago, tested more than any other country in the world and our capacity continues to grow.” ( Daily briefing ) 
+  The United States has, for the past week or so, tested an average of about 127,000 people a day.
+  Tests in the United States: 801,416 (2,442 tests per million people. 16.1 percent positive rate.) 
+  Tests in South Korea: 387,925 (7,568 tests per million people. 1.5 percent positive rate.) 
+  Trump: “We’re testing more in one day than other countries are testing in weeks, in months.” ( Event in Virginia ) 
+  Again, true, but the United States is a far larger country than many others, meaning that the United States continued to trail on a per capita basis.
+  Notice, too, that this was the day mentioned by Giroir on which 27 million test kits would be available. To date, fewer than 1 million tests had been conducted.
+  Tests in the United States: 896,900 (2,732 tests per million people. 16.7 percent positive rate.) 
+  Tests in South Korea: 394,141 (7,689 tests per million people. 1.4 percent positive rate.) 
+  Trump: “As you know, even before this development, we’ve been doing more test — tests than any other country anywhere in the world. It’s one of the reasons that we have more cases than other countries, because we’ve been testing.” ( Daily briefing ) 
+  Here, Trump is trying to downplay the number of cases in the United States by suggesting that other countries might find more cases if they tested more. That’s misleading, and South Korea offers a good example of why. There, testing focused on limiting the spread of the illness — with the effect of actually limiting the spread. The United States’ focus on ill patients did mean more confirmed cases, but unlike in South Korea, testing more broadly — catching up to the per capita tests completed, for example — would probably lead to a bigger spike in confirmations given the number of undetected cases in the United States
+  Tests in the United States: 1,010,236 (3,078 tests per million people. 17 percent positive rate.) 
+  Tests in South Korea: 395,194 (7,710 tests per million people. 3.1 percent positive rate.) 
+  Trump, though, doesn’t like the per capita comparison.
+  Trump: “Over 1 million Americans have now been tested — more than any other country, by far; not even close — and tested accurately. … We have done more tests. What I didn’t — I didn’t talk about per capita. We have done more tests, by far, than any country in the world, by far. Our testing is also better than any country in the world.” ( Daily briefing ) 
+  Trump: “Nobody could have predicted something like this but we’re now testing hundreds of thousands of people. We’ve tested more than anybody in the world by far. When you look at South Korea, we’ll do more in eight days than they do in eight weeks.” ( Daily briefing ) 
+  That comparison, though, may keep getting harder for him to avoid.
+  Meanwhile, governors continue to raise concerns about the availability of testing.
+ 

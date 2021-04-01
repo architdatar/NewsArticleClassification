@@ -1,0 +1,5 @@
+Leticia Miranda
+  The country’s most powerful supercomputers will soon be available to researchers to run sophisticated calculations in epidemiology, bioinformatics and molecular modeling in an effort to accelerate  the development of coronavirus treatments and vaccines. 
+  IBM along with the White House Office of Science and Technology Policy and the U.S. Department of Energy are offering the computers under the COVID-19 High Performance Computing Consortium. The consortium includes a slate of 16 supercomputers housed at labs across the country including Los Alamos National Laboratory, the National Science Foundation, NASA, the Massachusetts Institute of Technology and Rensselaer Polytechnic Institute.
+  The Consortium partners will evaluate proposals from researchers around the world and select projects that are likely to have the most immediate impact.
+ 

@@ -1,0 +1,36 @@
+When the Food and Drug Administration granted an emergency approval last week for an antiviral drug, remdesivir, to treat hospitalized coronavirus patients, many doctors were overjoyed. The drug is the first shown to be even mildly effective against the virus.
+  But bafflement soon followed as doctors and hospitals tried to obtain the drug. Small community hospitals with few beds received remdesivir, while medical centers besieged with cases were denied.
+  Only four hospitals in Massachusetts, for example, are known to have received remdesivir: three small community hospitals and Massachusetts General, a Harvard University teaching hospital.
+  Officials at Mass General said they had not even asked for the drug. Yet other major hospitals were left out, including Boston Medical Center, which has many vulnerable African-American patients.
+  “This is crazy,” said Dr. Rochelle Walensky, chief of infectious diseases at Mass General. The hospital is giving its small supply of remdesivir — 26 cases containing 40 vials each — to the state to distribute more equitably.
+  “We have no idea how this landed with us,” Dr. Walensky added. “There are people who are pretty angry that they didn’t get any.”
+  Remdesivir’s approval should have been a clear win in the fight against the coronavirus, but its distribution has been tripped up by seemingly capricious decision-making and finger-pointing.
+  Like other drugs used in hospitals, remdesivir is supplied not by the manufacturer, Gilead Sciences, but by a wholesale distributor, in this case a company called AmerisourceBergen.
+  After the F.D.A. granted the emergency approval, Gilead Sciences said it would donate its existing supply of the drug: 1.5 million vials, enough to treat roughly 140,000 hospitalized patients.
+  Hospitals needing the drug were told to call AmerisourceBergen to find out if they were on a list of facilities that qualified. If so, the distributor shipped the drug. If not, the hospital was denied the drug.
+  That list apparently was not drawn up by AmerisourceBergen, which says on its website that hospitals “the U.S. government deems most in need will receive priority in the distribution of donated remdesivir,” adding that “neither Gilead nor AmerisourceBergen are deciding which hospitals will receive remdesivir.”
+  But it is not clear how federal officials came up with a list of hospitals “most in need,” or even what hospitals are on it. Criticism of the list and the rollout has been gathering steam in Washington.
+  “The fact that many of the hospitals and areas with high rates of COVID-19 cases and deaths were left out of the initial distribution raises significant questions about FEMA and HHS’ decision making,”  Senator Kamala Harris , Democrat of California, said in a letter on Friday to the Federal Emergency Management Agency Administrator, Peter Gaynor, and the Secretary of Health and Human Services, Alex M. Azar II.
+  The White House press secretary, Kayleigh McEnany, said in a press briefing on Friday that Dr. Deborah L. Birx, the White House Coronavirus Task Force coordinator, henceforth would take a lead role in federal oversight of remdesivir allocations.
+  Dr. Birx “is going to be working in consulting as to where this drug should go,” Ms. McEnany said.
+  “She really has the best grasp as to how that should be distributed,” Ms. McEnany added.
+  The Infectious Diseases Society of America and the H.I.V. Medicine Association also  have written to Vice President Mike Pence , head of the coronavirus task force, pleading for an explanation of the criteria used to allocate remdesivir. There has been no reply.
+  Neither Mr. Pence’s office nor AmerisourceBergen responded to requests for information about the distribution of remdesivir.
+  Doctors treating coronavirus patients say they are flummoxed by what seems to be an unpredictable distribution system.
+  “Everyone is texting each other and saying, ‘Did you get anything?’” said Dr. Cameron Wolfe, an infectious disease specialist at Duke University Medical Center. His hospital did not receive remdesivir.
+  Neither did the University of California, San Francisco, said Dr. Peter Chin-Hong, an infectious disease specialist there. “We understand that not everyone can get it,” he said. “But who is making the decision, and how are the decisions being made?”
+  “There is no reason for this to be secretive,” said Dr. Daniel Kaul, an infectious disease specialist at the University of Michigan, which also has not received the drug.
+  “I would love to see where it is available,” Dr. Kaul added. Then he could tell family members where to transfer a patient who might need the drug.
+  Conan MacDougall, professor of clinical pharmacy at U.C.S.F., has sent a survey to hospitals across the country, asking if they received the drug; with their replies, he has put together an  unofficial distribution map  that also includes data on hospital type, size and whether the hospitals reported being sites for remdesivir clinical trials.
+  He cautioned that the map only includes data from pharmacy departments and infectious disease specialists who responded to a voluntary survey. Still, the map suggests that large swaths of the country have been left out.
+  On the West Coast, remdesivir went to medium-size hospitals in Los Angeles and San Mateo, Calif. In the Southeast, the only hospital to acknowledge getting remdesivir was in Nashville.
+  Most sites that received the drug were in the Northeast. Hard-hit cities like Detroit did not report getting the drug. The amounts sent to each hospital also were highly variable.
+  “I think it illustrates that while the drug is now ‘available,’ most of the country is not currently able to access it,” Dr. MacDougall said in an email.
+  Before the clinical trial results were known, Dr. Chin-Hong said, “we could look at patients or family members in the eyes and say, ‘We don’t know if this works.’”
+  Now, “we are dangling a golden apple in front of them,” just beyond reach, he said.
+  Those hospitals lucky enough to receive remdesivir are facing another problem: Which patients should get it?
+  The federal clinical trial that showed remdesivir to be effective included a range of severely ill patients, from those with low oxygen levels to those on respirators. The data have not been published, only announced by administration officials.
+  As a result, there are no clinical guidelines on how best to use the drug. Is it better to give the limited supply of remdesivir to the most seriously ill? Or is it better to start with patients who are less ill?
+  The National Institute of Allergy and Infectious Diseases, sponsor of the trial, has not provided the data because it is still being reviewed, said Jennifer Routh, a spokeswoman.
+  There should be a preliminary report with data in a few weeks, she added.
+ 

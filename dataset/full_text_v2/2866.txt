@@ -1,0 +1,6 @@
+Kevin Collier
+  Hackers affiliated with foreign governments are currently engaged in widespread campaigns to steal American and U.K. medical research related to COVID-19, those countries' governments announced Tuesday.
+  The two countries "are currently investigating a number of incidents in which threat actors are targeting pharmaceutical companies, medical research organizations and universities," according to  a U.S. alert .
+  The  U.K.'s counterpart  noted that: "The pandemic has likely raised additional requirements for APT actors to gather information related to COVID-19," referring to the term Advanced Persistent Threat, a designation given to skilled and devoted hacker groups aligned with particular government intelligence agencies. "For example, actors may seek to obtain intelligence on national and international healthcare policy or acquire sensitive data on COVID-19 related research."
+  The alerts don't specify any countries as the culprit in their alerts. The U.S. Justice Department has previously charged hackers working for Chinese and Iranian intelligence for allegedly stealing sensitive research.
+ 

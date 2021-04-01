@@ -1,0 +1,5 @@
+From CNN's Fred Pleitgen in Berlin
+  German scientists have developed a method that could dramatically increase the capacity to test for coronavirus, the Science Ministry of the German State of Hessen says. 
+  The new method allows for several samples to be evaluated at once, the Ministry wrote in a press release, adding that this will allow for an “increase in the test capacity in Germany from about 40,000 tests per day to about 200,000 to 400,000 tests per day without any loss of quality in the diagnostics.”
+  Normally, the various swabs taken during currents tests from the mouth and nose area and all separately evaluated. With the new method, scientists put several of the probes into a single, special solution and test them with the so-called PCR method, which directly detects the SARS-CoV-2 genome. If the total result is negative, then it is clear that the separate swabs are all negative, the press release says and adds, “if the result is positive, then all the swabs have to be evaluated separately.”
+ 

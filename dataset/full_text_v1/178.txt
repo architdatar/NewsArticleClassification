@@ -1,0 +1,48 @@
+Some 58,220 Americans died in the Vietnam War and another 36,574 in Korea.
+  There were 39,740 gun deaths in the U.S. in 2018 and 67,376 more from drug overdoses that year, according to the Centers for Disease Control and Prevention (CDC).
+  All four of those grim statistics, when taken together, are just over 200,000 -- the same number of people who have died in the U.S. from COVID-19.
+  While still a far cry from the  estimated 675,000 Americans who died  in the flu pandemic of 1918-'19, the startling number of COVID-19 deaths still represents one of the country's worst health crises in modern memory.
+  And the death toll from COVID-19 likely exceeded 200,000 before this official tally due to a delay in reporting, noted Dr. Bruce Y. Lee, Professor at the CUNY Graduate School of Public Health and Executive Director of PHICOR (Public Health Informatics, Computational, Operations Research).
+  Since the first cases were detected in China in December, the virus has taken a particularly brutal toll on Americans.
+  The U.S has about 4% of the world's population, but has the largest share of the world's 930,000 COVID-19 deaths -- 21%. The nation with the second highest death toll is Brazil with over 133,000 dead, followed by India with more than 82,000 dead.
+  Dr. Tom Frieden, former head of the CDC,  noted in a Sept. 15 blog post  that nationally the COVID-19 positivity rate has fallen from 5.5% to 5.1%, which he called progress.
+  But Frieden wrote, "Most of the US is still failing to contain Covid. There are too many cases to test, trace, isolate."
+  "We need to know the average number of days someone is infectious before isolation and the percentage of cases arising from among quarantined contacts," he said. "Tens of thousands of lives and millions of jobs depend on this."
+  Crossing the 200,000 death mark is not a milestone the U.S. wanted, but should not be surprising due to America's "absolute failures" during the pandemic, according to ABC News contributor John Brownstein, PhD, an epidemiologist at Boston Children's Hospital and a Harvard epidemiology professor.
+  The first U.S. death from COVID-19 was reported on Feb. 29 in Washington state. The death toll steadily climbed in March as New York City became the U.S. epicenter of the outbreak.
+  By the beginning of April, the U.S. was seeing over 1,000 new COVID-19 deaths each day.
+  The deadliest day was April 15, when over 6,400 new deaths were reported, according to the CDC.
+  While the elderly, those with underlying health conditions and racial and ethnic minorities were especially vulnerable, no one was immune.
+  Early deaths included a  93-year-old Holocaust survivor and the 4-month-old daughter of New York City firefighter. 
+  Workers on the front lines treating patients also became victims. More than 1,000 have now died,  according to the Guardian and KHN. 
+  Prea Nakieshore, 34, who registered patients in a hospital emergency department in Queens, New York, died from COVID-19 on April 5.
+  "She loved working at the hospital," her fiance, Marcus Khan, told ABC News in April. "She wanted to do her part."
+  Nakieshore is survived by her 8-year-old twin boys.
+  She "was a dedicated mom" who "lived for her children," Khan added. "She will always be the love of my life."
+  Nakieshore was among the 100,000 Americans dead by the end of May, by which point fatalities were accelerating in the South.
+  Then in the summer, the U.S. lost all control, Brownstein said.
+  "It's sort of been this whack-a-mole situation, where there's a major increase in New York City -- where the starting point was -- then a pattern of different regions in the country lighting up, and absolute failures of the country to respond," Brownstein said. "Even though we knew how to control this thing, we're just not capable ... of implementing [policies] at a national scale -- which is what we would have required to keep those numbers down through the summer. It's incredibly sad that we're at this state."
+  COVID-19 is now the third leading cause of death in the U.S. this year, behind heart disease and cancer, said Lee.
+  Brownstein gave three reasons for why the U.S. death toll is so high: America's inability to respond to the crisis; the nation's flawed healthcare system in which so many Black and Latino Americans have limited access; and the population's vulnerability (6 in 10 adults having a chronic health condition, according to the CDC.)
+  At a Sept. 16 press conference President Donald Trump pointed to White House modeling from the spring that predicted 100,000 to 240,000 dead if social distancing measures were taken and between 1.5 to 2.2 million deaths if they were not.
+  "This was our prediction, that if we do a good job we’ll be at about 100,000 to 240,000 deaths. And we are below that substantially, and we’ll see what comes out, but that would be if we did a good job," Trump said. "If the not-so-good job was done, you’d be between 1.5 million -- I remember these numbers so well -- and 2.2 million. That's quite a difference."
+  While some are optimistic about the production and rollout of a vaccine in the coming months, Brownstein said he has "no reason to believe the fall would be any better and we'll continue to see these numbers hovering in the 1,000 [deaths] a day mark."
+  As we enter the fall, Lee warned, "there's a lot of drivers that may increase transmission. Schools are opening, we're seeing  spikes in cases in many college towns, " Lee said.
+  "In addition to that, there's the concern of other viruses circulating, like  the flu ," Lee said. "There's been some case reports of people getting both [the flu and COVID-19] ... that could raise your risk of not surviving."
+  While Brownstein predicted that the virus will subside either with a vaccine or exposure of enough of the population or a combination of the two, both may be a ways off.
+  "This virus is gonna be with us," he said. "It's likely gonna be a cycling virus that is part of the mix of respiratory viruses."
+  Lee cited several steps he says the U.S. must take to slow the death toll.
+  First, he called the nation's testing program "inadequate," and said the U.S. must target the areas where testing is not occurring.
+  "We really need to understand where exactly is the virus spreading, where are the hot spots, and try to contain," Lee said. "The sheer number of tests doesn't tell us enough. We have to know where those tests are occurring, what the coverage is, what populations are being tested."
+  Adm. Brett Giroir, the Health and Human Services testing czar, said in a Sept. 1 briefing that the U.S. had conducted more than 85 million COVID-19 tests.
+  Giroir had promised in May that by September,  the U.S. would have ramped up its capabilities to be able to test up to 50 million people per month. But just over 24 million test results were reported in August, according to an internal FEMA memo obtained by ABC News.
+  "The reality is the U.S. has excess and unused capacity for testing," an HHS spokesperson said. "We have the capacity to test approximately 90 million in September."
+  Second, the U.S. must establish concrete contact tracing programs, Lee said.
+  While there are established contact tracing programs in the U.S., they are not widely effective. Frieden, the former CDC head, said in his blog post, "test positivity is at low levels in the Northeast and some other states, but very few places are finding where most spread is occurring - most sources of infection, and even fewer -- maybe none -- are quarantining most contacts effectively. Because of that, virtually everywhere, the risk of explosive outbreaks remains."
+  Lee cited New Zealand, Taiwan and South Korea as countries who have mastered contact tracing. When those countries spot an outbreak, they move quickly, identifying those who have come in contact with the coronavirus patient to quarantine them and "box in the virus," he said.
+  Third, America's hospital systems must be stable enough to handle COVID-19 cases and protect healthcare workers, Lee said.
+  Fourth is the role of communities. Lee said there needs to be consistent face mask use, and businesses must have protection procedures in place and not open before they're ready.
+  And lastly, all Americans "have to take this seriously," Lee said.
+  Frieden stressed in his blog post, "My primary concern is that people may become desensitized to the sheer number of deaths caused by the pandemic."
+  "There continues to be talk on social media trying to minimize the impact," Lee said. "How many more deaths need to occur before everyone accepts the fact that this is a serious pandemic?"
+ 

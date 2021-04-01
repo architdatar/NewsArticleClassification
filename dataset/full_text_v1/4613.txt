@@ -1,0 +1,72 @@
+
+  
+  As college students begin their fall semester, all 50 states have now reported positive cases of Covid-19 at colleges and universities.   
+  This represents more than 37,000 cases of Covid-19 among students and staff at colleges and universities across the country. 
+  These numbers represent cases that CNN has reported so far. There are likely many others, and this total will continue to be updated.
+  One thing to note:  Many schools update their data every few days, or even once a week in some cases, so there can be a lag in data. 
+  The New York Department of Health will require colleges to notify the state when they have 100 Covid-19 cases and could be required to transition to remote learning, Gov. Andrew Cuomo said Tuesday.
+  The governor said in New York that SUNY Oneonta, Cornell University, University at Buffalo, Hofstra University, SUNY Oswego, Colgate University and SUNY Fredonia have all seen outbreaks.
+  “So this is going to be a problem, I am telling you that,” he added.
+  Meanwhile, Cuomo cited a large gathering in Washington Square park in New York City this weekend allegedly involving New York University students, and called out the school administrators and city police for not stepping in. 
+  “Frankly NYU security didn’t do anything about it, local police didn’t do anything about it.”
+  NYU this weekend said in a statement it was investigating.
+  
+  
+  The priority for New York going forward to is to “protect the progress we’ve made,” Gov. Andrew Cuomo said Tuesday. 
+  The infection rate is .96%, he said, adding that New York reported 5 deaths Monday. 
+  The state of New York is “stable everywhere” he said adding a caveat that the most recent data should be taken grain of salt as its holiday number. 
+  The governor said Tuesday the state is entering a “post-Labor Day phase,” where “people start to get back to work, schools are opening, activity is increasing.”
+  He said notably traffic is starting to increase, with more road traffic than public transportation leading to “longer commutes” the state is encouraging people to take public transportation.
+  Cuomo said “flu season is going to be a complicated factor” due to “more stress on the testing system.” He said also because the symptoms can be comparable to Covid-19.
+  The governor said the state's priorities are to watch schools, bar non-compliance, and secure voting. “Colleges are a problem, and will continue to be a problem,” the governor added.
+  “This is an entirely new enterprise in an entirely new world,” he said of K-12 schools opening. “It’s something that we have to be very careful about.”
+  The state continues to watch non-compliance in bars. The State Liquor Authority and Police Task Force observed nearly 5,000 establishments over Labor Day weekend and found 37 to be in non-compliance.
+  
+  
+  Vermont Gov. Phil Scott said in a news conference that a strong testing system and contact tracing are key to keeping schools and the economy open.
+  “Even though we are by far the safest state in the nation with the lowest number of cases and the lowest positivity rates, we know there will be bumps in the road and there will be cases tied to schools,” Scott said. “We also know how important this is for our kids and we’re here to work with schools as we take this step forward, to respond to and contain cases just as we have done throughout this pandemic.” 
+  Some context:  Today is the first day of school for many students in the state, with many going back to in-person school full-time while others have a combination of in-person and online schooling.
+  
+  
+  Stay-at-home orders — which led to people spending more time in their homes and reducing the amount they traveled — seem to be associated with a reduction in spread of Covid-19, according to new research published Tuesday in the journal JAMA Network Open.
+  “These findings suggest that stay-at-home social distancing mandates, when they were followed by measurable mobility changes, were associated with reduction in Covid-19 cases,” said the researchers, from the Department of Geography at the University of Wisconsin-Madison. 
+  The researchers used location data from more than 45 million cell phones between March 11 and April 10 to work out daily travel distance and time spent at home across all 50 states. These factors were used to look at the degree to which social distancing mandates were followed, and the association between mobility and Covid-19 cases.
+  Their results “suggest that stay-at-home orders were associated with reduction of the Covid-19 pandemic spread and with flattening the curve.”
+  The research also found that case increase rates in the five states with the highest level of infection at the time — New York, New Jersey, Michigan, California and Massachusetts — slowed down after the stay-at-home orders were implemented.
+  In states where confirmed cases increased faster people generally reduced the distance they were traveling daily quicker, and the results suggest that in states with higher case increase rates, the amount of time people spent at home was longer.
+  Remember:  The research does have some limitations, including the fact that other control measures — such as mask wearing — could have played a part in the reduction of cases. 
+  
+  
+  Tuscaloosa, Alabama, Mayor Walt Maddox has ordered bars to reopen today after being shut down since Aug. 24. The executive order issued by the mayor mandates bars can reopen in a limited capacity allowing for 50% occupancy and cannot exceed 100 people. Alcohol will also only be allowed for seated customers.
+  What the numbers look like:  On Friday, The University of Alabama reported 858 new cases between Aug. 28 and Sept. 3 among students and staff. Since the beginning of the school year, the institution has reported 1,910 cases. 
+  According to the Alabama Department of Public Health data, there has yet to be a steady decline in positive cases in Tuscaloosa.  
+  The pharmaceutical company Inovio plans to begin a Phase 2/3 clinical trial of its Covid-19 vaccine candidate this month, according to company president and CEO Dr. Joseph Kim.
+  How it works:  Inovio's vaccine technology works by delivering particles of DNA directly into cells, triggering an immune response to the novel coronavirus inside the cells.
+  The Phase 2/3 clinical trial was first announced in August on an earnings call.
+  Inovio plans to enroll 6,000 to 10,000 volunteers in the study. That’s less than the 30,000 volunteers who are being enrolled in clinical trials for several other Covid-19 vaccine candidates.
+  Kim said the trial will be smaller than others because they’ll be targeting high-risk people, such as factory workers.
+  In August, Inovio shared results of small a Phase 1 clinical trial involving 40 volunteers. Side effects were mild, and the vaccine showed evidence of neutralizing antibodies and T cell responses.
+  The data has not yet been published in a peer-reviewed medical journal.
+  Inovio’s Covid-19 vaccine is being funded, in part, by the US Department of Defense, the Bill & Melinda Gates Foundation, and The Coalition for Epidemic Preparedness Innovations.
+  The company has not received funding from Operation Warp Speed, the Trump administration’s initiative to fast-track the development and delivery of a Covid-19 vaccine.
+  Three Phase 3 trials have already started in the US. Two other companies are also scheduled to begin Phase 3 trials this month, according to Moncef Slaoui, chief adviser of Operation Warp Speed.
+  Sanofi and GlaxoSmithKline expect to start a Phase 3 trial in the US by the end of the year.
+   
+  Officials in Hartford, Connecticut, gave more information about the cyberattack against city systems this weekend, but did not announce a definitive start date for schools. 
+  On Saturday, more than 200 of Hartford's 300 servers experienced a ransomware cyberattack, according to Mayor Luke Bronin. 
+  At this time, no private or personal data has been stolen, and the city's information technology service, Metro Hartford Innovation Services, is working to restore government systems, he said. Bronin said this is one of the most significant cyberattacks on the city in the last five years. 
+  The city's school bus routing service was one of the most heavily impacted systems the school district experienced, Bronin said. While they originally thought the system would be online and ready to go by this morning, it became clear last night that it was not the case. 
+  The student information system Power School was also compromised in the attack, but was fully restored as of midnight last night, said Dr. Leslie Torres-Rodriguez, the superintendent of Hartford Public Schools. She also noted that Innovation Services is checking every desktop at each school to make sure they are not compromised. 
+  Torres-Rodriguez said they are not sure when school will officially start but will keep families updated on their progress.  
+  Police are investigating the attack and are in communication with the FBI on the matter, said Hartford Police Chief Jason Thody. While some public safety services were impacted, there were no issues with 911 calls or dispatch, he said.  
+  Bronin noted that due to investing in half a million dollars in cybersecurity services last year, the attack had a smaller impact than it could have. 
+   
+  
+  Dr. Stephen Hahn, commissioner of the US Food and Drug Administration, said in a Twitter thread on Tuesday that he will be using the social media platform as a way to highlight the work the FDA is doing around a Covid-19 vaccine.  
+  
+  He said that through Twitter and other venues, the agency will continue to “underscore that only science and data will drive FDA’s decisions,” adding that FDA staff will only authorize or approve a vaccine if it meets the high safety and efficacy standards expected by Americans.
+  While the agency is committed to expediting work around the vaccine, the FDA will not cut corners and have not lost sight of its responsibility to ensure that decisions related to all medical products, including vaccines, are based on science and data, he said.
+  Hahn tweeted that the FDA has made it clear through guidance what data needs to be submitted to meet regulatory standards, something he called “particularly important” as many people have expressed concerns about vaccine development efforts.
+  The FDA is also committed to an evaluation process that’s as transparent as possible, with an FDA advisory committee of independent experts meeting in October to publicly discuss vaccine development, Hahn tweeted.
+  He encouraged Twitter users to follow the hashtag #FDAVaccineFacts as the agency highlights different parts of the development and evaluation process. 
+ 
