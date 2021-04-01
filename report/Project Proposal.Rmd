@@ -67,7 +67,7 @@ In order to improve upon this deficiency, the bp-mll algorithm utilizes a differ
 $$
   E = \sum_{i = 1}^m E_i = \sum_{i = 1}^m \frac{1}{|Y_i| |\overline{Y}_i|} \sum_{(k,l) \in Y_i \times \overline{Y}_i} \exp(-(c_k^i - c_l^i))
 $$
-where $\overline{Y}_i$ is the complementary set of $Y_i$ in $\mathcal{Y}$. Then, learning proceeds as usual with gradient descent and back prop (we won't derive the details here). On the task of text categorization bp-mll tends to outperform the naive approach using standard metrics, however, we note that the computation time necessary for training can well exceed it [@bpmll].
+where $\overline{Y}_i$ is the complementary set of $Y_i$ in $\mathcal{Y}$. Then, learning proceeds as usual with gradient descent and back prop (we won't derive the details here). On the task of text categorization, bp-mll tends to outperform the naive approach using standard metrics. However, we note that the computation time necessary for training can well exceed it [@bpmll].
 
 While ML-KNN and BP-MLL are the two approaches we have identified so far, we may wind up including others.
 
