@@ -1,8 +1,7 @@
 ---
 title: "Project Proposal"
 author: "Bobby Lumpkin, Archit Datar, Lauren Contard, Haihang Wu, Yue Li"
-output: 
-  pdf_document: default
+output: html_document
 bibliography : project_proposal.bib
 ---
 
@@ -27,7 +26,7 @@ In this section, we'll outline some of the methods we plan to use tackle the var
 
 ### Text-Categorization With Multi-label Learning
 
-One of the main goals of our project is to be able to perform text categorization on the level of paragraphs using selected features (tf-idf). The task of text-categorization falls naturally into the realm of multi-label learning, since, each document may belong to several predefined categories [@mlknn]. As an example, paragraphs that can be assigned to the category of "threats/impacts" might also fall appropriately into the category of "responses/actions". In the following sections, we'll provide an overview & introduction to the multi-lable learning paradigm, discuss benefits to utilizing MLL algorithms and present two such algorithms we plan to utilize: ML-KNN and BP-MLL.
+One of the main goals of our project is to be able to perform text categorization on the level of paragraphs using selected features (tf-idf). The task of text-categorization falls naturally into the realm of multi-label learning, since, each document may belong to several predefined categories [@mlknn]. As an example, paragraphs that can be assigned to the category of "threats/impacts" might also fall appropriately into the category of "responses/actions". In the following sections, we'll provide an overview & introduction to the multi-label learning paradigm, discuss benefits of utilizing MLL algorithms and present two such algorithms we plan to utilize: ML-KNN and BP-MLL.
 
 ### Multi-Label Learning: Advantages and an Introduction
 
