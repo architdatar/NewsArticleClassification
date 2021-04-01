@@ -58,7 +58,18 @@ So far, this is similar to the way in which we approximate the Baye's Optimal Cl
 
 ### BP-MLL (Back Prop for Multi-Label Learning)
 
+Inspired by biological nervous systems, neural networks date back to the first half of the 20$^{th}$ century with works such as those by McCulloch and Pitts [@mpnetworks]. In the subsequent two decades, much work was done on single layer networks such as Rosenblatt's Perceptron model for supervised learning [@Haykin]. However, the lack of hidden units restricted it's usefulness to linearly separable problems, excluding the possibility of learning even simple functions like XOR.  In the early 1980s, research on neural networks resurged largely due to successful learning algorithms for multi-layer neural networks [@bpmll]. Networks for various tasks including computer vision, associative memory, representation learning, NLP, etc. have since been developed, studied and used.
 
+For our purposes, we will utilize standard multi-layer feed-forward networks with tanh() activations adapted for multi-label learning. We'll briefly mention the naive approach to multi-label learning with such networks before presenting the novel adaptation given in @bpmll. Namely, assuming $\mathcal{X} \in \mathbb{R}^d$, one could simply use a multi-layer network with $d$ input units and $Q$ tanh() or sigmoid output units. Then, training proceeds as usual with either an MSE or cross-entropy loss function. This, however, ignores the relationships between labels. 
+
+In order to improve upon this deficiency, the bp-mll algorithm utilizes a different loss function. The bp-mll loss function is given by:
+
+$$
+  E = \sum_{i = 1}^m E_i = \sum_{i = 1}^m \frac{1}{|Y_i| |\overline{Y}_i|} \sum_{(k,l) \in Y_i \times \overline{Y}_i} \exp(-(c_k^i - c_l^i))
+$$
+where $\overline{Y}_i$ is the complementary set of $Y_i$ in $\mathcal{Y}$. Then, learning proceeds as usual with gradient descent and back prop (we won't derive the details here). On the task of text categorization bp-mll tends to outperform the naive approach using standard metrics, however, we note that the computation time necessary for training can well exceed it [@bpmll].
+
+While ML-KNN and BP-MLL are the two approaches we have identified so far, we may wind up including others.
 
 # References
 
