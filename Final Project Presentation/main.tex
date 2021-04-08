@@ -1,0 +1,57 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\DeclareMathOperator*{\argmax}{argmax} % thin space, limits underneath in displays
+\mode<presentation>{
+\usetheme{Madrid}
+\usecolortheme{TOSU}
+}
+
+% Load biblatex package and .bib document
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+%Information to be included in the title page:
+\title{News Article Classification}
+\subtitle{(Multi-Label Learning: ML-KNN \& BP-MLL)}
+\author[STAT 6500]{Lauren Contard, Archit Datar, Bobby Lumpkin, Haihang Wu}
+\institute[OSU] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+The Ohio State University \\ % Your institution for the title page
+\medskip
+STAT 6500 % Your email address
+}
+\date{}
+
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+\begin{frame}[t]{References}
+    \nocite{mlknn}
+    \nocite{bpmll}
+    \bibliography{mll_osu}
+\end{frame}
+
+\end{document}
+
