@@ -1,0 +1,31 @@
+\mode
+
+\usepackage{color}
+
+% logo of my university
+\titlegraphic{
+    \includegraphics[width=2.5cm]{The_Ohio_State_University_Logo.png}%
+}
+
+%%%%%%%%%%%%%%
+%%
+%% Color theme
+%%
+%%%%%%%%%%%%%%
+
+\definecolor{titlelike}{RGB}{95, 95, 95}
+\definecolor{AuthorHeadFoot}{RGB}{95, 95, 95}
+\definecolor{TitleHeadFoot}{RGB}{145,35,35}
+\definecolor{DateHeadFoot}{RGB}{95, 95, 95}
+\definecolor{item}{RGB}{105, 105, 105}
+\definecolor{SectionTOC}{RGB}{200, 35, 35}
+
+% This sets the colour of the title of the presentation and titles of all the slides in the presentation to white.
+\setbeamercolor{titlelike}{bg = titlelike}
+\setbeamercolor*{author in head/foot}{bg = AuthorHeadFoot, fg = white}
+\setbeamercolor*{title in head/foot}{bg = TitleHeadFoot, fg = white}
+\setbeamercolor*{date in head/foot}{bg = DateHeadFoot, fg = white}
+
+\setbeamercolor{item}{fg = item}
+\setbeamercolor{section in toc}{fg = SectionTOC}
+%\setbeamercolor{subsection in toc}{fg=item}

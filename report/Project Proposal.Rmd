@@ -20,6 +20,34 @@ We then used the Python package "Scrapy" to scrape the full text of these articl
 
 The overarching goal of the project is to see whether news media amplify or narrow down the polarization in health attitudes and behaviors. Polarization is far more than just within political issues. Research has found that there is polarization between Democrats and Republicans in their health-related attitudes and behaviors. For example, de Bruin, Saw, and Goldman (2020) found that Democrats perceived higher risks associated with COVID-19 than Republicans (@de2020political).Similarly, van Holm, Monaghan, Shahar, Messhina, and Surprenant (2020) found that Democrats made fewer trips than Republicans and were more likely to change their behaviors in ways recommended by public health experts and governors (@van2020impact). Though scholars have found associatations between media consumption and polarization in health-related atttitudes and behaviors, there lacks empirical evidence of the mechanisms of how news media will play a role in the polarization process. This project will fill in the gap by analyzing the content of the news articles and incorporating daily surveys that keep tracking American's health attitudes and behaviors (this part will not be included in the final project for STAT6500).
 
+## Part 3: Exploratory Data Analysis
+
+Our initial EDA focused on the first problem, that of classifying the articles into "relevant" or "irrelevant." We focused on finding the words that were most likely to be helpful in separating the relevent articles from the irrelevent, using a randomly selected subsample of 1022 articles, which were classified by hand. 
+
+Below are plots of the 5 words that appear the most frequently in related articles, versus non-related. 
+
+```{r echo=FALSE, fig.cap="Words Associated with Relevant Articles", out.width = '50%', fig.align='center'}
+knitr::include_graphics("positive boxplots.png")
+```
+
+\newpage
+
+And for the 5 words that appear most frequently in non-related articles, versus related: 
+
+```{r echo=FALSE, fig.cap="Words Associated with Irrelevant Articles", out.width = '50%', fig.align='center'}
+knitr::include_graphics("negative boxplots.png")
+```
+
+These give a sense of what variables we might focus on in order to classify articles as irrelevant or relevant.   
+
+We also conducted a principal component analysis on the article data. The first two principal components together explain about 45% of the variation in the data. Here is a plot of the first and second principal component scores:   
+
+```{r echo=FALSE, fig.cap="Principal Component Scores", out.width = '70%', fig.align='center'}
+knitr::include_graphics("pca.png")
+```
+
+From this plot, there does appear to be a difference between the two classes of articles on the first two P.C. scores (especially, the related articles tend to score higher on the 2nd PC); however, there is also a good deal of overlap, as can be seen. This suggests that reducing the data dimension to two PC's will likely not be sufficient for classification. 
+
 ## Part 4: Methodology
 
 In this section, we'll outline some of the methods we plan to use tackle the various goals of our project. 
