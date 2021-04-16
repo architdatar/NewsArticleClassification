@@ -38,8 +38,8 @@ y_test_array = y_test.toarray()
 
 
 #Questions: 
-#1. How to shortlist variables? 
-#2. How to test accuracy?
+#1. How to shortlist variables? Use all variables. Then, PCA, find features, etc. 
+#2. How to test accuracy? Hamming loss
 #3. How many can we use? 
 #4. Cross-validation with number of neighbors. 
 
