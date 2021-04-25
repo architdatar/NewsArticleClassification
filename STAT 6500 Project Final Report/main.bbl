@@ -1,0 +1,116 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Boutell04learningmulti-label}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=f492d98e93c5925cc8f17b4bd45b3e3c}{%
+           family={Boutell},
+           familyi={B\bibinitperiod},
+           given={Matthew\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=efa9b2a65485dcaee98452ac77378cac}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Jiebo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e5d894b6d4dcb718532e9d6a05234d08}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Xipeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ce8089ee4895afb2e68b83d89d7ee89e}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a353ab723784b4eddf72b1cb6498aba}
+      \strng{fullhash}{e871faef5ca99ec7c003e4345db48bbd}
+      \strng{authornamehash}{5a353ab723784b4eddf72b1cb6498aba}
+      \strng{authorfullhash}{e871faef5ca99ec7c003e4345db48bbd}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning multi-label scene classification}
+      \field{year}{2004}
+    \endentry
+    \entry{KernelMulti-labelClassification}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=af1237fe610213b60eefaf767e506435}{%
+           family={Elisseeff},
+           familyi={E\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=417a25f3511d7c21e76d4a15e67dd679}{%
+           family={Weston},
+           familyi={W\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vancouver, British Columbia, Canada}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{7ed115f4ba5409c9a3d260d214f01731}
+      \strng{fullhash}{7ed115f4ba5409c9a3d260d214f01731}
+      \strng{authornamehash}{7ed115f4ba5409c9a3d260d214f01731}
+      \strng{authorfullhash}{7ed115f4ba5409c9a3d260d214f01731}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article presents a Support Vector Machine (SVM) like learning system to handle multi-label problems. Such problems are usually decomposed into many two-class problems but the expressive power of such a system can be weak [5, 7]. We explore a new direct approach. It is based on a large margin ranking system that shares a lot of common properties with SVMs. We tested it on a Yeast gene functional classification problem with positive results.}
+      \field{booktitle}{Proceedings of the 14th International Conference on Neural Information Processing Systems: Natural and Synthetic}
+      \field{series}{NIPS'01}
+      \field{title}{A Kernel Method for Multi-Labelled Classification}
+      \field{year}{2001}
+      \field{pages}{681\bibrangedash 687}
+      \range{pages}{7}
+    \endentry
+    \entry{McCallum99multi-labeltext}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=3383aca89e4e2180c269406847e829da}{%
+           family={McCallum},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima Kachites},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{0}{%
+      }
+      \strng{namehash}{3383aca89e4e2180c269406847e829da}
+      \strng{fullhash}{3383aca89e4e2180c269406847e829da}
+      \strng{authornamehash}{3383aca89e4e2180c269406847e829da}
+      \strng{authorfullhash}{3383aca89e4e2180c269406847e829da}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AAAI 99 Workshop on Text Learning}
+      \field{title}{Multi-label text classification with a mixture model trained by EM}
+      \field{year}{1999}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
