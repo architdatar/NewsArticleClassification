@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Introduction and Problem Statement}{}% 1
+\BOOKMARK [1][-]{section.2}{Methods}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{ML-kNN}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Linear Dimension Reduction \(PCA\)}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Nonlinear Dimension Reduction \(ANN Autoencoder\)}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Artificial Neural Networks \(Feed-Forward \046 Recurrent\)}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Results}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{ML-KNN Results}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Artificial Neural Network Results}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Discussion \046 Conclusions}{}% 10

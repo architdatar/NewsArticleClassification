@@ -5,7 +5,8 @@
 %% Language and font encodings
 \usepackage{graphicx}
 \usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage{csquotes}
+%%\usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{listings}
 \usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
@@ -47,7 +48,13 @@ Yue Li, Robert Lumpkin, Haihang Wu}
 
 \section{Methods}
 
-\subsection{ML-KNN}
+\subsection{ML-kNN}
+ML-kNN (Multi-label k nearest neighbors) is derived from the traditional k nearest neighbors (kNN), except for the multi-label case. While the goal of the traditional kNN algorithm is to predict whether class of the test sample based on the classes of its k nearest neighbors, the goal of ML-kNN is to predict multiple classes based on the classes of the k nearest neighbors of the test point. For the unseen data point, its nearest neighbors are identified. Then, based on the number of neighboring instances belonging to each possible class, maximum a posteriori (MAP) principle is utilized to determine the label set for the unseen instance. 
+
+ML-kNN is used in a variety of problems, such as, text categorization \autocite{McCallum99multi-labeltext}, where each document may belong to several topics, such as the use case for our project. Apart from this, it can also be useful in areas such as functional genomics where each gene may be associated with a set of functional classes \autocite{KernelMulti-labelClassification}, and in image classification, where each image could have multiple genres.\autocite{Boutell04learningmulti-label}  
+
+%%Questions: 1. How were $P(H_1) and P(E | H) derived? Wasn't able to understand very well. 2. What would be wrong with simply considering this as Q separate classification problems? What exactly do we mean by "correlations between labels" and how do they manifest themselves mathematically?$ 
+%%Comments: Somehow, the order of citations is reversed. Not sure why that is happening. Probably due to some argument of BibLatex? 
 
 \subsection{Linear Dimension Reduction (PCA)}
 
