@@ -19,6 +19,7 @@
 \usepackage{enumitem}
 \usepackage{mleftright}
 \usepackage{setspace}
+\usepackage{wrapfig}
 \usepackage{geometry}
  \geometry{
  a4paper,
@@ -27,6 +28,8 @@
  top=20mm,
  }
 
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
 
 
 \title{\Huge News Article Classification}
@@ -59,6 +62,21 @@ ML-kNN is used in a variety of problems, such as, text categorization \autocite{
 \subsection{Linear Dimension Reduction (PCA)}
 
 \subsection{Nonlinear Dimension Reduction (ANN Autoencoder)}
+
+In addition to reductions in dimension due to PCA, we also implement an ANN autoencoder. Autoencoders can learn data projections with suitable dimensionality and sparsity limitations that are more useful than other fundamental methods such as PCA, which only allow for linear data representations \autocite{Alkhayrat}.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \begin{center}
+        \includegraphics[width=0.48\textwidth]{autoencoder_diagram.png}
+    \end{center}
+\end{wrapfigure}
+
+This nonlinear dimension reduction is done by by training a feed forward neural
+network to perform the identity mapping, where the network inputs are reproduced
+at the output layer. The network contains an internal “bottleneck” layer (containing fewer nodes than input or output layers), which forces the network to develop a compact representation of the input data, and two additional hidden layers \autocite{Kramer}. Look to the diagram to the right, for a visualisation of this set-up. 
+
+The particular network that we trained had three hidden layers, as in the diagram. The first, second and third hidden layers are of dimensions $128$, $64$, and $128$, and use the activations tanh, ReLu, and sigmoid, respectively. Training was performed using Adam optimization, MSE loss, and over $400$ epochs. After training, the generated encodings were used to repeat our model fitting procedures for both the binary-relevance KNN and ML-KNN algorithms. 
+
 
 \subsection{Artificial Neural Networks (Feed-Forward \& Recurrent)}
 
