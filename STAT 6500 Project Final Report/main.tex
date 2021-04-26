@@ -101,11 +101,10 @@ $$
 $$
 
 where $c_j^i = c_j(x_i)$ is the output of the network on $x_i$ on the $j^{th}$ class. The back propagation algorithm is derived in the same manner is for a cross entropy or MSE loss. Details are ommitted here, but can be found in \autocite{bpmll}.
-
   
-
 \subsection{Threshold Function Learning}
 
+In both of their papers, introducing the BPMLL \autocite{bpmll} and ML-KNN \autocite{mlknn} algorithms, Zhang \& Zhou also describe a common method for learning threshold functions. Perfect classification, using a constant threshold requires two conditions: (1) Logit values corresponding to labels included in an instance's label set  be separated from logit values corresponding to labels not in an instance's label set. And (2) this separation be around some constant value (usually either $0.5$ or $0$). Learning a threshold function aims to relax the second condition. Namely, we apply a regression algorithm to learn threshold values from the logit outputs of our models.
 \section{Results}
 
 \subsection{ML-KNN Results}
