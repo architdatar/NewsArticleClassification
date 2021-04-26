@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{indentfirst}
 \usepackage{biblatex}
@@ -68,13 +68,11 @@ In addition to reductions in dimension due to PCA, we also implement an ANN auto
 
 \begin{wrapfigure}{r}{0.5\textwidth}
     \begin{center}
-        \raisebox{0pt}[\dimexpr\height-1.95\baselineskip\relax]{\includegraphics[width=0.5\textwidth]{autoencoder_diagram.png}}
+        \raisebox{0pt}[\dimexpr\height-1.25\baselineskip\relax]{\includegraphics[width=0.5\textwidth]{autoencoder_diagram.png}}
     \end{center}
 \end{wrapfigure}
 
-This nonlinear dimension reduction is done by by training a feed forward neural
-network to perform the identity mapping, where the network inputs are reproduced
-at the output layer. The network contains an internal “bottleneck” layer (containing fewer nodes than input or output layers), which forces the network to develop a compact representation of the input data, and two additional hidden layers \autocite{Kramer}. Look to the diagram to the right, for a visualisation of this set-up. 
+This nonlinear dimension reduction is done by by training a feed forward (FF) neural network to perform the identity mapping, where the network inputs are reproduced at the output layer. The network contains an internal “bottleneck” layer (containing fewer nodes than input or output layers), which forces the network to develop a compact representation of the input data, and two additional hidden layers \autocite{Kramer}. Look to the diagram to the right, for a visualisation of this set-up. 
 
 The particular network that we trained had three hidden layers, as in the diagram. The first, second and third hidden layers are of dimensions $128$, $64$, and $128$, and use the activations tanh, ReLu, and sigmoid, respectively. Training was performed using Adam optimization, MSE loss, and over $400$ epochs. After training, the generated encodings were used to repeat our model fitting procedures for both the binary-relevance KNN and ML-KNN algorithms. 
 
@@ -82,9 +80,19 @@ The particular network that we trained had three hidden layers, as in the diagra
 \subsection{Artificial Neural Networks (Feed-Forward \& Recurrent)}
 Approaches utilizing different artificial neural networks are also utilized in our project. Inspired by biological nervous systems, neural networks date back to the first half of the $20^{th}$ century with works such as those by McCulloch and Pitts, which could model simple logical operations \autocite{Piccinini}. Since most subsequent work in the following two decades centered around single layer networks, the power of neural networks was restricted to linearly separable problems. This excluded the possibility of learning even simple functions like XOR, which required a second layer \autocite{NNLM}. In the early 1980s, research on neural networks resurged largely due to successful learning algorithms for multi-layer neural networks and are used today for various tasks such as computer vision, associative memory, representation learning, NLP, etc..
 
-For our project, we tried implementing both feed forward and recurrent neural network architectures. The feed forward architectures were trained on $2094$ dimensional tf-idf vectors. The recurrent networks were trained on padded sequences of integers corresponding to sequences of the processed tokens from the paragraphs; urls, punctuation, and stop words were all removed. 
+\begin{wrapfigure}{l}{0.5\textwidth}
+    \begin{center}
+        \raisebox{0pt}[\dimexpr\height-0.8\baselineskip\relax]{\includegraphics[width=0.5\textwidth]{multilayer_network_Haykin.PNG}}
+    \end{center}
+\end{wrapfigure}
 
-Training was performed, using two different loss functions. The standard binary cross entropy loss function was used, in addition, to the more novel BPMLL (back prop for multilabel learning) loss. The BPMLL loss function requires instances to have at least one label. Thus, on the one hand, we trained both cross entropy and BPMLL models on such a reduced dataset in addition to training just cross entropy models on the full dataset. 
+For our project, we tried implementing both FF networks and recurrent neural network (RNN) architectures. Perceptrons are the building block for FF networks. A perceptron has an input layer of neurons and an output neuron. Weighted connections exist between every input neuron and the output neuron. A forward pass through the network consists of multiplying the values of the input neurons by the value of their connections' weight, summing and then applying some non-linearity (which we call the activation function). Feed forward networks are typically built by stacking perceptron units vertically and horizontally. All of our FF networks utilize the same architectures; the first hidden layer is of size $32$ with ReLU activation, dropout regularization with drop probability of $0.5$, and an output layer of size $13$ (the number of labels) with sigmoid activations. The FF architectures were trained on $2094$ dimensional tf-idf vectors. 
+
+While FF networks display incredible expressive power, RNNs are a popular adaptation for NLP problems because they are uniquely suited for sequence processing. This is due to their shared weights over inputs and hidden unit connections which allow for information from previous states to influence current and future states. This nice feature also leads to the exacerbation of the "gradient exploding/vanishing" problem during training. Many methods have been proposed to overcome this, one of which is the "gated" architecture we use, known as the Long-Short-Term-Memory (LSTM) architecture. 
+
+On the reduced dataset, all of our RNN models utilize the same bidirectional LSTM architecture. On the full dataset, all of our models utilize the same single-directional LSTM architecture. In both the bidirectional and single-directional LSTM's, we used hidden states of size $16$ followed by a dense output layer with sigmoid activations.The RNNs were trained on padded sequences of integers corresponding to sequences of the processed tokens from the paragraphs; urls, punctuation, and stop words were all removed. 
+
+All of our networks (both FF and RNN) utilize the same optimization algorithm (Adam optimization -- a variant of gradient descent), however, training was performed, using two different loss functions. The standard binary cross entropy loss function was used, in addition, to the more novel BPMLL (back prop for multilabel learning) loss. The BPMLL loss function requires instances to have at least one label. Thus, on the one hand, we trained both cross entropy and BPMLL models on such a reduced dataset in addition to training just cross entropy models on the full dataset. 
 
 The BPMLL loss function aims to leverage correlations between labels by evaluating the error as a function of pairwise errors between labels. Namely, the loss function is given by:
 
@@ -94,7 +102,7 @@ $$
 
 where $c_j^i = c_j(x_i)$ is the output of the network on $x_i$ on the $j^{th}$ class. The back propagation algorithm is derived in the same manner is for a cross entropy or MSE loss. Details are ommitted here, but can be found in \autocite{bpmll}.
 
-All of our networks utilize the same optimization algorithm (Adam optimization). All of our feed forward networks utilize the same architectures; the first hidden layer is of size 32 with ReLU activation, dropout regularization with drop probability of $0.5$, and an output layer of size $13$ (the number of labels) with sigmoid activations. On the reduced dataset, all of our RNN models utilize the same bidirectional LSTM architecture. On the full dataset, all of our models utilize the same single-directional LSTM architecture.
+  
 
 \subsection{Threshold Function Learning}
 
