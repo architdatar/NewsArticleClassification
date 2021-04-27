@@ -61,6 +61,33 @@ STAT 6500 % Your email address
 
 \subsection{Binary Relevance}
 
+\begin{frame}[t]{Binary Relevance (A Naive Approach)}
+    \small
+    \begin{itemize}
+        \item 
+        An intuitive approach to deal with the multilabel paradigm.
+        
+        \item
+        Works by decomposing the multi-label learning task into a number of independent binary learning tasks (one per class label).
+    \end{itemize}
+    
+    \vskip-1.15em
+    \begin{figure}[htp]
+        \centering
+        \includegraphics[width = 6cm]{Images/Binary-relevance-problem-transformation-method.png}
+    \end{figure}
+    
+    \vskip-1.25em
+    \begin{itemize}
+        \item[\rightarrow] 
+        Often criticized in the literature because of its label independence assumption.
+        
+        \item[\rightarrow]
+        We implement a KNN based binary relevance model and compare with a more novel adaptation: the ML-KNN model.
+    \end{itemize}
+    
+\end{frame}
+
 \subsection{ML-KNN Algorithm}
 \begin{frame}[t]{ML-KNN Algorithm: Overall Approach}
 \small
@@ -154,10 +181,13 @@ Having a high dimensional feature space causes Euclidian distances between point
             \end{center}
             \begin{myitemize}
                 \item 
-                RNNs are a popular adaptation for NLP problems because they are uniquely suited for sequence processing.
+                RNNs are a popular adaptation for NLP problems.
                 
                 \item
-                This is due to their hidden unit connections with shared weights, which allow for information from previous and/or future states to influence the current state.
+                They utilize hidden unit connections with shared weights.
+                
+                \item
+                Unfolding an RNN let's us visualize it like a feed forward network (see below).
             \end{myitemize}
             
             \vskip-1em
