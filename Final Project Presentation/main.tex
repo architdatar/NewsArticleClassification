@@ -8,6 +8,15 @@
 \usecolortheme{TOSU}
 }
 
+\makeatletter
+\newenvironment{myitemize}{%
+   \setlength{\topsep}{0pt}
+   \setlength{\partopsep}{0pt}
+   \renewcommand*{\@listi}{\leftmargin\leftmargini \parsep\z@ \topsep\z@ \itemsep\z@}
+   \let\@listI\@listi
+   \itemize
+}{\enditemize}
+
 % Load biblatex package and .bib document
 \usepackage{natbib}
 \bibliographystyle{unsrtnat}
@@ -117,8 +126,54 @@ Having a high dimensional feature space causes Euclidian distances between point
 
 \subsection{Architectures: Feed Forward \& Recurrent Networks}
 
+\begin{frame}[t]{Network Architectures (Feed Forward vs Recurrent)}
+    \small
+    \vskip-2.5em
+    \begin{columns}[t]
+        \begin{column}{0.5\textwidth}
+            \begin{center}
+                \textbf{\underline{Feed Forward Networks}}
+            \end{center}
+            \begin{myitemize}
+                \item 
+                Neurons in the first layer represent components of the input vectors.
+                
+                \item
+                The output of the neuron in the next layer is determined by applying a non-linear ``activation function" to a linear combination of the input components, plus a bias.
+            \end{myitemize}
+            
+            \begin{figure}[htp]
+                \centering
+                \includegraphics[width = 6cm]{Images/multilayer_network_Haykin.PNG}
+            \end{figure}
+        \end{column}
+          
+        \begin{column}{0.5\textwidth}
+            \begin{center}
+                \textbf{\underline{Recurrent Neural Networks (RNNs)}}
+            \end{center}
+            \begin{myitemize}
+                \item 
+                RNNs are a popular adaptation for NLP problems because they are uniquely suited for sequence processing.
+                
+                \item
+                This is due to their hidden unit connections with shared weights, which allow for information from previous and/or future states to influence the current state.
+            \end{myitemize}
+            
+            \vskip-1em
+            \begin{figure}[htp]
+                \centering
+                \includegraphics[width = 4cm]{Images/RNN_unfolded_goodfellow.PNG}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
 
 \subsection{Loss Functions: Cross Entropy vs BPMLL}
+
+\begin{frame}[t]{Naive vs Novel Approaches (Cross Entropy vs BPMLL)}
+    
+\end{frame}
 
 \subsection{Results}
 
