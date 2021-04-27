@@ -2146,6 +2146,15 @@
     <bcf:citekey order="1">McCallum99multi-labeltext</bcf:citekey>
     <bcf:citekey order="2">KernelMulti-labelClassification</bcf:citekey>
     <bcf:citekey order="3">Boutell04learningmulti-label</bcf:citekey>
+    <bcf:citekey order="4">ZhangMulti-labelLazy</bcf:citekey>
+    <bcf:citekey order="5">nguyen2019ten</bcf:citekey>
+    <bcf:citekey order="6">Alkhayrat</bcf:citekey>
+    <bcf:citekey order="7">Kramer</bcf:citekey>
+    <bcf:citekey order="8">Piccinini</bcf:citekey>
+    <bcf:citekey order="9">NNLM</bcf:citekey>
+    <bcf:citekey order="10">bpmll</bcf:citekey>
+    <bcf:citekey order="11">bpmll</bcf:citekey>
+    <bcf:citekey order="12">mlknn</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

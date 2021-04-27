@@ -1,0 +1,10 @@
+\BOOKMARK [2][]{Outline0.1}{Introduction to Multi-label Learning}{}% 1
+\BOOKMARK [3][]{Outline0.1.1.4}{Overview and Advantages}{Outline0.1}% 2
+\BOOKMARK [2][]{Outline0.2}{ML-KNN Approach}{}% 3
+\BOOKMARK [3][]{Outline0.2.1.13}{Model Outline}{Outline0.2}% 4
+\BOOKMARK [3][]{Outline0.2.2.24}{Computing Model Probabilities}{Outline0.2}% 5
+\BOOKMARK [3][]{Outline0.2.3.41}{Implementation \(in scikit-multilearn\)}{Outline0.2}% 6
+\BOOKMARK [2][]{Outline0.3}{BP-MLL Approach}{}% 7
+\BOOKMARK [3][]{Outline0.3.1.47}{Feed-forward Neural Networks}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.2.59}{Neural Network Loss Functions \046 Training for MLL}{Outline0.3}% 9
+\BOOKMARK [3][]{Outline0.3.3.63}{Implementation \(in TensorFlow/Keras\)}{Outline0.3}% 10

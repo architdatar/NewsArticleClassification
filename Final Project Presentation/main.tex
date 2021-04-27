@@ -1,5 +1,4 @@
 \documentclass{beamer}
-
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{mathtools}
@@ -54,6 +53,63 @@ STAT 6500 % Your email address
 \subsection{Binary Relevance}
 
 \subsection{ML-KNN Algorithm}
+\begin{frame}[t]{ML-KNN Algorithm: Overall Approach}
+\small
+\textbf{Overall Approach:}
+This ML-KNN algorithm takes a parametric, Bayesian approach towards estimating the Bayes Optimal Classifier. As with the single-label algorithm, it does this using the K nearest neighbors of an instance. Namely...
+
+\begin{itemize}
+	\onslide<2->{
+		\item 
+		Given a test instance, $t$, $\vec{Y}_t$ is determined using the MAP estimate:}
+	
+	\onslide<3->{
+		\begin{align*}
+		\vec{y}_t(\ell) &= \argmax_{b \in \{0, 1\}} \mathbb{P}\left(\textrm{H}_b^\ell | E_{\vec{C}_t(\ell)}^\ell\right), \textrm{\hspace{0.3cm}}\ell \in \mathcal{Y} \\
+		&= \argmax_{b \in \{0,1\}} \frac{\mathbb{P}\left(\textrm{H}_b^\ell\right) \cdot \mathbb{P}\left(E_{\vec{C}_{t(\ell)}}^\ell | \textrm{H}_b^\ell\right)}{\mathbb{P}\left(E_{\vec{C}_t(\ell)}^\ell \right)} \\
+		&= \argmax_{b \in \{0, 1\}}\mathbb{P}\left(\textrm{H}_b^\ell\right) \cdot \mathbb{P}\left(E_{\vec{C}_{t(\ell)}}^\ell | \textrm{H}_b^\ell\right)
+		\end{align*}}
+	
+	\onslide<4->{
+		\item
+		Where we take a Bayesian approach towards estimating the prior probabilities, $\mathbb{P}\left(\textrm{H}_b^\ell\right)$, and conditional probabilities, $\mathbb{P}\left(E_{\vec{C}_{t(\ell)}}^\ell | \textrm{H}_b^\ell\right)$.}
+	\normalsize
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{ML-KNN Algorithm: More Notation}
+\textbf{Notation:}
+\begin{itemize}
+	\onslide<2->{
+		\item
+		Let $N(x)$ denote the set of $K$ nearest neighbors of $x$, identified in the training set.}
+	
+	\onslide<3->{
+		\item
+		Let $\vec{C}_x(\ell) = \sum_{a \in N(x)} \vec{y}_a(\ell)$ ($\ell \in \mathcal{Y}$) define a membership counting vector.}
+	
+	\onslide<4->{
+		\item
+		Let $H_0^\ell$ denote the event that test instance $t$ does not have a label $\ell$ and let $H_1^\ell$ denote the event that it does have label $\ell$.}
+	
+	\onslide<5->{
+		\item
+		Let $E_j^\ell$ ($j \in \{1,...,K\})$ denote the event that, among the $K$ nearest neighbors of $t$, there are exactly $j$ instances which have label $\ell$.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{ML-KNN Algorithm: Reasons for dimension reduction}
+\begin{center}
+\includegraphics[width=0.7\textheight]{Images/DimRed.pdf}
+\end{center}
+Having a high dimensional feature space causes Euclidian distances between points to be fairly similar as the distance vector components are partitioned across many dimensions. 
+
+%\cite{yiu}
+%%Archit's comments: How exactly do we cite so that the citation appears on the slide? 
+
+\end{frame}
 
 \subsection{Results}
 

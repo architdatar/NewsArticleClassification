@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Introduction to Multi-label Learning}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Overview and Advantages}{4}{0}{1}
+\beamer@sectionintoc {2}{ML-KNN Approach}{12}{0}{2}
+\beamer@subsectionintoc {2}{1}{Model Outline}{13}{0}{2}
+\beamer@subsectionintoc {2}{2}{Computing Model Probabilities}{24}{0}{2}
+\beamer@subsectionintoc {2}{3}{Implementation (in scikit-multilearn)}{41}{0}{2}
+\beamer@sectionintoc {3}{BP-MLL Approach}{46}{0}{3}
+\beamer@subsectionintoc {3}{1}{Feed-forward Neural Networks}{47}{0}{3}
+\beamer@subsectionintoc {3}{2}{Neural Network Loss Functions \& Training for MLL}{59}{0}{3}
+\beamer@subsectionintoc {3}{3}{Implementation (in TensorFlow/Keras)}{63}{0}{3}
