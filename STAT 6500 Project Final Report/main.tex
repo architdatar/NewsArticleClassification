@@ -113,12 +113,11 @@ The particular network that we trained had three hidden layers, as in the diagra
 \subsection{Artificial Neural Networks (Feed-Forward \& Recurrent)}
 Classification approaches utilizing different artificial neural networks are also utilized in our project. Inspired by biological nervous systems, neural networks date back to the first half of the $20^{th}$ century with works such as those by McCulloch and Pitts, which could model simple logical operations \autocite{Piccinini}. Since most subsequent work in the following two decades centered around single layer networks, the power of neural networks was restricted to linearly separable problems. This excluded the possibility of learning even simple functions like XOR, which required a second layer \autocite{NNLM}. In the early 1980s, research on neural networks resurged largely due to successful learning algorithms for multi-layer neural networks and are used today for various tasks such as computer vision, associative memory, representation learning, NLP, etc..
 
-%% Archit changes: The path to this figure seems not importable by the software, so i have commented out this section. 
-%\begin{wrapfigure}{l}{0.5\textwidth}
- %   \begin{center}
-  %      \raisebox{0pt}[\dimexpr\height-0.8\baselineskip\relax]{\includegraphics[width=0.5\textwidth]{../literature/Multi-Label\ Learning\ Beamer\ Intro/multilayer_network_Haykin.png}}
-   % \end{center}
-%\end{wrapfigure}
+\begin{wrapfigure}{l}{0.5\textwidth}
+    \begin{center}
+        \raisebox{0pt}[\dimexpr\height-0.8\baselineskip\relax]{\includegraphics[width=0.5\textwidth]{multilayer_network_Haykin.png}}
+    \end{center}
+\end{wrapfigure}
 
 For our project, we tried implementing both FF networks and recurrent neural network (RNN) architectures. Perceptrons are the building block for FF networks. A perceptron has an input layer of neurons and an output neuron. Weighted connections exist between every input neuron and the output neuron. A forward pass through the network consists of multiplying the values of the input neurons by the value of their connections' weight, summing and then applying some non-linearity (which we call the activation function). Feed forward networks are typically built by stacking perceptron units vertically and horizontally. All of our FF networks utilize the same architectures; the first hidden layer is of size $32$ with ReLU activation, dropout regularization with drop probability of $0.5$, and an output layer of size $13$ (the number of labels) with sigmoid activations. The FF architectures were trained on $2094$ dimensional tf-idf vectors. 
 
@@ -145,7 +144,7 @@ In both of their papers, introducing the BPMLL and ML-KNN algorithms, Zhang \& Z
 
 \subsection{Artificial Neural Network Results}
 
-As some instances in the full dataset lack labels,  the 'Reduced Dataset' is created by removing these instances without any labels. The full dataset and reduced dataset are then used to train and validate four networks: Feed Forward network with cross entropy loss(CE FF), Feed Forward network with BPMLL(BPMLL FF),Recurrent neural network with Bidirectional LSTM and  cross entropy loss(CE RNN), and Recurrent neural network with Bidirectional LSTM and BPMLL(BPMLL RNN). We also train the neural network using 3 different training rate: 0.01,0.001,0.0001. For each learning rate, the validation set hamming loss is plotted against epoches as shown in figure \ref{fig:example1} and \ref{fig:example2}.
+As some instances in the full dataset lack labels,  the 'Reduced Dataset' is created by removing these instances without any labels. The full dataset and reduced dataset are then used to train and validate four networks: Feed Forward network with cross entropy loss(CE FF), Feed Forward network with BPMLL(BPMLL FF),Recurrent neural network with Bidirectional (single directional on full dataset) LSTM and  cross entropy loss(CE RNN), and Recurrent neural network with Bidirectional (single directional on full dataset) LSTM and BPMLL(BPMLL RNN). We also train the neural network using 3 different training rate: 0.01,0.001,0.0001. For each learning rate, the validation set hamming loss is plotted against epochs as shown in figure \ref{fig:example1} and \ref{fig:example2}.
 
 Figure \ref{fig:example1} shows the training history of CE FF and CE RNN using full dataset and constant threshold. From the left and middle sub figures, it can be shown that CE FF can achieve lower hamming loss than CE RNN. For the right sub figure, though the CE FF has higher hamming loss than CE RNN, CE FF seems to have decreasing trend of hamming loss as opposed to the plateau trend of CE RNN at 100 epoch, meaning that it is highly possible that CE FF will have lower hamming loss than CE RNN if the training continues. The effect of learning rate on training is also clear from Figure \ref{fig:example1}: smaller learning rate leads to slower training process. But from figure 1, it is unclear whether  smaller learning rate can reduce the hamming loss finally.
 
@@ -158,7 +157,7 @@ Figure \ref{fig:example1} shows the training history of CE FF and CE RNN using f
 \label{fig:example1} 
 \end{figure}
 
-To compared with constant threshold, table \ref{PVFTD} gives the validation set hamming loss after 100 epochs of training, using a learned threshold function, for each network with 3 different learning rate. No significant improvement in hamming loss has been observed for both 2 networks after learned threshold function is used.
+To compare with constant threshold, table \ref{PVFTD} gives the validation set hamming loss after 100 epochs of training, using a learned threshold function, for each network with 3 different learning rate. No significant improvement in hamming loss has been observed for both 2 networks after learned threshold function is used.
 
 In contrast with constant constant thresholds, this time CE FF seems to have higher hamming loss than CE RNN for all 3 learning rate. It also seems that the learning rate of 0.001 has the lowest hamming loss.
 
