@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Introduction and Problem Statement}{3}{0}{1}
+\beamer@sectionintoc {2}{KNN Based Approaches}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Binary Relevance}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{ML-KNN Algorithm}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Results}{15}{0}{2}
+\beamer@sectionintoc {3}{Neural Network Based Approaches}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Architectures: Feed Forward \& Recurrent Networks}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{Loss Functions: Cross Entropy vs BPMLL}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{Results}{16}{0}{3}
+\beamer@sectionintoc {4}{Discussion and Conclusions}{16}{0}{4}
