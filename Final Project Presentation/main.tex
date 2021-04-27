@@ -117,9 +117,45 @@ Having a high dimensional feature space causes Euclidian distances between point
 
 \subsection{Architectures: Feed Forward \& Recurrent Networks}
 
+
 \subsection{Loss Functions: Cross Entropy vs BPMLL}
 
 \subsection{Results}
+
+\begin{frame}[t]
+\frametitle{Artificial Neural Network Results: Full Dataset}
+\begin{center}
+
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Full_Dataset_Learning_Rate_01.png}
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Full_Dataset_Learning_Rate_001.png}
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Full_Dataset_Learning_Rate_0001.png}        
+\end{center}
+
+\begin{center}
+
+\includegraphics[width=1\textwidth,height=3cm]{Images/Threshold learning for full dataset.png}
+\end{center}
+
+CE FF outperform CE RNN in constant threshold but underperform in learned threshold; The effect of learning rate. 
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{Artificial Neural Network Results: Reduced Dataset}
+\begin{center}
+
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Reduced_Dataset_Learning_Rate_01.png}
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Reduced_Dataset_Learning_Rate_001.png}
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Reduced_Dataset_Learning_Rate_0001.png}        
+\end{center}
+
+\begin{center}
+
+\includegraphics[width=1\textwidth,height=3cm]{Images/Threshold learning for reduced dataset.png}
+\end{center}
+
+Same conclusion for RNN and FF; BPMLL shows NO
+better performance in hamming loss than cross entropy.
+\end{frame}
 
 \section{Discussion and Conclusions}
 
