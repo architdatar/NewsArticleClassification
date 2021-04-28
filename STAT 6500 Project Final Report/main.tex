@@ -186,23 +186,27 @@ Figure \ref{fig:example1} shows the training history of CE FF and CE RNN using f
 \label{fig:example1} 
 \end{figure}
 
-To compare with constant threshold, Table \ref{PVFTD} gives the validation set hamming loss after 100 epochs of training, using a learned threshold function, for each network with 3 different learning rates. No significant improvement in hamming loss has been observed for both 2 networks after learned threshold function is used.
+To compare with constant threshold, Table 3.1 gives the validation set hamming loss after 100 epochs of training, using a learned threshold function, for each network with 3 different learning rates. No significant improvement in hamming loss has been observed for both 2 networks after learned threshold function is used.
 
 In contrast with constant constant thresholds, this time CE FF seems to have higher hamming loss than CE RNN for all 3 learning rate. It also seems that the learning rate of 0.001 has the lowest hamming loss.
 
- \begin{longtable}[c]{| p{.27\textwidth} | p{.27\textwidth} |p{.27\textwidth} |}
+\vspace{0.45cm}
+ \begin{tabular}[c]{| p{.27\textwidth} | p{.27\textwidth} |p{.27\textwidth} |}
 \hline
-        Learning Rate  & CE FF & CE RNN  \\
-        \hline
+        \textbf{Learning Rate}  & \textbf{CE FF} & \textbf{CE RNN}  \\
+        \hline \hline
          0.01 & 0.302 & 0.238 \\
         \hline
          0.001 & 0.179 & 0.173 \\
         \hline
          0.0001 & 0.212 & 0.177 \\
-        \hline        
-\caption{Hamming Loss with Threshold Function Learning}
-\label{PVFTD}
-\end{longtable}
+        \hline \hline
+        \multicolumn{3}{|c|}{Table 3.1: Hamming Loss with Threshold Function Learning} \\
+        \hline     
+%\caption{Hamming Loss with Threshold Function Learning}
+%\label{PVFTD} \ref{PVFTD}
+\end{tabular}
+\vspace{0.45cm}
 
 All the 4 models are trained with the reduced dataset using constant threshold and the results are shown in Figure \ref{fig:example2}. Similar to the full dataset case, RNN in general has higher hamming loss than Feed-Forward for learning rate of 0.01 and 0.001. The same conclusion seems to hold for learning rate of 0.0001 if training epoches increase. 
 
@@ -219,21 +223,24 @@ Also, smaller learning rate needs more training epoches for finale convergence.
 \label{fig:example2} 
 \end{figure}
 
-Similarly, as shown in Table \ref{PVFTT}, the 4 models are also trained with Threshold Function Learning, but the hamming loss is not reduced for all 4 models. Also, no clear winner among 4 models is observed. 
-\newpage
- \begin{longtable}[c]{| p{.17\textwidth} | p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |}
+Similarly, as shown in Table 3.2, the 4 models are also trained with Threshold Function Learning, but the hamming loss is not reduced for all 4 models. Also, no clear winner among 4 models is observed. 
+%\newpage
+
+\vspace{0.45cm}
+ \begin{tabular}[c]{| p{.17\textwidth} | p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |}
 \hline
-        Learning Rate  & CE FF & BPMLL FF &CE RNN &BPMLL RNN  \\
-        \hline
+        \textbf{Learning Rate}  & \textbf{CE FF} & \textbf{BPMLL FF} & \textbf{CE RNN} & \textbf{BPMLL RNN}  \\
+        \hline \hline
          0.01 & 0.1520979021 & 0.145979021 & 0.2447552448 & 0.2194055944\\
         \hline
          0.001 & 0.1853146853 & 0.2578671329 & 0.1791958042 & 0.20454545\\
         \hline
          0.0001 & 0.2071678322 & 0.1844405594 & 0.1896853147 & 0.2132867133\\
-        \hline        
-\caption{Hamming Loss with Threshold Function Learning}
-\label{PVFTT}
-\end{longtable}
+        \hline \hline      
+        \multicolumn{5}{|c|}{Table 3.2: Hamming Loss with Threshold Function Learning} \\
+        \hline
+%\label{PVFTT} \ref{PVFTT}
+\end{tabular}
 
 \section{Discussion \& Conclusions}
 
