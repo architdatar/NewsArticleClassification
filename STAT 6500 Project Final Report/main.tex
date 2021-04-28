@@ -173,9 +173,9 @@ In both of their papers, introducing the BPMLL and ML-KNN algorithms, Zhang \& Z
 
 \subsection{Artificial Neural Network Results}
 
-As some instances in the full dataset lack labels,  the 'Reduced Dataset' is created by removing these instances without any labels. The full dataset and reduced dataset are then used to train and validate four networks: Feed Forward network with cross entropy loss(CE FF), Feed Forward network with BPMLL(BPMLL FF),Recurrent neural network with Bidirectional (single directional on full dataset) LSTM and  cross entropy loss(CE RNN), and Recurrent neural network with Bidirectional (single directional on full dataset) LSTM and BPMLL(BPMLL RNN). We also train the neural network using 3 different training rate: 0.01,0.001,0.0001. For each learning rate, the validation set hamming loss is plotted against epochs as shown in figure \ref{fig:example1} and \ref{fig:example2}.
+As some instances in the full dataset lack labels,  the 'Reduced Dataset' is created by removing these instances without any labels. The full dataset and reduced dataset are then used to train and validate four networks: Feed Forward network with cross entropy loss(CE FF), Feed Forward network with BPMLL (BPMLL FF), Recurrent neural network with Bidirectional (single directional on full dataset) LSTM and  cross entropy loss(CE RNN), and Recurrent neural network with Bidirectional (single directional on full dataset) LSTM and BPMLL(BPMLL RNN). We also train the neural network using 3 different training rates: 0.01, 0.001, 0.0001. For each learning rate, the validation set hamming loss is plotted against epochs as shown in figure \ref{fig:example1} and \ref{fig:example2}.
 
-Figure \ref{fig:example1} shows the training history of CE FF and CE RNN using full dataset and constant threshold. From the left and middle sub figures, it can be shown that CE FF can achieve lower hamming loss than CE RNN. For the right sub figure, though the CE FF has higher hamming loss than CE RNN, CE FF seems to have decreasing trend of hamming loss as opposed to the plateau trend of CE RNN at 100 epoch, meaning that it is highly possible that CE FF will have lower hamming loss than CE RNN if the training continues. The effect of learning rate on training is also clear from Figure \ref{fig:example1}: smaller learning rate leads to slower training process. But from figure 1, it is unclear whether  smaller learning rate can reduce the hamming loss finally.
+Figure \ref{fig:example1} shows the training history of CE FF and CE RNN using full dataset and constant threshold. From the left and middle sub figures, it can be shown that CE FF can achieve lower hamming loss than CE RNN. For the right sub figure, though the CE FF has higher hamming loss than CE RNN, CE FF seems to have decreasing trend of hamming loss as opposed to the plateau trend of CE RNN at 100 epoch, meaning that it is highly possible that CE FF will have lower hamming loss than CE RNN if the training continues. The effect of learning rate on training is also clear from Figure \ref{fig:example1}; smaller learning rate leads to slower training process. But from figure 1, it is unclear whether  smaller learning rate can reduce the hamming loss finally.
 
 \begin{figure}[!htbp]
 \centering 
@@ -186,7 +186,7 @@ Figure \ref{fig:example1} shows the training history of CE FF and CE RNN using f
 \label{fig:example1} 
 \end{figure}
 
-To compare with constant threshold, table \ref{PVFTD} gives the validation set hamming loss after 100 epochs of training, using a learned threshold function, for each network with 3 different learning rate. No significant improvement in hamming loss has been observed for both 2 networks after learned threshold function is used.
+To compare with constant threshold, Table \ref{PVFTD} gives the validation set hamming loss after 100 epochs of training, using a learned threshold function, for each network with 3 different learning rates. No significant improvement in hamming loss has been observed for both 2 networks after learned threshold function is used.
 
 In contrast with constant constant thresholds, this time CE FF seems to have higher hamming loss than CE RNN for all 3 learning rate. It also seems that the learning rate of 0.001 has the lowest hamming loss.
 
@@ -194,17 +194,17 @@ In contrast with constant constant thresholds, this time CE FF seems to have hig
 \hline
         Learning Rate  & CE FF & CE RNN  \\
         \hline
-         0.01 & 0.3020833333 & 0.2379807692 \\
+         0.01 & 0.302 & 0.238 \\
         \hline
-         0.001 & 0.17868589740 & 0.1730769231 \\
+         0.001 & 0.179 & 0.173 \\
         \hline
-         0.0001 & 0.2115384615 & 0.1770833333 \\
+         0.0001 & 0.212 & 0.177 \\
         \hline        
 \caption{Hamming Loss with Threshold Function Learning}
 \label{PVFTD}
 \end{longtable}
 
-All the 4 models are trained with the reduced dataset using constant threshold and the results are shown in figure \ref{fig:example2}. Similar to the full dataset case, RNN in general has higher hamming loss than Feed-Forward for learning rate of 0.01 and 0.001. The same conclusion seems to hold for learning rate of 0.0001 if training epoches increase. 
+All the 4 models are trained with the reduced dataset using constant threshold and the results are shown in Figure \ref{fig:example2}. Similar to the full dataset case, RNN in general has higher hamming loss than Feed-Forward for learning rate of 0.01 and 0.001. The same conclusion seems to hold for learning rate of 0.0001 if training epoches increase. 
 
 From the right and middle sub figures, for both RNN and Feed-Forward network, the hamming loss is quite close between BPMLL and cross entropy. In fact, the left sub figure shows BPMLL has higher hamming loss than cross entropy for both RNN and Feed-Forward network.
 
@@ -220,6 +220,7 @@ Also, smaller learning rate needs more training epoches for finale convergence.
 \end{figure}
 
 Similarly, as shown in Table \ref{PVFTT}, the 4 models are also trained with Threshold Function Learning, but the hamming loss is not reduced for all 4 models. Also, no clear winner among 4 models is observed. 
+\newpage
  \begin{longtable}[c]{| p{.17\textwidth} | p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |}
 \hline
         Learning Rate  & CE FF & BPMLL FF &CE RNN &BPMLL RNN  \\
