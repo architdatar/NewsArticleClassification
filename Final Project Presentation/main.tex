@@ -390,6 +390,68 @@ better performance in hamming loss than cross entropy.
 
 \section{Discussion and Conclusions}
 
+\begin{frame}[t]{Discussion and Conclusions: ANN Approaches}
+    
+    \begin{enumerate}
+        \footnotesize
+        \only<2->{
+        \item 
+        The FF networks networks tend to outperform the RNNs.}
+        
+        \begin{itemize}
+            \only<3->{
+            \item[\rightarrow] 
+            More parameters lead to overfitting in the bidirectional LSTM.}
+            
+            \only<4->{
+            \item[\rightarrow]
+            Single directinal LSTM can't escape locally optimal solution.}
+            
+            \only<5->{
+            \item[\rightarrow]
+            Training on more data may improve.}
+        \end{itemize}
+        
+        \only<6->{
+        \item
+        The cross entropy networks tend to outperform the BPMLL networks.}
+        
+        \begin{itemize}
+            \only<7->{
+            \item[\rightarrow]
+            The surface for the BPMLL loss has plateaus in which gradient descent can be very slow in comparison with the cross-entropy (\cite{bp_mll_revisited}).}
+            
+            \begin{figure}[htp]
+                \centering
+                \includegraphics[width = 3.75cm]{Images/Nam_et_al_2014_bpmll_plateau.PNG}
+            \end{figure}
+            
+            \only<8->{
+            \item[\rightarrow]
+            While BPMLL is supposed to leverage correlations between labels, \cite{bp_mll_revisited} conjecture that these correlations also may cause overfitting.}
+        \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[t]{Discussion and Conclusions: ANN Approaches (continued)}
+    \begin{enumerate}
+    \setcounter{enumi}{2}
+    \only<1->{
+        \item
+        Models saw no improvement from using a learned threshold function.}
+        
+        \begin{itemize}
+            \only<2->{
+            \item[\rightarrow]
+            Models could sufficiently separate predicted logits about $0.5$.}
+            
+            \only<3->{
+            \item[\rightarrow]
+            This approach may be more useful for models that require extensive resources for sufficient training (improved less extensively trained models).}
+        \end{itemize}
+    \end{enumerate}
+\end{frame}
+
 \begin{frame}[t]{References}
     \nocite{mlknn}
     \nocite{bpmll}
