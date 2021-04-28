@@ -8,6 +8,15 @@
 \usecolortheme{TOSU}
 }
 
+\makeatletter
+\newenvironment{myitemize}{%
+   \setlength{\topsep}{0pt}
+   \setlength{\partopsep}{0pt}
+   \renewcommand*{\@listi}{\leftmargin\leftmargini \parsep\z@ \topsep\z@ \itemsep\z@}
+   \let\@listI\@listi
+   \itemize
+}{\enditemize}
+
 % Load biblatex package and .bib document
 \usepackage{natbib}
 \bibliographystyle{unsrtnat}
@@ -51,6 +60,33 @@ STAT 6500 % Your email address
 \section{KNN Based Approaches}
 
 \subsection{Binary Relevance}
+
+\begin{frame}[t]{Binary Relevance (A Naive Approach)}
+    \small
+    \begin{itemize}
+        \item 
+        An intuitive approach to deal with the multilabel paradigm.
+        
+        \item
+        Works by decomposing the multi-label learning task into a number of independent binary learning tasks (one per class label).
+    \end{itemize}
+    
+    \vskip-1.15em
+    \begin{figure}[htp]
+        \centering
+        \includegraphics[width = 6cm]{Images/Binary-relevance-problem-transformation-method.png}
+    \end{figure}
+    
+    \vskip-1.25em
+    \begin{itemize}
+        \item[\rightarrow] 
+        Often criticized in the literature because of its label independence assumption.
+        
+        \item[\rightarrow]
+        We implement a KNN based binary relevance model and compare with a more novel adaptation: the ML-KNN model.
+    \end{itemize}
+    
+\end{frame}
 
 \subsection{ML-KNN Algorithm}
 \begin{frame}[t]{ML-KNN Algorithm: Overall Approach}
@@ -106,7 +142,7 @@ This ML-KNN algorithm takes a parametric, Bayesian approach towards estimating t
 \end{center}
 Having a high dimensional feature space causes Euclidian distances between points to be fairly similar as the distance vector components are partitioned across many dimensions. 
 
-%\cite{yiu}
+%%\footnote{\cite{yiu}}
 %%Archit's comments: How exactly do we cite so that the citation appears on the slide? 
 
 \end{frame}
@@ -115,11 +151,146 @@ Having a high dimensional feature space causes Euclidian distances between point
 
 \section{Neural Network Based Approaches}
 
+\begin{frame}[t]{A Brief History}
+    \scriptsize
+    \begin{columns}[t]
+        \column{0.5\textwidth}
+        \begin{itemize}
+            \onslide<2->{
+            \item 
+            Inspired by biological nervous systems, neural networks date back to the first half of the 20th century with works such as those by McCulloch and Pitts, which could model simple logical operations.}
+            
+            \onslide<3->{
+            \item
+            Since most subsequent work in the following two decades centered around single layer networks, the power of neural networks was restricted to linearly separable problems.} \onslide<4->{This excluded the possibility of learning even simple functions like XOR, which required a second layer.}
+            
+            \onslide<5->{
+            \item
+            In the early 1980s, research on neural networks resurged largely due to successful learning algorithms for multi-layer neural networks and are used today for various tasks such as computer vision, associative memory, representation learning, NLP, etc..}
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \onslide<2->{
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width = 3.5cm]{Images/McCullochPitts_and_gate.PNG}
+        \end{figure}}
+        
+        \onslide<4->{
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width = 3.5cm]{Images/Multi_layer_McCullochPitts_XOR.png}
+        \end{figure}}
+        
+        \onslide<5->{
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width = 3.5cm]{Images/restricted_Boltzmann_machine_diagram.PNG}
+        \end{figure}}
+    \end{columns}
+\end{frame}
+
 \subsection{Architectures: Feed Forward \& Recurrent Networks}
+
+\begin{frame}[t]{Network Architectures (Feed Forward vs Recurrent)}
+    \small
+    \vskip-2.5em
+    \begin{columns}[t]
+        \begin{column}{0.5\textwidth}
+            \begin{center}
+                \textbf{\underline{Feed Forward Networks}}
+            \end{center}
+            \begin{myitemize}
+                \item 
+                Neurons in the first layer represent components of the input vectors.
+                
+                \item
+                The output of the neuron in the next layer is determined by applying a non-linear ``activation function" to a linear combination of the input components, plus a bias.
+            \end{myitemize}
+            
+            \begin{figure}[htp]
+                \centering
+                \includegraphics[width = 6cm]{Images/multilayer_network_Haykin.PNG}
+            \end{figure}
+        \end{column}
+          
+        \begin{column}{0.5\textwidth}
+            \begin{center}
+                \textbf{\underline{Recurrent Neural Networks (RNNs)}}
+            \end{center}
+            \begin{myitemize}
+                \item 
+                RNNs are a popular adaptation for NLP problems.
+                
+                \item
+                They utilize hidden unit connections with shared weights.
+                
+                \item
+                Unfolding an RNN let's us visualize it like a feed forward network (see below).
+            \end{myitemize}
+            
+            \vskip-1em
+            \begin{figure}[htp]
+                \centering
+                \includegraphics[width = 4cm]{Images/RNN_unfolded_goodfellow.PNG}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
 
 \subsection{Loss Functions: Cross Entropy vs BPMLL}
 
+\begin{frame}[t]{Naive vs Novel Approaches (Cross Entropy vs BPMLL)}
+    \begin{itemize}
+        \item 
+        By "naive" we refer to multilabel networks that utilize a cross entropy loss for training.
+        
+        \item
+        By comparison, Zhang and Zhou \autocite{bpmll} proposed a novel loss, that emphasizes pairwise ranking accuracy.
+        
+        $$
+            E = \sum_{i = 1}^m E_i = \sum_{i = 1}^m \frac{1}{|Y_i| |\overline{Y}_i|} \sum_{(k,l) \in Y_i \times \overline{Y}_i} \exp(-(c_k^i - c_l^i))
+        $$
+        so that the $i^{th}$ error term is severely penalized if $c_k^i$ is much smaller than $c_l^i$.
+    \end{itemize}
+\end{frame}
+
 \subsection{Results}
+
+\begin{frame}[t]
+\frametitle{Artificial Neural Network Results: Full Dataset}
+\begin{center}
+
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Full_Dataset_Learning_Rate_01.png}
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Full_Dataset_Learning_Rate_001.png}
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Full_Dataset_Learning_Rate_0001.png}        
+\end{center}
+
+\begin{center}
+
+\includegraphics[width=1\textwidth,height=3cm]{Images/Threshold learning for full dataset.png}
+\end{center}
+
+CE FF outperform CE RNN in constant threshold but underperform in learned threshold; The effect of learning rate. 
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{Artificial Neural Network Results: Reduced Dataset}
+\begin{center}
+
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Reduced_Dataset_Learning_Rate_01.png}
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Reduced_Dataset_Learning_Rate_001.png}
+\includegraphics[width=0.32\textwidth,height=3cm]{Images/Reduced_Dataset_Learning_Rate_0001.png}        
+\end{center}
+
+\begin{center}
+
+\includegraphics[width=1\textwidth,height=3cm]{Images/Threshold learning for reduced dataset.png}
+\end{center}
+
+Same conclusion for RNN and FF; BPMLL shows NO
+better performance in hamming loss than cross entropy.
+\end{frame}
 
 \section{Discussion and Conclusions}
 
