@@ -91,11 +91,13 @@ The ML-kNN (Multi-label k nearest neighbors) model is derived from the tradition
 % I proposed this shortened version of the paragraph because we're running out of space. Feel free to change or revert back to the original version above.
 ML-kNN can be used in a variety of problems, such as, text categorization \autocite{McCallum99multi-labeltext}, functional genomics \autocite{KernelMulti-labelClassification}, and in image classification.\autocite{Boutell04learningmulti-label}
 
+In a typical multi-label learning problem, we have a domain of instances ($\chi$)  and a finite set of labels ($\mathcal{Y} = \{1,...,Q\}$). Given $x \in \chi$ and its associated $Y \subseteq \mathcal{Y}$, $\vec{y}_x$ is the category vector for $x$ such that (for all $\ell \in \mathcal{Y}$) $\vec{y}_x(\ell) = 1$ if $\ell \in Y$. Otherwise, $\vec{y}_x(\ell) = 0$. 
+
 The basic concept of ML-kNN is to estimate the probability that a test instance ($t$) has a label ($\ell$) given the number of nearest neighbors ($\vec{C}_t(\ell)$ out of $N(x)$) that have label $\ell$. Let $E_j^\ell$ ($j \in \{1,...,K\})$ denote the event that, among the $K$ nearest neighbors of $t$, there are exactly $j$ instances which have label $\ell$. Further, let $H_0^\ell$ denote the event that test instance $t$ does not have a label $\ell$ and let $H_1^\ell$ denote the event that it does have label $\ell$. 
 Further, let $\vec{y}_t$ be the vector containing the predicted labels at test instance $t$. Then, the predicted value for the $\ell$\textsuperscript{th} label is given as:
 
 \begin{equation}
-\vec{y}_t(\ell) &= \argmax_{b \in \{0, 1\}} \mathbb{P}\left(\textrm{H}_b^\ell | E_{\vec{C}_t(\ell)}^\ell\right), \textrm{\hspace{0.3cm}}\ell \in \mathcal{Y} 
+\vec{y}_t(\ell) = \argmax_{b \in \{0, 1\}} \mathbb{P}\left(\textrm{H}_b^\ell | E_{\vec{C}_t(\ell)}^\ell\right), \textrm{\hspace{0.3cm}}\ell \in \mathcal{Y} 
 \end{equation}
 
 Using Bayes theorem, this can be written as:

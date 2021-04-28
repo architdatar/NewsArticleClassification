@@ -2143,18 +2143,25 @@
     <bcf:datasource type="file" datatype="bibtex">FinalReport.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">McCallum99multi-labeltext</bcf:citekey>
-    <bcf:citekey order="2">KernelMulti-labelClassification</bcf:citekey>
-    <bcf:citekey order="3">Boutell04learningmulti-label</bcf:citekey>
-    <bcf:citekey order="4">ZhangMulti-labelLazy</bcf:citekey>
-    <bcf:citekey order="5">nguyen2019ten</bcf:citekey>
-    <bcf:citekey order="6">Alkhayrat</bcf:citekey>
-    <bcf:citekey order="7">Kramer</bcf:citekey>
-    <bcf:citekey order="8">Piccinini</bcf:citekey>
-    <bcf:citekey order="9">NNLM</bcf:citekey>
-    <bcf:citekey order="10">bpmll</bcf:citekey>
-    <bcf:citekey order="11">bpmll</bcf:citekey>
-    <bcf:citekey order="12">mlknn</bcf:citekey>
+    <bcf:citekey order="1">witte1992putting</bcf:citekey>
+    <bcf:citekey order="1">witte1994fear</bcf:citekey>
+    <bcf:citekey order="2">tsoumakas2007multi</bcf:citekey>
+    <bcf:citekey order="3">brOverview</bcf:citekey>
+    <bcf:citekey order="4">brEfficacy</bcf:citekey>
+    <bcf:citekey order="5">McCallum99multi-labeltext</bcf:citekey>
+    <bcf:citekey order="6">KernelMulti-labelClassification</bcf:citekey>
+    <bcf:citekey order="7">Boutell04learningmulti-label</bcf:citekey>
+    <bcf:citekey order="8">ZhangMulti-labelLazy</bcf:citekey>
+    <bcf:citekey order="9">nguyen2019ten</bcf:citekey>
+    <bcf:citekey order="10">Alkhayrat</bcf:citekey>
+    <bcf:citekey order="11">Kramer</bcf:citekey>
+    <bcf:citekey order="12">Piccinini</bcf:citekey>
+    <bcf:citekey order="13">NNLM</bcf:citekey>
+    <bcf:citekey order="14">bpmll</bcf:citekey>
+    <bcf:citekey order="15">bpmll</bcf:citekey>
+    <bcf:citekey order="16">ZhangMulti-labelLazy</bcf:citekey>
+    <bcf:citekey order="17">bp_mll_revisited</bcf:citekey>
+    <bcf:citekey order="18">bp_mll_revisited</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
