@@ -151,6 +151,45 @@ Having a high dimensional feature space causes Euclidian distances between point
 
 \section{Neural Network Based Approaches}
 
+\begin{frame}[t]{A Brief History}
+    \scriptsize
+    \begin{columns}[t]
+        \column{0.5\textwidth}
+        \begin{itemize}
+            \onslide<2->{
+            \item 
+            Inspired by biological nervous systems, neural networks date back to the first half of the 20th century with works such as those by McCulloch and Pitts, which could model simple logical operations.}
+            
+            \onslide<3->{
+            \item
+            Since most subsequent work in the following two decades centered around single layer networks, the power of neural networks was restricted to linearly separable problems.} \onslide<4->{This excluded the possibility of learning even simple functions like XOR, which required a second layer.}
+            
+            \onslide<5->{
+            \item
+            In the early 1980s, research on neural networks resurged largely due to successful learning algorithms for multi-layer neural networks and are used today for various tasks such as computer vision, associative memory, representation learning, NLP, etc..}
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \onslide<2->{
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width = 3.5cm]{Images/McCullochPitts_and_gate.PNG}
+        \end{figure}}
+        
+        \onslide<4->{
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width = 3.5cm]{Images/Multi_layer_McCullochPitts_XOR.png}
+        \end{figure}}
+        
+        \onslide<5->{
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width = 3.5cm]{Images/restricted_Boltzmann_machine_diagram.PNG}
+        \end{figure}}
+    \end{columns}
+\end{frame}
+
 \subsection{Architectures: Feed Forward \& Recurrent Networks}
 
 \begin{frame}[t]{Network Architectures (Feed Forward vs Recurrent)}
@@ -202,7 +241,18 @@ Having a high dimensional feature space causes Euclidian distances between point
 \subsection{Loss Functions: Cross Entropy vs BPMLL}
 
 \begin{frame}[t]{Naive vs Novel Approaches (Cross Entropy vs BPMLL)}
-    
+    \begin{itemize}
+        \item 
+        By "naive" we refer to multilabel networks that utilize a cross entropy loss for training.
+        
+        \item
+        By comparison, Zhang and Zhou \autocite{bpmll} proposed a novel loss, that emphasizes pairwise ranking accuracy.
+        
+        $$
+            E = \sum_{i = 1}^m E_i = \sum_{i = 1}^m \frac{1}{|Y_i| |\overline{Y}_i|} \sum_{(k,l) \in Y_i \times \overline{Y}_i} \exp(-(c_k^i - c_l^i))
+        $$
+        so that the $i^{th}$ error term is severely penalized if $c_k^i$ is much smaller than $c_l^i$.
+    \end{itemize}
 \end{frame}
 
 \subsection{Results}
