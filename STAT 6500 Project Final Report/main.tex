@@ -266,7 +266,13 @@ Similarly, as shown in Table 3.2, the 4 models are also trained with Threshold F
 
 \section{Discussion \& Conclusions}
 
-Evaluating our neural network classifiers, we find three interesting trends, in particular: (1) The FF networks networks generally tend to outperform the RNNs. (2) The networks trained using a cross entropy loss generally tend to outperform those trained using a BPMLL loss. And (3) Applying a learned threshold function did not seem to provide any notable improvements to prediction. We posit some reasons that might explain each of these observations.
+Evaluating our KNN based approaches, we made two observations: (1) The binary relevance model performed comparably with the ML-KNN model. And (2) Training on the non-linear low-dimensional representation of our data produced consistently better results. 
+
+That the binary relevance model was competitive with the ML-KNN model could possibly be due to a number of facts. Firstly, we note that using macro-average evaluation metrics, like hamming loss (for hamming loss, the example based, micro, and macro versions are the same), an globally optimal solution is achieved, if and only if an optimal solution is achieved on each label individually \autocite{brEfficacy}. Thus, binary relevance approach has the expressive power to model the optimal solution. This might also indicate either that our labels don't express significant correlations or that the MLKNN model was unable to effectively utilize them.
+
+That training on non-linear low-dimensional representations lead to better performance than training on linear low-dimensional representations, is not too surprising. Relaxing the linearity requirement imposed by PCA can allow for more accurate representations of the data.
+
+Evaluating our neural network classifiers, we find two interesting trends, in particular: (1) The FF networks networks generally tend to outperform the RNNs. And (2) The networks trained using a cross entropy loss generally tend to outperform those trained using a BPMLL loss. 
 
 While training the biderectional LSTM on the reduced dataset, we noticed that the hamming loss and cross entropy loss tends to fall very quickly, while the validation set hamming loss and cross entropy loss both stall or begin to increase after some epochs. This could be a sign that the network is overfitting. The RNN networks that we defined have more parameters to learn than the feed forward networks, which could partially explain this, given our limited amount of training data. 
 
