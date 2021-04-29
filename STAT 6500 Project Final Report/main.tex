@@ -173,6 +173,24 @@ In both of their papers, introducing the BPMLL and ML-KNN algorithms, Zhang \& Z
 
 \subsection{ML-KNN Results}
 
+Performing a PCA analysis, we found that 90 percent of the variance could be captured with 165 principal components. In order to reduce the data further, we considered the maximum absolute difference (among all labels) between the means of positive and negative principal component values. The largest value of this difference was 3.0, so we consider 0.3 as a cutoff. There were 103 principal components with maximum differences below 0.3, which were disregarded, leaving 62 principal components (from 2094 initial features). 
+
+The ANN autoencoder method (described above) for nonlinear dimension reduction was also performed. This was specified to produce a reduced data set of 62 features as well, to allow direct comparisons. 
+
+The naive binary relevance classification was performed on both reduced data sets. Cross-validation was used to select $k=3$ nearest neighbors, and threshold function learning was used as well. The same process was then carried out using ML-KNN classification. The test Hamming loss for each step, for both methods and data sets, is displayed below. 
+
+\begin{figure}[!htbp]
+\centering 
+        \includegraphics[width=0.8\textwidth,height=3.0cm]{KNN_summary.png}
+\caption[Original image and post processed image]{Hamming loss for KNN classification methods}
+\end{figure}
+
+For both methods, we achieved better classification with the data reduced by the auto encoder method than by PCA. This suggests that the nonlinear dimension reduction was able to capture more information in the same number of features. 
+
+ML-KNN achieved a lower Hamming loss than the naive KNN, as expected. However, this difference (0.177 vs. 0.181) was not as great as expected. While ML-KNN was able to use correlations between labels, this may not have been as relevant as we expected. This is something that could be investigated in further work. 
+
+Finally, the learned threshold function did not improve prediction. This also occurred with neural network classification (see below), and is discussed further in section 4. 
+
 \subsection{Artificial Neural Network Results}
 
 As some instances in the full dataset lack labels,  the 'Reduced Dataset' is created by removing these instances without any labels. The full dataset and reduced dataset are then used to train and validate four networks: Feed Forward network with cross entropy loss(CE FF), Feed Forward network with BPMLL (BPMLL FF), Recurrent neural network with Bidirectional (single directional on full dataset) LSTM and  cross entropy loss(CE RNN), and Recurrent neural network with Bidirectional (single directional on full dataset) LSTM and BPMLL(BPMLL RNN). We also train the neural network using 3 different training rates: 0.01, 0.001, 0.0001. For each learning rate, the validation set hamming loss is plotted against epochs as shown in figure \ref{fig:example1} and \ref{fig:example2}.
