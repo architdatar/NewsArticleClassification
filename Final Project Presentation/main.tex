@@ -137,12 +137,12 @@ STAT 6500 % Your email address
         \item 
         We have a multi-label classification problem. We adapted two learning algorithms: k-NN and Neural Networks to handle multi-label data directly.
         
-        \textbf{RQ1}: Which learning algorithm performs better in the multi-label classification problem? 
+        \textbf{RQ1}: Which learning algorithm performs better in the multi-label classification problem: k-NN or neural networks?? 
         
         \item
         Our data has high dimensions.
         
-        \textbf{RQ2}: Which one of the dimension reduction methods performs better in the multi-label classification problem: linear or non-linear? 
+        \textbf{RQ2}: How can we effectively implement linear and non-linear dimensions reduction in the multi-label classification problem?
         
         \item
         The sequence of features need to be considered in the classification.
@@ -160,31 +160,26 @@ STAT 6500 % Your email address
 \begin{frame}[t]{Binary Relevance (A Naive Approach)}
     \small
     \begin{itemize}
-        \only<1->{
         \item 
-        An intuitive approach to deal with the multilabel paradigm.}
+        An intuitive approach to deal with the multilabel paradigm.
         
-        \only<2->{
         \item
-        Works by decomposing the multi-label learning task into a number of independent binary learning tasks (one per class label).}
+        Works by decomposing the multi-label learning task into a number of independent binary learning tasks (one per class label).
     \end{itemize}
     
     \vskip-1.15em
-    \only<3->{
     \begin{figure}[htp]
         \centering
         \includegraphics[width = 6cm]{Images/Binary-relevance-problem-transformation-method.png}
-    \end{figure}}
+    \end{figure}
     
     \vskip-1.25em
     \begin{itemize}
-        \only<4->{
         \item[\rightarrow] 
-        Often criticized in the literature because of its label independence assumption.}
+        Often criticized in the literature because of its label independence assumption.
         
-        \only<5->{
         \item[\rightarrow]
-        We implement a KNN based binary relevance model and compare with a more novel adaptation: the ML-KNN model.}
+        We implement a KNN based binary relevance model and compare with a more novel adaptation: the ML-KNN model.
     \end{itemize}
     
 \end{frame}
@@ -246,42 +241,6 @@ Having a high dimensional feature space causes Euclidian distances between point
 %%\footnote{\cite{yiu}}
 %%Archit's comments: How exactly do we cite so that the citation appears on the slide? 
 
-\end{frame}
-
-\begin{frame}[t]{Nonlinear Dimension Reduction (ANN Autoencoder)}
-    \begin{itemize}
-        \only<2->{
-        \item 
-        PCA allows only for reductions in dimension due to linear representations.}
-        
-        \only<3->{
-        \item
-        Autoencoders can learn data projections with suitable dimensionality and sparsity limitations that allow for nonlinear representations, as well.}
-    \end{itemize}
-    
-    \vspace{-0.3cm}
-    \begin{columns}[T]
-        \column{0.5\textwidth}
-        \begin{itemize}
-            \vspace{0.5cm}
-            
-            \only<4->{
-            \item[\rightarrow]
-            Train a feed forward neural network with a "bottleneck layer" to perform the identity mapping.}
-            
-            \vspace{0.25cm}
-            \only<5->{
-            \item[\rightarrow]
-            Use bottleneck layer values as encodings of the data.}
-        \end{itemize}
-        
-        \column{0.5\textwidth}
-        \only<4->{
-        \begin{figure}[htp]
-            \centering
-            \includegraphics[width = 6cm]{Images/autoencoder_diagram.png}
-        \end{figure}}
-    \end{columns}
 \end{frame}
 
 \subsection{Results}
@@ -430,68 +389,6 @@ better performance in hamming loss than cross entropy.
 \end{frame}
 
 \section{Discussion and Conclusions}
-
-\begin{frame}[t]{Discussion and Conclusions: ANN Approaches}
-    \vspace{-.2cm}
-    \begin{enumerate}
-        \footnotesize
-        \only<2->{
-        \item 
-        The FF networks networks tend to outperform the RNNs.}
-        
-        \begin{itemize}
-            \only<3->{
-            \item[\rightarrow] 
-            More parameters lead to overfitting in the bidirectional LSTM.}
-            
-            \only<4->{
-            \item[\rightarrow]
-            Single directinal LSTM can't escape locally optimal solution.}
-            
-            \only<5->{
-            \item[\rightarrow]
-            Training on more data may improve.}
-        \end{itemize}
-        
-        \only<6->{
-        \item
-        The cross entropy networks tend to outperform the BPMLL networks.}
-        
-        \begin{itemize}
-            \only<7->{
-            \item[\rightarrow]
-            The surface for the BPMLL loss with tanh activations has plateaus in which gradient descent can be very slow in comparison with the cross-entropy (\cite{bp_mll_revisited}). The case may be similar for ReLU activations.
-            
-            \begin{figure}[htp]
-                \centering
-                \includegraphics[width = 3.75cm]{Images/Nam_et_al_2014_bpmll_plateau.PNG}
-            \end{figure}}
-            
-            \only<8->{
-            \item[\rightarrow]
-            While BPMLL is supposed to leverage correlations between labels, \cite{bp_mll_revisited} conjecture that these correlations also may cause overfitting.}
-        \end{itemize}
-    \end{enumerate}
-\end{frame}
-
-\begin{frame}[t]{Discussion and Conclusions: ANN Approaches (continued)}
-    \begin{enumerate}
-    \setcounter{enumi}{2}
-    \only<1->{
-        \item
-        Models saw no improvement from using a learned threshold function.}
-        
-        \begin{itemize}
-            \only<2->{
-            \item[\rightarrow]
-            Models could sufficiently separate predicted logits about $0.5$.}
-            
-            \only<3->{
-            \item[\rightarrow]
-            This approach may be more useful for models that require extensive resources for sufficient training (improved less extensively trained models).}
-        \end{itemize}
-    \end{enumerate}
-\end{frame}
 
 \begin{frame}[t]{References}
     \nocite{mlknn}
