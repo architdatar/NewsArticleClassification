@@ -69,10 +69,10 @@ STAT 6500 % Your email address
         What could be some of the drivers? We aim to explore whether and how mainstream news media in the U.S. play a role in the polarization of the public's attitudes and behaviors.
     \end{itemize}
     
-    \vskip-1.15em
+    \vskip
     \begin{figure}[htp]
         \centering
-        \includegraphics[width = 6cm]{Images/covid_polarization.png}
+        \includegraphics[width = 10cm]{Images/covid_polarization.png}
     \end{figure}
     
 \end{frame}
@@ -285,47 +285,61 @@ Having a high dimensional feature space causes Euclidian distances between point
     \end{columns}
 \end{frame}
 
+\begin{frame}[t]{Threshold Function Learning}
+    Perfect classification, using a constantthreshold requires two conditions:
+    \vspace{0.25cm}
+    \begin{enumerate}
+        \item 
+        Predicted logit values for "true" labels be separated from predicted logit values for "false" labels.
+        
+        \item
+        This separation be around some constant value (usually either $0.5$ or $0$)
+    \end{enumerate}
+    
+    \vspace{0.15cm}
+    Learning a threshold function aims to relax the second condition.
+    
+    \begin{itemize}
+        \item[\rightarrow] 
+        Namely, we fit a linear regression model to learn threshold values from the logit outputs of our models.
+    \end{itemize}
+\end{frame}
+
 \subsection{Results}
 
 \section{Neural Network Based Approaches}
 
 \begin{frame}[t]{A Brief History}
     \scriptsize
-    \begin{columns}[t]
-        \column{0.5\textwidth}
-        \begin{itemize}
-            \onslide<2->{
-            \item 
-            Inspired by biological nervous systems, neural networks date back to the first half of the 20th century with works such as those by McCulloch and Pitts, which could model simple logical operations.}
-            
-            \onslide<3->{
-            \item
-            Since most subsequent work in the following two decades centered around single layer networks, the power of neural networks was restricted to linearly separable problems.} \onslide<4->{This excluded the possibility of learning even simple functions like XOR, which required a second layer.}
-            
-            \onslide<5->{
-            \item
-            In the early 1980s, research on neural networks resurged largely due to successful learning algorithms for multi-layer neural networks and are used today for various tasks such as computer vision, associative memory, representation learning, NLP, etc..}
-        \end{itemize}
-        
-        \column{0.5\textwidth}
+    \begin{itemize}
         \onslide<2->{
-        \begin{figure}[htp]
-            \centering
-            \includegraphics[width = 3.5cm]{Images/McCullochPitts_and_gate.PNG}
-        \end{figure}}
+        \item 
+        Inspired by biological nervous systems, neural networks date back to the first half of the 20th century with works such as those by McCulloch and Pitts, which could model simple logical operations.}
+            
+    \end{itemize}
         
-        \onslide<4->{
-        \begin{figure}[htp]
-            \centering
-            \includegraphics[width = 3.5cm]{Images/Multi_layer_McCullochPitts_XOR.png}
-        \end{figure}}
-        
-        \onslide<5->{
-        \begin{figure}[htp]
-            \centering
-            \includegraphics[width = 3.5cm]{Images/restricted_Boltzmann_machine_diagram.PNG}
-        \end{figure}}
+    \begin{columns}[T]
+    \column{0.5\textwidth}
+    \onslide<2->{
+    \begin{figure}[htp]
+        \centering
+        \includegraphics[width = 5cm]{Images/McCullochPitts_and_gate.PNG}
+    \end{figure}}
+    
+    \column{0.5\textwidth}
+    \onslide<2->{
+    \begin{figure}[htp]
+        \centering
+        \includegraphics[width = 5cm]{Images/Multi_layer_McCullochPitts_XOR.png}
+    \end{figure}}
     \end{columns}
+    
+    \onslide<2->{
+    \begin{figure}[htp]
+        \centering
+        \includegraphics[width = 5cm]{Images/restricted_Boltzmann_machine_diagram.PNG}
+    \end{figure}}
+    
 \end{frame}
 
 \subsection{Architectures: Feed Forward \& Recurrent Networks}
