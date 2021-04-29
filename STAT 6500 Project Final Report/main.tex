@@ -67,11 +67,11 @@ There are three essential problems associated with our datasets. First, we have 
 
 Based on the three problems above, we proposed the following research questions.
 
-\textbf{RQ1}: Which type of algorithms performs better in the multi-label classification problem: problem transformation methods or adapted algorithm methods? 
+\textbf{RQ1}: Which type of algorithms performs better in the multi-label classification problem: naive methods or novel methods? 
 
 \textbf{RQ2}: Within the adapted algorithm methods, which one of the algorithms performs better in the multi-label classification problem: k-NN or neural networks?
 
-\textbf{RQ3}: Which one of the dimension reduction methods performs better in the multi-label classification problem: linear or non-linear?
+\textbf{RQ3}: How can we effectively implement linear and non-linear dimensions reduction in the multi-label classification problem?
 
 \textbf{RQ4}: Which type of the features perform better in the multi-label classification problem: with or without considering the order of words? 
 
@@ -91,11 +91,13 @@ The ML-kNN (Multi-label k nearest neighbors) model is derived from the tradition
 % I proposed this shortened version of the paragraph because we're running out of space. Feel free to change or revert back to the original version above.
 ML-kNN can be used in a variety of problems, such as, text categorization \autocite{McCallum99multi-labeltext}, functional genomics \autocite{KernelMulti-labelClassification}, and in image classification.\autocite{Boutell04learningmulti-label}
 
+In a typical multi-label learning problem, we have a domain of instances ($\chi$)  and a finite set of labels ($\mathcal{Y} = \{1,...,Q\}$). Given $x \in \chi$ and its associated $Y \subseteq \mathcal{Y}$, $\vec{y}_x$ is the category vector for $x$ such that (for all $\ell \in \mathcal{Y}$) $\vec{y}_x(\ell) = 1$ if $\ell \in Y$. Otherwise, $\vec{y}_x(\ell) = 0$. 
+
 The basic concept of ML-kNN is to estimate the probability that a test instance ($t$) has a label ($\ell$) given the number of nearest neighbors ($\vec{C}_t(\ell)$ out of $N(x)$) that have label $\ell$. Let $E_j^\ell$ ($j \in \{1,...,K\})$ denote the event that, among the $K$ nearest neighbors of $t$, there are exactly $j$ instances which have label $\ell$. Further, let $H_0^\ell$ denote the event that test instance $t$ does not have a label $\ell$ and let $H_1^\ell$ denote the event that it does have label $\ell$. 
 Further, let $\vec{y}_t$ be the vector containing the predicted labels at test instance $t$. Then, the predicted value for the $\ell$\textsuperscript{th} label is given as:
 
 \begin{equation}
-\vec{y}_t(\ell) &= \argmax_{b \in \{0, 1\}} \mathbb{P}\left(\textrm{H}_b^\ell | E_{\vec{C}_t(\ell)}^\ell\right), \textrm{\hspace{0.3cm}}\ell \in \mathcal{Y} 
+\vec{y}_t(\ell) = \argmax_{b \in \{0, 1\}} \mathbb{P}\left(\textrm{H}_b^\ell | E_{\vec{C}_t(\ell)}^\ell\right), \textrm{\hspace{0.3cm}}\ell \in \mathcal{Y} 
 \end{equation}
 
 Using Bayes theorem, this can be written as:
@@ -186,27 +188,23 @@ Figure \ref{fig:example1} shows the training history of CE FF and CE RNN using f
 \label{fig:example1} 
 \end{figure}
 
-To compare with constant threshold, Table 3.1 gives the validation set hamming loss after 100 epochs of training, using a learned threshold function, for each network with 3 different learning rates. No significant improvement in hamming loss has been observed for both 2 networks after learned threshold function is used.
+To compare with constant threshold, Table \ref{PVFTD} gives the validation set hamming loss after 100 epochs of training, using a learned threshold function, for each network with 3 different learning rates. No significant improvement in hamming loss has been observed for both 2 networks after learned threshold function is used.
 
 In contrast with constant constant thresholds, this time CE FF seems to have higher hamming loss than CE RNN for all 3 learning rate. It also seems that the learning rate of 0.001 has the lowest hamming loss.
 
-\vspace{0.45cm}
- \begin{tabular}[c]{| p{.27\textwidth} | p{.27\textwidth} |p{.27\textwidth} |}
+ \begin{longtable}[c]{| p{.27\textwidth} | p{.27\textwidth} |p{.27\textwidth} |}
 \hline
-        \textbf{Learning Rate}  & \textbf{CE FF} & \textbf{CE RNN}  \\
-        \hline \hline
+        Learning Rate  & CE FF & CE RNN  \\
+        \hline
          0.01 & 0.302 & 0.238 \\
         \hline
          0.001 & 0.179 & 0.173 \\
         \hline
          0.0001 & 0.212 & 0.177 \\
-        \hline \hline
-        \multicolumn{3}{|c|}{Table 3.1: Hamming Loss with Threshold Function Learning} \\
-        \hline     
-%\caption{Hamming Loss with Threshold Function Learning}
-%\label{PVFTD} \ref{PVFTD}
-\end{tabular}
-\vspace{0.45cm}
+        \hline        
+\caption{Hamming Loss with Threshold Function Learning}
+\label{PVFTD}
+\end{longtable}
 
 All the 4 models are trained with the reduced dataset using constant threshold and the results are shown in Figure \ref{fig:example2}. Similar to the full dataset case, RNN in general has higher hamming loss than Feed-Forward for learning rate of 0.01 and 0.001. The same conclusion seems to hold for learning rate of 0.0001 if training epoches increase. 
 
@@ -223,24 +221,21 @@ Also, smaller learning rate needs more training epoches for finale convergence.
 \label{fig:example2} 
 \end{figure}
 
-Similarly, as shown in Table 3.2, the 4 models are also trained with Threshold Function Learning, but the hamming loss is not reduced for all 4 models. Also, no clear winner among 4 models is observed. 
-%\newpage
-
-\vspace{0.45cm}
- \begin{tabular}[c]{| p{.17\textwidth} | p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |}
+Similarly, as shown in Table \ref{PVFTT}, the 4 models are also trained with Threshold Function Learning, but the hamming loss is not reduced for all 4 models. Also, no clear winner among 4 models is observed. 
+\newpage
+ \begin{longtable}[c]{| p{.17\textwidth} | p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |p{.17\textwidth} |}
 \hline
-        \textbf{Learning Rate}  & \textbf{CE FF} & \textbf{BPMLL FF} & \textbf{CE RNN} & \textbf{BPMLL RNN}  \\
-        \hline \hline
+        Learning Rate  & CE FF & BPMLL FF &CE RNN &BPMLL RNN  \\
+        \hline
          0.01 & 0.1520979021 & 0.145979021 & 0.2447552448 & 0.2194055944\\
         \hline
          0.001 & 0.1853146853 & 0.2578671329 & 0.1791958042 & 0.20454545\\
         \hline
          0.0001 & 0.2071678322 & 0.1844405594 & 0.1896853147 & 0.2132867133\\
-        \hline \hline      
-        \multicolumn{5}{|c|}{Table 3.2: Hamming Loss with Threshold Function Learning} \\
-        \hline
-%\label{PVFTT} \ref{PVFTT}
-\end{tabular}
+        \hline        
+\caption{Hamming Loss with Threshold Function Learning}
+\label{PVFTT}
+\end{longtable}
 
 \section{Discussion \& Conclusions}
 
