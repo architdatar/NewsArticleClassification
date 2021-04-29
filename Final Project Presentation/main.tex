@@ -286,6 +286,59 @@ Having a high dimensional feature space causes Euclidian distances between point
 
 \subsection{Results}
 
+\begin{frame}[t]{Results: Dimension Reduction}
+\begin{itemize}
+    \item Initial data contains 2094 features
+    \item Using Principal Component Analysis, we were able to preserve 90 percent of variance using 165 principal components.
+    \item We eliminated another 103 of these using the maximum absolute difference in means between positive and negative cases across all labels
+    \item Leaving 62 principal components
+    \item We also performed non-linear dimension reduction to reduce our data to 62 features using ANN auto encoding
+    
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}{Results: Binary Relevance KNN}
+\begin{itemize}
+    \item We first performed naive classification to compare with ML-KNN.
+   \item We performed cross-validation on the number of neighbors $k$, and applied threshold learning. 
+   \item Below are the test Hamming loss values for data from both dimension reduction methods. 
+\end{itemize}
+  .\begin{figure}[htp]
+        \centering
+        \includegraphics[width = 7cm]{Images/Binary_class_summary.png}
+    \end{figure}
+    \begin{itemize}
+        \item The auto-encoder dimension reduction led to lower Hamming loss than PCA. 
+        \item Threshold function learning did not lead to better results.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Results: ML-KNN}
+\begin{itemize}
+    \item We next performed ML-KNN, using the same steps, again on both data sets. 
+\end{itemize}
+   \begin{figure}[htp]
+        \centering
+        \includegraphics[width = 7cm]{Images/ML_KNN_summary.png}
+    \end{figure} 
+    \begin{itemize}
+        \item Again, classification was more successful for the data reduced by auto encoding, and threshold learning was not helpful 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Comparison of KNN Methods}
+\begin{itemize}
+    \item We consistently achieved better classification with data reduced by the auto-encoding method, compared to PCA
+    \item ML-KNN slightly outperformed binary relevance 
+    \item Best binary result: 0.181 Hamming loss
+    \item Best ML-KNN result: 0.177 Hamming loss
+\end{itemize}
+    
+\end{frame}
+
 \section{Neural Network Based Approaches}
 
 \begin{frame}[t]{A Brief History}
